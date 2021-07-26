@@ -1,0 +1,3 @@
+========================= 2019-12-03 12:15:17 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click

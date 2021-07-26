@@ -1,0 +1,147 @@
+========================= 2020-02-24 10:01:54 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-24 10:02:05 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-24 10:02:45 AM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2020-02-24 10:05:10 AM =========================
+Exception: Please enter Manufacture Name
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-24 10:05:42 AM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-24 10:07:18 AM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2020-02-24 10:07:23 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-24 10:07:39 AM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-24 10:08:04 AM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:08:04 AM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:08:04 AM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:08:04 AM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:08:22 AM =========================
+Exception: Purchase order general details Updated successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-24 10:08:52 AM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2020-02-24 10:09:33 AM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2020-02-24 10:10:49 AM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2020-02-24 10:10:59 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-24 10:11:07 AM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-24 10:11:18 AM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:11:18 AM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:11:18 AM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:11:18 AM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:11:25 AM =========================
+Exception: Purchase order general details Updated successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-24 10:19:51 AM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:19:51 AM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:19:51 AM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:19:51 AM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:20:00 AM =========================
+Exception: Purchase order general details Updated successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-24 10:20:20 AM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2020-02-24 10:20:29 AM =========================
+Exception: 'string' does not contain a definition for 'IErrorId'
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-24 10:20:39 AM =========================
+Exception: 'string' does not contain a definition for 'IErrorId'
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-24 10:20:39 AM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-24 10:21:10 AM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:21:11 AM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:21:11 AM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:21:11 AM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:21:20 AM =========================
+Exception: Purchase order general details Updated successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-24 10:22:10 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-24 10:22:18 AM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-24 10:22:29 AM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:22:29 AM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:22:29 AM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:22:29 AM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-24 10:24:31 AM =========================
+Exception: Purchase order general details Updated successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-24 10:24:41 AM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2020-02-24 10:25:14 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-24 10:25:19 AM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-24 10:25:30 AM =========================
+Exception: Total Material Receiving is Done .
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-24 10:29:25 AM =========================
+Exception: Total Material Receiving is Done .
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder

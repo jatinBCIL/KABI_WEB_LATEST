@@ -1,0 +1,650 @@
+========================= 2020-02-12 12:17:52 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-12 12:18:02 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-12 12:19:02 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_UpdatePurchaseOrder_Gen' expects parameter '@CostCenter', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+ClientConnectionId:34f64e8c-4539-424f-bcb4-3d1c022c9547
+Error Number:201,State:4,Class:16
+Query:
+sp_UpdatePurchaseOrder_Gen
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 417
+   at BusinessLayer.BL_PurchaseOrder.BL_UpdatePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 117
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-12 12:21:24 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_UpdatePurchaseOrder_Gen' expects parameter '@CostCenter', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+ClientConnectionId:34f64e8c-4539-424f-bcb4-3d1c022c9547
+Error Number:201,State:4,Class:16
+Query:
+sp_UpdatePurchaseOrder_Gen
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 417
+   at BusinessLayer.BL_PurchaseOrder.BL_UpdatePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 117
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-12 12:22:15 AM =========================
+Exception: General Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-12 12:24:59 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+Uncommittable transaction is detected at the end of the batch. The transaction is rolled back.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+ClientConnectionId:34f64e8c-4539-424f-bcb4-3d1c022c9547
+Error Number:50000,State:1,Class:16
+Query:
+sp_UpdatePurchaseOrder_Rec
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 632
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 636
+   at BusinessLayer.BL_PurchaseOrder.BL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 99
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:25:01 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of the varchar value '3200011922' overflowed an int column.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.NextResult()
+   at System.Data.ProviderBase.DataReaderContainer.NextResult()
+   at System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 401
+ClientConnectionId:34f64e8c-4539-424f-bcb4-3d1c022c9547
+Error Number:50000,State:1,Class:16
+
+Query:
+sp_getPurchaseOrderData_CheckBy
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 529
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 533
+   at BusinessLayer.BL_PurchaseOrder.BL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 85
+Source: frmPurchaseOrderView.aspx| Function Name: GetPurchaseOrderData
+========================= 2020-02-12 12:29:36 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+Uncommittable transaction is detected at the end of the batch. The transaction is rolled back.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+ClientConnectionId:34f64e8c-4539-424f-bcb4-3d1c022c9547
+Error Number:50000,State:1,Class:16
+Query:
+sp_UpdatePurchaseOrder_Rec
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 632
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 636
+   at BusinessLayer.BL_PurchaseOrder.BL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 99
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:29:37 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of the varchar value '3200011922' overflowed an int column.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.NextResult()
+   at System.Data.ProviderBase.DataReaderContainer.NextResult()
+   at System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 401
+ClientConnectionId:34f64e8c-4539-424f-bcb4-3d1c022c9547
+Error Number:50000,State:1,Class:16
+
+Query:
+sp_getPurchaseOrderData_CheckBy
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 529
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 533
+   at BusinessLayer.BL_PurchaseOrder.BL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 85
+Source: frmPurchaseOrderView.aspx| Function Name: GetPurchaseOrderData
+========================= 2020-02-12 12:30:23 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+Uncommittable transaction is detected at the end of the batch. The transaction is rolled back.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+ClientConnectionId:34f64e8c-4539-424f-bcb4-3d1c022c9547
+Error Number:50000,State:1,Class:16
+Query:
+sp_UpdatePurchaseOrder_Rec
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 632
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 636
+   at BusinessLayer.BL_PurchaseOrder.BL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 99
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:30:23 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of the varchar value '3200011922' overflowed an int column.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.NextResult()
+   at System.Data.ProviderBase.DataReaderContainer.NextResult()
+   at System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 401
+ClientConnectionId:34f64e8c-4539-424f-bcb4-3d1c022c9547
+Error Number:50000,State:1,Class:16
+
+Query:
+sp_getPurchaseOrderData_CheckBy
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 529
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 533
+   at BusinessLayer.BL_PurchaseOrder.BL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 85
+Source: frmPurchaseOrderView.aspx| Function Name: GetPurchaseOrderData
+========================= 2020-02-12 12:33:07 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-12 12:33:21 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-12 12:33:54 AM =========================
+Exception: General Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-12 12:35:24 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+Uncommittable transaction is detected at the end of the batch. The transaction is rolled back.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+ClientConnectionId:abb69fb2-1b2f-4e82-93b0-1688e2f1dbe6
+Error Number:50000,State:1,Class:16
+Query:
+sp_UpdatePurchaseOrder_Rec
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 632
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 636
+   at BusinessLayer.BL_PurchaseOrder.BL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 99
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:35:25 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of the varchar value '3200011922' overflowed an int column.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.NextResult()
+   at System.Data.ProviderBase.DataReaderContainer.NextResult()
+   at System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 401
+ClientConnectionId:abb69fb2-1b2f-4e82-93b0-1688e2f1dbe6
+Error Number:50000,State:1,Class:16
+
+Query:
+sp_getPurchaseOrderData_CheckBy
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 529
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 533
+   at BusinessLayer.BL_PurchaseOrder.BL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 85
+Source: frmPurchaseOrderView.aspx| Function Name: GetPurchaseOrderData
+========================= 2020-02-12 12:36:14 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+Uncommittable transaction is detected at the end of the batch. The transaction is rolled back.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+ClientConnectionId:abb69fb2-1b2f-4e82-93b0-1688e2f1dbe6
+Error Number:50000,State:1,Class:16
+Query:
+sp_UpdatePurchaseOrder_Rec
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 632
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 636
+   at BusinessLayer.BL_PurchaseOrder.BL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 99
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:36:14 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of the varchar value '3200011922' overflowed an int column.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.NextResult()
+   at System.Data.ProviderBase.DataReaderContainer.NextResult()
+   at System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 401
+ClientConnectionId:abb69fb2-1b2f-4e82-93b0-1688e2f1dbe6
+Error Number:50000,State:1,Class:16
+
+Query:
+sp_getPurchaseOrderData_CheckBy
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 529
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 533
+   at BusinessLayer.BL_PurchaseOrder.BL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 85
+Source: frmPurchaseOrderView.aspx| Function Name: GetPurchaseOrderData
+========================= 2020-02-12 12:39:36 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-12 12:39:45 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-12 12:40:16 AM =========================
+Exception: General Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-12 12:40:44 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:40:45 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of the varchar value '3200011922' overflowed an int column.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.NextResult()
+   at System.Data.ProviderBase.DataReaderContainer.NextResult()
+   at System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 401
+ClientConnectionId:1a74ce01-6ad6-4c12-adfc-32e29843c1d3
+Error Number:50000,State:1,Class:16
+
+Query:
+sp_getPurchaseOrderData_CheckBy
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 529
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 533
+   at BusinessLayer.BL_PurchaseOrder.BL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 85
+Source: frmPurchaseOrderView.aspx| Function Name: GetPurchaseOrderData
+========================= 2020-02-12 12:41:26 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:41:26 AM =========================
+Exception: Material Receiving Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-12 12:11:17 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-12 12:11:25 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-12 12:11:56 PM =========================
+Exception: No data found
+Source: frmPurchaseOrderView.aspx| Function Name: btnGet_Click
+========================= 2020-02-12 12:12:01 PM =========================
+Exception: No data found
+Source: frmPurchaseOrderView.aspx| Function Name: btnGet_Click
+========================= 2020-02-12 12:17:06 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:17:20 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of the varchar value '3100087559' overflowed an int column.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.NextResult()
+   at System.Data.ProviderBase.DataReaderContainer.NextResult()
+   at System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 401
+ClientConnectionId:8af05c7c-3487-426f-9ada-cb27aaa26f49
+Error Number:50000,State:1,Class:16
+
+Query:
+sp_getPurchaseOrderData_CheckBy
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 529
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 533
+   at BusinessLayer.BL_PurchaseOrder.BL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 85
+Source: frmPurchaseOrderView.aspx| Function Name: GetPurchaseOrderData
+========================= 2020-02-12 12:20:25 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:20:28 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of the varchar value '3100087559' overflowed an int column.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.NextResult()
+   at System.Data.ProviderBase.DataReaderContainer.NextResult()
+   at System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 401
+ClientConnectionId:8af05c7c-3487-426f-9ada-cb27aaa26f49
+Error Number:50000,State:1,Class:16
+
+Query:
+sp_getPurchaseOrderData_CheckBy
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 529
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 533
+   at BusinessLayer.BL_PurchaseOrder.BL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 85
+Source: frmPurchaseOrderView.aspx| Function Name: GetPurchaseOrderData
+========================= 2020-02-12 12:20:38 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:21:27 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of the varchar value '3100087559' overflowed an int column.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.NextResult()
+   at System.Data.ProviderBase.DataReaderContainer.NextResult()
+   at System.Data.Common.DataAdapter.FillNextResult(DataReaderContainer dataReader)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 401
+ClientConnectionId:8af05c7c-3487-426f-9ada-cb27aaa26f49
+Error Number:50000,State:1,Class:16
+
+Query:
+sp_getPurchaseOrderData_CheckBy
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 413
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 529
+   at DataLayer.DL_PurchaseOrder.DL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 533
+   at BusinessLayer.BL_PurchaseOrder.BL_GetPurchaseOrderData_CheckBy(String strType, String purchase, String plant, String Purchase_RefNo) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 85
+Source: frmPurchaseOrderView.aspx| Function Name: GetPurchaseOrderData
+========================= 2020-02-12 12:31:57 PM =========================
+Exception: No data found
+Source: frmPurchaseOrderView.aspx| Function Name: btnGet_Click
+========================= 2020-02-12 12:33:09 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:33:35 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-12 12:33:41 PM =========================
+Exception: Material Receiving Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-12 02:13:04 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-12 02:13:13 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-12 02:14:12 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Arithmetic overflow error converting varchar to data type numeric.
+1
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:04554122-3fb5-41f4-8d32-b9bccf2c5590
+Error Number:50000,State:1,Class:16
+Query:
+sp_InsertPurchaseOrder
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 465
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 469
+   at BusinessLayer.BL_PurchaseOrder.BL_Insert_PurchaseOrder(PL_PurchaseOrder objFields) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 162
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-12 02:14:39 PM =========================
+Exception: Please enter Manufacture Name
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-12 02:15:04 PM =========================
+Exception: Please Enter Container No
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-12 02:16:09 PM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-12 02:25:02 PM =========================
+Exception: 2020-02-12
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-12 02:25:02 PM =========================
+Exception: 2020-02-07
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-12 02:25:02 PM =========================
+Exception: 2020-01-17
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-12 02:25:02 PM =========================
+Exception: 2020-02-12
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-12 02:25:04 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Arithmetic overflow error converting varchar to data type numeric.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:bf14de08-0705-4135-afab-6ac8510fe7fd
+Error Number:50000,State:1,Class:16
+Query:
+sp_InsertPurchaseOrder
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 465
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 469
+   at BusinessLayer.BL_PurchaseOrder.BL_Insert_PurchaseOrder(PL_PurchaseOrder objFields) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 162
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-12 02:26:42 PM =========================
+Exception: System.FormatException: Failed to convert parameter value from a String to a DateTime. ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+Query:
+sp_SavePurchaseOrder_Gen
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 180
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 184
+   at BusinessLayer.BL_PurchaseOrder.BL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 49
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-12 02:34:40 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-12 02:34:48 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-12 02:35:18 PM =========================
+Exception: 2020-02-12
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-12 02:35:19 PM =========================
+Exception: 2020-02-07
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-12 02:35:19 PM =========================
+Exception: 2020-01-17
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-12 02:35:19 PM =========================
+Exception: 2020-02-12
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-12 02:35:20 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Arithmetic overflow error converting varchar to data type numeric.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:49eb46e5-52e5-45e3-a0fe-c7b9be4f0ed1
+Error Number:50000,State:1,Class:16
+Query:
+sp_InsertPurchaseOrder
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 465
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 469
+   at BusinessLayer.BL_PurchaseOrder.BL_Insert_PurchaseOrder(PL_PurchaseOrder objFields) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 162
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-12 02:35:37 PM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-12 03:19:59 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-12 03:20:12 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-12 03:28:45 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 1, current count = 0.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:534d5a64-d4e1-4472-8539-3b1dd1ceb2db
+Error Number:50000,State:1,Class:16
+Query:
+sp_Update_DispenseHeader
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_Dispensing.DL_UpdateHeader(String strPlant, String strPONo, String strHeader, String strGRGINO) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_Dispensing.cs:line 131
+   at DataLayer.DL_Dispensing.DL_UpdateHeader(String strPlant, String strPONo, String strHeader, String strGRGINO) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_Dispensing.cs:line 135
+   at BusinessLayer.BL_Dispensing.BL_UpdateHeader(String strPlant, String strPONo, String strHeader, String strGRGINO) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_Dispensing.cs:line 51
+Source: frmDispensingPosting.aspx| Function Name: btnUpdate_Click
+========================= 2020-02-12 11:45:14 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-12 11:45:24 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-12 11:46:14 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2020-02-12 11:48:46 PM =========================
+Exception: Object reference not set to an instance of an object.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click

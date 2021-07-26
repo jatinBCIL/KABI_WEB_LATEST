@@ -1,0 +1,36 @@
+========================= 2019-10-17 05:01:44 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-17 05:01:52 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-17 05:11:23 PM =========================
+Exception: User Logged Out Successfully
+Source: frmMaterialPosting.aspx| Function Name: btnLogout_Click
+========================= 2019-10-17 05:11:39 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-17 05:42:47 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-17 05:42:56 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-17 06:04:01 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-17 06:04:09 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-17 10:38:19 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-17 10:38:29 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-17 10:39:13 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-17 10:39:21 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

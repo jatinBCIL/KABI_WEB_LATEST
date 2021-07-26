@@ -1,0 +1,27 @@
+========================= 2019-11-03 01:46:22 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-03 01:46:24 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-03 01:46:27 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-03 01:46:28 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-03 01:46:42 AM =========================
+Exception: Invalid login details
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 40
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 45
+   at clsBLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\clsBLCommon.cs:line 22
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-03 01:46:51 AM =========================
+Exception: Invalid login details
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 40
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 45
+   at clsBLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\clsBLCommon.cs:line 22
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-03 01:47:05 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

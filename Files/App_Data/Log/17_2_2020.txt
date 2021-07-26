@@ -1,0 +1,428 @@
+========================= 2020-02-17 12:56:21 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-17 12:57:23 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-17 12:59:34 PM =========================
+Exception: The remote name could not be resolved: 'sapp23ms.sapms.fresenius.de'
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2020-02-17 12:59:50 PM =========================
+Exception: The remote name could not be resolved: 'sapp23ms.sapms.fresenius.de'
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2020-02-17 01:01:49 PM =========================
+Exception: Please check YES for Supplier Approved
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-17 01:02:02 PM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 01:03:00 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-17 01:03:00 PM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-17 01:03:11 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:0ab75d2f-6a1b-47b1-a983-d5d31a5a462d
+Error Number:50000,State:1,Class:16
+Query:
+sp_InsertPurchaseOrder
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 465
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 469
+   at BusinessLayer.BL_PurchaseOrder.BL_Insert_PurchaseOrder(PL_PurchaseOrder objFields) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 162
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-17 01:03:11 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 01:03:12 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 01:03:12 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 01:03:12 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 01:03:28 PM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 02:06:11 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-17 02:06:20 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-17 02:06:59 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:fca63015-ba73-4e8a-b9a3-9eb3107afe88
+Error Number:50000,State:1,Class:16
+Query:
+sp_InsertPurchaseOrder
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 465
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 469
+   at BusinessLayer.BL_PurchaseOrder.BL_Insert_PurchaseOrder(PL_PurchaseOrder objFields) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 162
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-17 02:06:59 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 02:06:59 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 02:06:59 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 02:06:59 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 02:07:12 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:fca63015-ba73-4e8a-b9a3-9eb3107afe88
+Error Number:50000,State:1,Class:16
+Query:
+sp_InsertPurchaseOrder
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 465
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 469
+   at BusinessLayer.BL_PurchaseOrder.BL_Insert_PurchaseOrder(PL_PurchaseOrder objFields) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 162
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-17 02:07:12 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 02:07:12 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 02:07:12 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 02:07:12 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 02:07:38 PM =========================
+Exception: Please Enter Container Matched
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-17 02:07:57 PM =========================
+Exception: Please Enter Container Matched
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-17 02:08:07 PM =========================
+Exception: Please Enter Container Matched
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-17 02:08:33 PM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 02:55:53 PM =========================
+Exception: Invalid login details
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\clsDLCommon.cs:line 40
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\clsDLCommon.cs:line 45
+   at clsBLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\clsBLCommon.cs:line 22
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-17 02:56:05 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-17 02:56:15 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-17 03:14:28 PM =========================
+Exception: System.ArgumentException: The SqlParameter is already contained by another SqlParameterCollection.
+   at System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   at System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   at System.Data.SqlClient.SqlParameterCollection.AddRange(SqlParameter[] values)
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 273
+Query:
+sp_InsertPurchaseOrder
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 465
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 469
+   at BusinessLayer.BL_PurchaseOrder.BL_Insert_PurchaseOrder(PL_PurchaseOrder objFields) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 162
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-17 03:14:28 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:14:28 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:14:28 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:14:28 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:15:01 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-17 03:15:01 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:15:01 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:15:02 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:15:02 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:16:39 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-17 03:16:39 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:16:39 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:16:39 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:16:40 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:18:35 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:18:35 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:18:35 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:18:35 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:18:44 PM =========================
+Exception: Please Enter Container Matched
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-17 03:20:24 PM =========================
+Exception: Please Enter Container Matched
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-17 03:21:35 PM =========================
+Exception: Please Enter Container Matched
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-17 03:22:03 PM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 03:38:07 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:38:07 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:38:07 PM =========================
+Exception: 2019-11-11
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:38:07 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 03:38:17 PM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 03:39:04 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-17 03:39:04 PM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-17 03:59:07 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-17 04:00:01 PM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 04:03:49 PM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 04:04:37 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-17 04:04:37 PM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-17 04:04:52 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 04:04:52 PM =========================
+Exception: 2019-11-09
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 04:04:52 PM =========================
+Exception: 2019-11-09
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 04:04:52 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 04:05:04 PM =========================
+Exception: Purchase order general details Updated successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 04:05:20 PM =========================
+Exception: Purchase order general details Updated successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 04:06:01 PM =========================
+Exception: Purchase order general details Updated successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 04:07:00 PM =========================
+Exception: Purchase order general details Updated successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-17 04:07:34 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2020-02-17 04:07:34 PM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2020-02-17 04:10:43 PM =========================
+Exception: Total Material Reciving is Done .
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-17 04:10:47 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 04:10:47 PM =========================
+Exception: 2019-11-09
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 04:10:47 PM =========================
+Exception: 2019-11-09
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 04:10:47 PM =========================
+Exception: 2019-11-03
+Source: frmPurchaseOrder.aspx| Function Name: AssignDetails
+========================= 2020-02-17 04:19:53 PM =========================
+Exception: Total Material Receiving is Done .
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-17 05:57:07 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-17 05:57:17 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-17 05:57:33 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Unclosed quotation mark after the character string 'PurchaseOrderNo)'.
+Incorrect syntax near 'PurchaseOrderNo)'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:6f284641-297d-4842-8f88-b3b2c4cbfc5e
+Error Number:105,State:1,Class:15
+Query:
+SELECT COLUMN_NAME,DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'VW_PurchaseOrder_Weights'  AND COLUMN_NAME IN ('Plant','PurchaseOrderNo)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BindSearchGrid(GridView grSearch, String strTable, String strExclude) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_For_Reports.cs:line 230
+Source: frmAuditTrailReport.aspx| Function Name: ddlrpttype_SelectedIndexChanged
+========================= 2020-02-17 06:03:32 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedOn'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:76374667-6f87-4e8e-b8f6-f13348d9b1c3
+Error Number:207,State:1,Class:16
+Query:
+SELECT * FROM VW_PurchaseOrder_Weights  Order By [CreatedOn] Desc
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BL_Report_Genrater(String strReport, String strWhere, String strQuery) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_For_Reports.cs:line 324
+Source: frmAuditTrailReport.aspx| Function Name: btnViewAll_Click
+========================= 2020-02-17 06:07:50 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CreatedOn'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:76374667-6f87-4e8e-b8f6-f13348d9b1c3
+Error Number:207,State:1,Class:16
+Query:
+SELECT * FROM VW_PurchaseOrder_Weights Where [PurchaseOrderNo] = '3200011922' Order By [CreatedOn] Desc
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BL_Report_Genrater(String strReport, String strWhere, String strQuery) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_For_Reports.cs:line 324
+Source: frmAuditTrailReport.aspx| Function Name: btnSearch_Click
+========================= 2020-02-17 06:14:06 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-17 06:14:15 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-17 06:21:40 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-17 06:21:50 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-17 06:22:20 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Monthly
+========================= 2020-02-17 06:22:34 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Monthly
+========================= 2020-02-17 06:23:13 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Monthly
+========================= 2020-02-17 06:24:42 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Monthly

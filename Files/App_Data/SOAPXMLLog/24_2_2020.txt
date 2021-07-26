@@ -1,0 +1,2344 @@
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-24 10:02:32 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011923</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:02:32 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-24 10:02:34 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:02:34 AM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-24 10:02:43 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100080569</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:02:43 AM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-24 10:02:47 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100080569</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:02:47 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-24 10:02:51 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7960012121</MATNR>
+      <MAKTX>DIET COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>144.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>8300000475</MATNR>
+      <MAKTX>RED COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>256.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>40.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>660.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>10.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037779</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>240.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>280.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000472</MATERIAL>
+      <SHORT_TEXT>EVERYDAY MILK POWDER</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012121</MATERIAL>
+      <SHORT_TEXT>DIET COKE</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000475</MATERIAL>
+      <SHORT_TEXT>RED COKE</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>8287000066</MATERIAL>
+      <SHORT_TEXT>Canteen Items</SHORT_TEXT>
+      <MATL_TYPE>UNBW</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:02:51 AM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-24 10:07:55 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100080569</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:07:55 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-24 10:07:58 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7960012121</MATNR>
+      <MAKTX>DIET COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>144.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>8300000475</MATNR>
+      <MAKTX>RED COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>256.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>40.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>660.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>10.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037779</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>240.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>280.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000472</MATERIAL>
+      <SHORT_TEXT>EVERYDAY MILK POWDER</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012121</MATERIAL>
+      <SHORT_TEXT>DIET COKE</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000475</MATERIAL>
+      <SHORT_TEXT>RED COKE</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>8287000066</MATERIAL>
+      <SHORT_TEXT>Canteen Items</SHORT_TEXT>
+      <MATL_TYPE>UNBW</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:07:58 AM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-24 10:11:11 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100080569</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:11:11 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-24 10:11:14 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7960012121</MATNR>
+      <MAKTX>DIET COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>144.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>8300000475</MATNR>
+      <MAKTX>RED COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>256.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>40.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>660.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>10.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037779</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>240.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>280.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000472</MATERIAL>
+      <SHORT_TEXT>EVERYDAY MILK POWDER</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012121</MATERIAL>
+      <SHORT_TEXT>DIET COKE</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000475</MATERIAL>
+      <SHORT_TEXT>RED COKE</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>8287000066</MATERIAL>
+      <SHORT_TEXT>Canteen Items</SHORT_TEXT>
+      <MATL_TYPE>UNBW</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:11:14 AM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-24 10:21:03 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100080569</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:21:03 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-24 10:21:07 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7960012121</MATNR>
+      <MAKTX>DIET COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>144.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>8300000475</MATNR>
+      <MAKTX>RED COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>256.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>40.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>660.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>10.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037779</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>240.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>280.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000472</MATERIAL>
+      <SHORT_TEXT>EVERYDAY MILK POWDER</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012121</MATERIAL>
+      <SHORT_TEXT>DIET COKE</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000475</MATERIAL>
+      <SHORT_TEXT>RED COKE</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>8287000066</MATERIAL>
+      <SHORT_TEXT>Canteen Items</SHORT_TEXT>
+      <MATL_TYPE>UNBW</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:21:07 AM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-24 10:22:22 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100080569</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:22:22 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-24 10:22:25 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7960012121</MATNR>
+      <MAKTX>DIET COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>144.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>8300000475</MATNR>
+      <MAKTX>RED COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>256.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>40.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>660.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>10.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037779</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>240.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>280.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000472</MATERIAL>
+      <SHORT_TEXT>EVERYDAY MILK POWDER</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012121</MATERIAL>
+      <SHORT_TEXT>DIET COKE</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000475</MATERIAL>
+      <SHORT_TEXT>RED COKE</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>8287000066</MATERIAL>
+      <SHORT_TEXT>Canteen Items</SHORT_TEXT>
+      <MATL_TYPE>UNBW</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:22:25 AM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-24 10:25:23 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100080569</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:25:23 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-24 10:25:26 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7960012121</MATNR>
+      <MAKTX>DIET COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>144.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>8300000475</MATNR>
+      <MAKTX>RED COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>256.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>40.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>660.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>10.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037779</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>240.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>280.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000472</MATERIAL>
+      <SHORT_TEXT>EVERYDAY MILK POWDER</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012121</MATERIAL>
+      <SHORT_TEXT>DIET COKE</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000475</MATERIAL>
+      <SHORT_TEXT>RED COKE</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>8287000066</MATERIAL>
+      <SHORT_TEXT>Canteen Items</SHORT_TEXT>
+      <MATL_TYPE>UNBW</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:25:26 AM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-24 10:29:18 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100080569</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:29:18 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-24 10:29:21 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7960012121</MATNR>
+      <MAKTX>DIET COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>144.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>8300000475</MATNR>
+      <MAKTX>RED COKE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>256.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>40.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80036445</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>360.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>8287000066</MATNR>
+      <MAKTX>CANTEEN ITEMS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>660.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>640.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037210</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7960012669</MATNR>
+      <MAKTX>GREEN TEA BAGS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>10.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>1000.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME />
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+    <item>
+      <GENUM>80037779</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>8300000472</MATNR>
+      <MAKTX>EVERYDAY MILK POWDER</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>G001</LGORT>
+      <CHARG />
+      <GEQTY>240.0</GEQTY>
+      <GEUNT>PCE</GEUNT>
+      <LSMNG>280.0</LSMNG>
+      <LSMEH>PCE</LSMEH>
+      <EBELN>3100080569</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>WAYBILLNO</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK />
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000472</MATERIAL>
+      <SHORT_TEXT>EVERYDAY MILK POWDER</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012121</MATERIAL>
+      <SHORT_TEXT>DIET COKE</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>8300000475</MATERIAL>
+      <SHORT_TEXT>RED COKE</SHORT_TEXT>
+      <MATL_TYPE>NLAG</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>8287000066</MATERIAL>
+      <SHORT_TEXT>Canteen Items</SHORT_TEXT>
+      <MATL_TYPE>UNBW</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100080569</PO_NUMBER>
+      <DOC_DATE>2018-11-15</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960012669</MATERIAL>
+      <SHORT_TEXT>GREEN TEA BAGS</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>1000.0</QUANTITY>
+      <UNIT>PCE</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-24 10:29:21 AM
+================================================================

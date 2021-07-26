@@ -1,0 +1,51 @@
+========================= 2019-11-20 10:43:46 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-20 10:43:55 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-20 10:51:24 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-20 10:51:35 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-20 10:55:25 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-20 10:55:35 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-20 12:12:48 PM =========================
+Exception: Printed IP not Connected
+Source: frmStatuLabelRePrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-20 02:37:06 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-20 02:37:16 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-20 03:26:11 PM =========================
+Exception: No Details found
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 2019-11-20 03:26:21 PM =========================
+Exception: No Details found
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 2019-11-20 03:26:57 PM =========================
+Exception: No Details found
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 2019-11-20 03:29:10 PM =========================
+Exception: No Details found
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 2019-11-20 03:35:43 PM =========================
+Exception: No Details found
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 2019-11-20 03:36:21 PM =========================
+Exception: No Details found
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 2019-11-20 03:37:02 PM =========================
+Exception: No Details found
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 2019-11-20 03:38:10 PM =========================
+Exception: No Details found
+Source: ReportView.aspx| Function Name: Page_Load

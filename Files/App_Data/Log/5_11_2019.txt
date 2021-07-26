@@ -1,0 +1,374 @@
+========================= 2019-11-05 12:05:16 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 12:05:27 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 12:05:35 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 12:06:20 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 12:08:02 AM =========================
+Exception: Record saved successfully.
+Source: frmUserMaster.aspx| Function Name: imgSave_Click
+========================= 2019-11-05 12:10:48 AM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-05 12:12:20 AM =========================
+Exception: Material receiving details successfully
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-05 12:12:39 AM =========================
+Exception: Material receiving details successfully
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-05 12:43:25 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 12:43:38 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 12:45:31 AM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-05 12:46:13 AM =========================
+Exception: Please Enter Gross Weight
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-05 12:46:13 AM =========================
+Exception: Please Enter all the details
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Wt_Click
+========================= 2019-11-05 12:47:14 AM =========================
+Exception: Input string was not in a correct format.
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-05 12:47:14 AM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-11-05 12:49:20 AM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-05 12:51:16 AM =========================
+Exception: Input string was not in a correct format.
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-05 12:51:17 AM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-11-05 12:55:15 AM =========================
+Exception: Please check Vehicle Clean  or Not
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-05 12:55:27 AM =========================
+Exception: Please check Vehicle Clean  or Not
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-05 12:55:35 AM =========================
+Exception: Please check Vehicle Clean  or Not
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-05 12:55:48 AM =========================
+Exception: Please check Vehicle Clean  or Not
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-05 12:57:14 AM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-05 12:59:08 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-05 12:59:16 AM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-11-05 01:14:50 AM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-05 01:16:14 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-05 01:16:36 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-05 01:17:14 AM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-11-05 09:54:34 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 09:54:45 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 10:06:51 AM =========================
+Exception: System.ArgumentException: The SqlParameter is already contained by another SqlParameterCollection.
+   at System.Data.SqlClient.SqlParameterCollection.Validate(Int32 index, Object value)
+   at System.Data.SqlClient.SqlParameterCollection.AddRange(Array values)
+   at System.Data.SqlClient.SqlParameterCollection.AddRange(SqlParameter[] values)
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 399
+
+Query:
+sp_GRN_ReceiptLabel
+   at SqlDataLayer.ExecuteProcedureParamTable(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 413
+   at DataLayer.DL_GrnPrinting.DL_GetBarcodeNo(String strGRNno, String strLineItem, String strMatCode, String strQty, String strPackSize, String strPlantCode, String strUser, String strType, Decimal iNoofContainers, String strMatBatch, String strReason) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_GrnPrinting.cs:line 98
+   at DataLayer.DL_GrnPrinting.DL_GetBarcodeNo(String strGRNno, String strLineItem, String strMatCode, String strQty, String strPackSize, String strPlantCode, String strUser, String strType, Decimal iNoofContainers, String strMatBatch, String strReason) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_GrnPrinting.cs:line 102
+   at BusinessLayer.BL_GrnPrinting.BL_GetBarcodeNo(String strGRNno, String strLineItem, String strMatCode, String strQty, String strPackSize, String strPlantCode, String strUser, String strType, Decimal iNoOfContainers, String srrMatBatch, String strReason) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_GrnPrinting.cs:line 46
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 10:12:47 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 10:13:15 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 10:13:29 AM =========================
+Exception: Problem in Printing
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 10:13:47 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 10:14:39 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 10:17:12 AM =========================
+Exception: Problem in Printing
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 10:24:52 AM =========================
+Exception: Problem in Printing
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 11:27:19 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 11:27:27 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 11:28:00 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 11:28:54 AM =========================
+Exception: Printer IP not Connected
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 11:31:05 AM =========================
+Exception: Index was outside the bounds of the array.
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 12:00:24 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 12:00:36 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 12:03:25 PM =========================
+Exception: No details found for document
+Source: frmMaterialPosting.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 12:04:34 PM =========================
+Exception: System.Web.Services.Protocols.SoapException: Web service processing error; more details in the web service error log on provider side (UTC timestamp 20191105063434; Transaction ID E274F4EEF65C0000E005D883FA3E2A76)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_ManNo.z_ws_man_string.ZDMF002(ZDMF002 ZDMF0021) in c:\Users\BCIL\AppData\Local\Temp\Temporary ASP.NET Files\f_kabi\42b3338d\5c42820b\App_WebReferences.tdg61skh.6.cs:line 49
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 229
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-05 12:04:51 PM =========================
+Exception: System.Web.Services.Protocols.SoapException: Web service processing error; more details in the web service error log on provider side (UTC timestamp 20191105063451; Transaction ID E274F4EEF65C0000E005D883FA3E2A79)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_ManNo.z_ws_man_string.ZDMF002(ZDMF002 ZDMF0021) in c:\Users\BCIL\AppData\Local\Temp\Temporary ASP.NET Files\f_kabi\42b3338d\5c42820b\App_WebReferences.tdg61skh.6.cs:line 49
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 229
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-05 12:08:54 PM =========================
+Exception: System.Web.Services.Protocols.SoapException: Web service processing error; more details in the web service error log on provider side (UTC timestamp 20191105063802; Transaction ID E274F4EEF65C0040E005DB2E760941B2)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_ManNo.z_ws_man_string.ZDMF002(ZDMF002 ZDMF0021) in c:\Users\BCIL\AppData\Local\Temp\Temporary ASP.NET Files\f_kabi\42b3338d\5c42820b\App_WebReferences.tdg61skh.6.cs:line 49
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 229
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-05 12:23:33 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 12:24:08 PM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 12:26:22 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 12:27:59 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 12:34:45 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 01:56:01 PM =========================
+Exception: Invalid login details
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 40
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 45
+   at clsBLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\clsBLCommon.cs:line 22
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 01:56:08 PM =========================
+Exception: Invalid login details
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 40
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 45
+   at clsBLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\clsBLCommon.cs:line 22
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 01:56:31 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 01:56:40 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 02:05:21 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 02:05:33 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 02:09:00 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 02:09:04 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 02:09:07 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 02:09:20 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 04:06:15 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 04:06:25 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 04:09:47 PM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 04:11:00 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 04:12:14 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 04:12:35 PM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 04:23:51 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-05 09:05:06 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 09:05:19 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 09:05:33 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 09:05:46 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 09:06:35 PM =========================
+Exception: Unable to connect to the remote server
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 09:14:39 PM =========================
+Exception: Unable to connect to the remote server
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 09:22:11 PM =========================
+Exception: Invalid login details
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 40
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 45
+   at clsBLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\clsBLCommon.cs:line 22
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 09:22:56 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 09:23:17 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 09:27:38 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 09:27:49 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 09:49:43 PM =========================
+Exception: User Logged Out Successfully
+Source: frmMain.aspx| Function Name: btnLogout_Click
+========================= 2019-11-05 09:50:13 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 09:55:10 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 09:55:14 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 09:55:17 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 09:55:48 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 10:00:48 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 10:01:04 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 10:48:48 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 10:49:00 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 10:51:14 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 10:51:27 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 10:57:51 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 10:58:02 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 11:01:09 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 11:01:22 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 11:06:38 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 11:06:50 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 11:10:23 PM =========================
+Exception: User Logged Out Successfully
+Source: frmMRNLabelPrinting.aspx| Function Name: btnLogout_Click
+========================= 2019-11-05 11:11:46 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 11:12:37 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 11:12:51 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 11:30:28 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 11:30:41 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 11:35:25 PM =========================
+Exception: Unable to connect to the remote server
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 11:39:49 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 11:40:02 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 11:45:43 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-05 11:45:57 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-05 11:46:27 PM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-05 11:48:04 PM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click

@@ -1,0 +1,196 @@
+========================= 2020-03-16 04:54:06 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-03-16 04:54:15 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-03-16 04:54:40 PM =========================
+Exception: System.InvalidOperationException: ExecuteReader: CommandText property has not been initialized
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 579
+Query:
+
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BL_Report_Genrater(String strReport, String strWhere, String strQuery) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\BusinessLayer\BL_For_Reports.cs:line 332
+Source: frmAuditTrailReport.aspx| Function Name: btnSearch_Click
+========================= 2020-03-16 05:15:05 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-03-16 05:15:15 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-03-16 05:18:43 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:cfbdd5bb-2edd-486f-9fb9-a4f3060bdb94
+Error Number:242,State:3,Class:16
+Query:
+SELECT * FROM VW_Scheduler_INSPECTIONLOT Where CONVERT(Datetime, "CreatedOn", 120) >= CONVERT(Datetime, REPLACE('11-03-2020', ' 12:00:00 AM', ''), 120)AND CONVERT(Datetime, "CreatedOn", 120) <=  CONVERT(Datetime, REPLACE('11-03-2020', ' 12:00:00 AM', ''), 120)+1 Order By [CreatedOn] Desc
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BL_Report_Genrater(String strReport, String strWhere, String strQuery) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\BusinessLayer\BL_For_Reports.cs:line 344
+Source: frmAuditTrailReport.aspx| Function Name: btnSearch_Click
+========================= 2020-03-16 05:18:55 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:cfbdd5bb-2edd-486f-9fb9-a4f3060bdb94
+Error Number:242,State:3,Class:16
+Query:
+SELECT * FROM VW_Scheduler_INSPECTIONLOT Where CONVERT(Datetime, "CreatedOn", 120) >= CONVERT(Datetime, REPLACE('3/10/2020', ' 12:00:00 AM', ''), 120)AND CONVERT(Datetime, "CreatedOn", 120) <=  CONVERT(Datetime, REPLACE('3/12/2020', ' 12:00:00 AM', ''), 120)+1 Order By [CreatedOn] Desc
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BL_Report_Genrater(String strReport, String strWhere, String strQuery) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\BusinessLayer\BL_For_Reports.cs:line 344
+Source: frmAuditTrailReport.aspx| Function Name: btnSearch_Click
+========================= 2020-03-16 05:19:16 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:cfbdd5bb-2edd-486f-9fb9-a4f3060bdb94
+Error Number:242,State:3,Class:16
+Query:
+SELECT * FROM VW_Scheduler_INSPECTIONLOT Where CONVERT(Datetime, "CreatedOn", 120) >= CONVERT(Datetime, REPLACE('3/10/2020', ' 12:00:00 AM', ''), 120)AND CONVERT(Datetime, "CreatedOn", 120) <=  CONVERT(Datetime, REPLACE('3/11/2020', ' 12:00:00 AM', ''), 120)+1 Order By [CreatedOn] Desc
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BL_Report_Genrater(String strReport, String strWhere, String strQuery) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\BusinessLayer\BL_For_Reports.cs:line 344
+Source: frmAuditTrailReport.aspx| Function Name: btnSearch_Click
+========================= 2020-03-16 05:19:33 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:cfbdd5bb-2edd-486f-9fb9-a4f3060bdb94
+Error Number:242,State:3,Class:16
+Query:
+SELECT * FROM VW_Scheduler_INSPECTIONLOT Where CONVERT(Datetime, "CreatedOn", 120) >= CONVERT(Datetime, REPLACE('3/10/2020', ' 12:00:00 AM', ''), 120)AND CONVERT(Datetime, "CreatedOn", 120) <=  CONVERT(Datetime, REPLACE('3/11/2020', ' 12:00:00 AM', ''), 120)+1 Order By [CreatedOn] Desc
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BL_Report_Genrater(String strReport, String strWhere, String strQuery) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\BusinessLayer\BL_For_Reports.cs:line 344
+Source: frmAuditTrailReport.aspx| Function Name: btnSearch_Click
+========================= 2020-03-16 05:21:07 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:cfbdd5bb-2edd-486f-9fb9-a4f3060bdb94
+Error Number:242,State:3,Class:16
+Query:
+SELECT * FROM VW_Scheduler_INSPECTIONLOT Where CONVERT(Datetime, "CreatedOn", 120) >= CONVERT(Datetime, REPLACE('3/10/2020', ' 12:00:00 AM', ''), 120)AND CONVERT(Datetime, "CreatedOn", 120) <=  CONVERT(Datetime, REPLACE('3/11/2020', ' 12:00:00 AM', ''), 120)+1 Order By [CreatedOn] Desc
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BL_Report_Genrater(String strReport, String strWhere, String strQuery) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\BusinessLayer\BL_For_Reports.cs:line 344
+Source: frmAuditTrailReport.aspx| Function Name: btnSearch_Click
+========================= 2020-03-16 05:26:50 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:cfbdd5bb-2edd-486f-9fb9-a4f3060bdb94
+Error Number:242,State:3,Class:16
+Query:
+SELECT * FROM VW_Scheduler_INSPECTIONLOT Where CONVERT(Datetime, "CreatedOn", 120) >= CONVERT(Datetime, REPLACE('3/10/2020', ' 12:00:00 AM', ''), 120)AND CONVERT(Datetime, "CreatedOn", 120) <=  CONVERT(Datetime, REPLACE('3/11/2020', ' 12:00:00 AM', ''), 120)+1 Order By [CreatedOn] Desc
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BL_Report_Genrater(String strReport, String strWhere, String strQuery) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\BusinessLayer\BL_For_Reports.cs:line 344
+Source: frmAuditTrailReport.aspx| Function Name: btnSearch_Click
+========================= 2020-03-16 05:38:18 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:6f3c7541-f579-430f-ac0e-8f8853cc09a6
+Error Number:242,State:3,Class:16
+Query:
+SELECT * FROM VW_Scheduler_INSPECTIONLOT Where CONVERT(Datetime, "CreatedOn", 120) >= CONVERT(Datetime, REPLACE('3/2/2020', ' 12:00:00 AM', ''), 120)AND CONVERT(Datetime, "CreatedOn", 120) <=  CONVERT(Datetime, REPLACE('3/11/2020', ' 12:00:00 AM', ''), 120)+1 Order By [CreatedOn] Desc
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\DataLayer\SqlDataLayer.cs:line 591
+   at BusinessLayer.BL_For_Reports.BL_Report_Genrater(String strReport, String strWhere, String strQuery) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web - Copy\BusinessLayer\BL_For_Reports.cs:line 344
+Source: frmAuditTrailReport.aspx| Function Name: btnSearch_Click
+========================= 2020-03-16 05:41:20 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-03-16 05:41:34 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

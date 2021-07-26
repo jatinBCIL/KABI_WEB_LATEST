@@ -1,0 +1,446 @@
+================================================================
+========================MRN - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF009 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IM_MAT_DOC>4090593949</IM_MAT_DOC>
+  <IM_WERKS>3186</IM_WERKS>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER />
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO />
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+</ZDMF009>
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================MRN - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF009Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EX_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <MATERIAL_DOC_NO>4090593949</MATERIAL_DOC_NO>
+      <DOC_YEAR>2019</DOC_YEAR>
+      <RAW_MATERIAL_CODE>7220400148</RAW_MATERIAL_CODE>
+      <RAW_MATERIAL_BATCH>0000260474</RAW_MATERIAL_BATCH>
+      <QUANTITY>100.0</QUANTITY>
+      <UOM>M</UOM>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <MATERIAL_DOC_NO>4090593949</MATERIAL_DOC_NO>
+      <DOC_YEAR>2019</DOC_YEAR>
+      <RAW_MATERIAL_CODE>7220400148</RAW_MATERIAL_CODE>
+      <RAW_MATERIAL_BATCH>0000260474</RAW_MATERIAL_BATCH>
+      <QUANTITY>100.0</QUANTITY>
+      <UOM>M</UOM>
+    </item>
+  </EX_FINAL>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER>000</NUMBER>
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO>000000</LOG_MSG_NO>
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+</ZDMF009Response>
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================MRN - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF009 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IM_MAT_DOC>4090593970</IM_MAT_DOC>
+  <IM_WERKS>3186</IM_WERKS>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER />
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO />
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+</ZDMF009>
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================MRN - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF009Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EX_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <MATERIAL_DOC_NO>4090593970</MATERIAL_DOC_NO>
+      <DOC_YEAR>2019</DOC_YEAR>
+      <RAW_MATERIAL_CODE>7110280860</RAW_MATERIAL_CODE>
+      <RAW_MATERIAL_BATCH>0000228163</RAW_MATERIAL_BATCH>
+      <QUANTITY>5.0</QUANTITY>
+      <UOM>G</UOM>
+    </item>
+  </EX_FINAL>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER>000</NUMBER>
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO>000000</LOG_MSG_NO>
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+</ZDMF009Response>
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011923</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901055356</MATERIAL>
+      <SHORT_TEXT>Carboplatin (VX-AM)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901151356</MATERIAL>
+      <SHORT_TEXT>GEMCITABINE HYDROCHLORIDE.</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901148356</MATERIAL>
+      <SHORT_TEXT>PACLITAXEL SEMISYNTHETIC-(SH)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011923</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901055356</MATERIAL>
+      <SHORT_TEXT>Carboplatin (VX-AM)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901151356</MATERIAL>
+      <SHORT_TEXT>GEMCITABINE HYDROCHLORIDE.</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901148356</MATERIAL>
+      <SHORT_TEXT>PACLITAXEL SEMISYNTHETIC-(SH)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011923</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901055356</MATERIAL>
+      <SHORT_TEXT>Carboplatin (VX-AM)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901151356</MATERIAL>
+      <SHORT_TEXT>GEMCITABINE HYDROCHLORIDE.</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901148356</MATERIAL>
+      <SHORT_TEXT>PACLITAXEL SEMISYNTHETIC-(SH)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011697</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011697</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011697</PO_NUMBER>
+      <DOC_DATE>2017-05-19</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901055356</MATERIAL>
+      <SHORT_TEXT>Carboplatin (VX-AM)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>50000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011697</PO_NUMBER>
+      <DOC_DATE>2017-05-19</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>9902030356</MATERIAL>
+      <SHORT_TEXT>Cremophor (MB)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>4000.0</QUANTITY>
+      <UNIT>KG</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011697</PO_NUMBER>
+      <DOC_DATE>2017-05-19</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901129356</MATERIAL>
+      <SHORT_TEXT>Docetaxel Anhydrous (PU)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>1600.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011697</PO_NUMBER>
+      <DOC_DATE>2017-05-19</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901151356</MATERIAL>
+      <SHORT_TEXT>GEMCITABINE HYDROCHLORIDE.</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>100000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011697</PO_NUMBER>
+      <DOC_DATE>2017-05-19</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901077356</MATERIAL>
+      <SHORT_TEXT>Gemcitabine Hydrochloride (XI)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>40.0</QUANTITY>
+      <UNIT>KG</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011697</PO_NUMBER>
+      <DOC_DATE>2017-05-19</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901110356</MATERIAL>
+      <SHORT_TEXT>Oxaliplatin (MZ-EP)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>15000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011697</PO_NUMBER>
+      <DOC_DATE>2017-05-19</DOC_DATE>
+      <PO_ITEM>00070</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901056356</MATERIAL>
+      <SHORT_TEXT>Oxaliplatin (MZ-USP)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011697</PO_NUMBER>
+      <DOC_DATE>2017-05-19</DOC_DATE>
+      <PO_ITEM>00080</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901145356</MATERIAL>
+      <SHORT_TEXT>Paclitaxel Semisynthetic (SH)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>35000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011697</PO_NUMBER>
+      <DOC_DATE>2017-05-19</DOC_DATE>
+      <PO_ITEM>00090</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901148356</MATERIAL>
+      <SHORT_TEXT>PACLITAXEL SEMISYNTHETIC-(SH)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>8000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================

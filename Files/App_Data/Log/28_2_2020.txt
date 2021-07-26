@@ -1,0 +1,18 @@
+========================= 2020-02-28 12:10:04 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-28 12:10:17 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-28 01:22:45 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-28 01:22:53 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-28 01:23:21 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2020-02-28 01:24:40 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click

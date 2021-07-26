@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "F_kabi", ".", "{6E1333B3-2D6E-4F50-879E-40FB61FA6F18}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{8F53DE52-9B0D-4BD4-BD84-8753C5D6D7E5}|BusinessLayer.dll;{4E78BB1B-43B0-417F-8150-B6CEC4DB52EB}|DataLayer.dll;{7CF1365E-51E2-41EE-8EE0-0A83054F268A}|PropertyLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Cipla 24-05-2016"
+		Debug.AspNetCompiler.PhysicalPath = "..\F_kabi\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Cipla 24-05-2016\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Cipla 24-05-2016"
+		Release.AspNetCompiler.PhysicalPath = "..\F_kabi\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Cipla 24-05-2016\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4243"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "..\BusinessLayer\BusinessLayer.csproj", "{8F53DE52-9B0D-4BD4-BD84-8753C5D6D7E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "..\DataLayer\DataLayer.csproj", "{4E78BB1B-43B0-417F-8150-B6CEC4DB52EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyLayer", "..\PropertyLayer\PropertyLayer.csproj", "{7CF1365E-51E2-41EE-8EE0-0A83054F268A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E1333B3-2D6E-4F50-879E-40FB61FA6F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1333B3-2D6E-4F50-879E-40FB61FA6F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1333B3-2D6E-4F50-879E-40FB61FA6F18}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1333B3-2D6E-4F50-879E-40FB61FA6F18}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8F53DE52-9B0D-4BD4-BD84-8753C5D6D7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F53DE52-9B0D-4BD4-BD84-8753C5D6D7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F53DE52-9B0D-4BD4-BD84-8753C5D6D7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F53DE52-9B0D-4BD4-BD84-8753C5D6D7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E78BB1B-43B0-417F-8150-B6CEC4DB52EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E78BB1B-43B0-417F-8150-B6CEC4DB52EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E78BB1B-43B0-417F-8150-B6CEC4DB52EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E78BB1B-43B0-417F-8150-B6CEC4DB52EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF1365E-51E2-41EE-8EE0-0A83054F268A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF1365E-51E2-41EE-8EE0-0A83054F268A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF1365E-51E2-41EE-8EE0-0A83054F268A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF1365E-51E2-41EE-8EE0-0A83054F268A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

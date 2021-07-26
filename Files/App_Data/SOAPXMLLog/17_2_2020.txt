@@ -1,0 +1,1168 @@
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 12:59:33 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 12:59:33 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 12:59:49 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 12:59:49 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 01:00:41 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 01:00:41 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 01:00:45 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 01:00:45 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 01:03:06 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 01:03:06 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 01:03:09 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 01:03:09 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 02:06:54 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 02:06:54 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 02:06:56 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 02:06:56 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 02:56:48 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 02:56:48 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 02:56:51 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 02:56:51 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 03:16:09 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 03:16:09 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 03:16:12 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 03:16:12 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 03:18:07 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 03:18:07 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 03:18:10 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 03:18:10 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 03:37:20 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 03:37:20 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 03:37:24 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 03:37:24 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 03:39:10 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 03:39:10 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 03:39:13 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 03:39:13 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 03:56:11 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 03:56:11 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 03:56:13 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 03:56:13 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 04:02:23 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 04:02:23 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 04:02:26 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 04:02:26 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 04:04:43 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 04:04:43 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 04:04:46 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 04:04:46 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 04:10:15 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 04:10:15 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 04:10:18 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 04:10:18 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-17 04:19:30 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100086604</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 04:19:30 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-17 04:19:33 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042005</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>3200.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>641166200598</FNUM>
+      <WAY_DT>2020-01-03</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP93 3347</TRUCK>
+    </item>
+    <item>
+      <GENUM>80042107</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7110600500</MATNR>
+      <MAKTX>DOXORUBICIN HYDROCHLORIDE IP/USP</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>RCI1</LGORT>
+      <CHARG />
+      <GEQTY>1600.0</GEQTY>
+      <GEUNT>G</GEUNT>
+      <LSMNG>1600.0</LSMNG>
+      <LSMEH>G</LSMEH>
+      <EBELN>3100086604</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>601169130232</FNUM>
+      <WAY_DT>2020-01-13</WAY_DT>
+      <TNAME>blue dart</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP64 2374</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100086604</PO_NUMBER>
+      <DOC_DATE>2019-09-18</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7110600500</MATERIAL>
+      <SHORT_TEXT>Doxorubicin Hydrochloride IP/USP</SHORT_TEXT>
+      <MATL_TYPE>ROH</MATL_TYPE>
+      <QUANTITY>3200.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-17 04:19:33 PM
+================================================================

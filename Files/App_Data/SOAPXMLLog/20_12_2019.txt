@@ -1,0 +1,5228 @@
+================================================================
+========================PurchaseOrder - Request
+=================2019-12-20 04:59:58 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100088140</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 04:59:58 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2019-12-20 05:00:08 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80041793</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132986</MATNR>
+      <MAKTX>DIR IRINOTECAN INJ V2-AUT</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5400.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100088140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041796</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220087193</MATNR>
+      <MAKTX>CTN IRINOTECAN INJ 500 MG/25 ML V1-ITA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100088140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321173556311</FNUM>
+      <WAY_DT>2019-12-19</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132986</MATERIAL>
+      <SHORT_TEXT>DIR IRINOTECAN INJ V2-AUT</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132879</MATERIAL>
+      <SHORT_TEXT>DIR IRINOTECAN INJ. V1-DEU</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>8000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220087193</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ 500 MG/25 ML V1-ITA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220087045</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ 500MG/25ML-AUT</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086928</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ 500 MG/25 ML-NOR/SWE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220087136</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ. 500MG/25ML V1-ESP</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00070</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131162</MATERIAL>
+      <SHORT_TEXT>Dir Irinotecan Kabi - ESP</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:00:08 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2019-12-20 05:01:16 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100088140</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:01:16 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2019-12-20 05:01:20 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80041793</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132986</MATNR>
+      <MAKTX>DIR IRINOTECAN INJ V2-AUT</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5400.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100088140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041796</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220087193</MATNR>
+      <MAKTX>CTN IRINOTECAN INJ 500 MG/25 ML V1-ITA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100088140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321173556311</FNUM>
+      <WAY_DT>2019-12-19</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132986</MATERIAL>
+      <SHORT_TEXT>DIR IRINOTECAN INJ V2-AUT</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132879</MATERIAL>
+      <SHORT_TEXT>DIR IRINOTECAN INJ. V1-DEU</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>8000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220087193</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ 500 MG/25 ML V1-ITA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220087045</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ 500MG/25ML-AUT</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086928</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ 500 MG/25 ML-NOR/SWE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220087136</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ. 500MG/25ML V1-ESP</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00070</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131162</MATERIAL>
+      <SHORT_TEXT>Dir Irinotecan Kabi - ESP</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:01:20 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2019-12-20 05:02:25 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100088140</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:02:25 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2019-12-20 05:02:27 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80041793</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132986</MATNR>
+      <MAKTX>DIR IRINOTECAN INJ V2-AUT</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5400.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100088140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041796</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220087193</MATNR>
+      <MAKTX>CTN IRINOTECAN INJ 500 MG/25 ML V1-ITA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100088140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321173556311</FNUM>
+      <WAY_DT>2019-12-19</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132986</MATERIAL>
+      <SHORT_TEXT>DIR IRINOTECAN INJ V2-AUT</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132879</MATERIAL>
+      <SHORT_TEXT>DIR IRINOTECAN INJ. V1-DEU</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>8000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220087193</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ 500 MG/25 ML V1-ITA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220087045</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ 500MG/25ML-AUT</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086928</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ 500 MG/25 ML-NOR/SWE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220087136</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTECAN INJ. 500MG/25ML V1-ESP</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088140</PO_NUMBER>
+      <DOC_DATE>2019-12-17</DOC_DATE>
+      <PO_ITEM>00070</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131162</MATERIAL>
+      <SHORT_TEXT>Dir Irinotecan Kabi - ESP</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:02:27 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2019-12-20 05:06:45 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100088140</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:06:45 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2019-12-20 05:06:53 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100088140</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:06:53 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2019-12-20 05:07:17 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100087616</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:07:17 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2019-12-20 05:07:25 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80041444</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132368</MATNR>
+      <MAKTX>DIR FRESEXATE INJ-MEX</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>22000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>20000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321167013260</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041444</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220132371</MATNR>
+      <MAKTX>DIR GEMITA INJ (LYO) V1- MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321167013260</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041449</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086452</MATNR>
+      <MAKTX>CTN FYTOSID INJ 100MG/5ML V2-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>6400.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>6000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321167030128</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041449</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086285</MATNR>
+      <MAKTX>CTN KEMOPLAT INJ. 50MG/50ML-TWN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>10850.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321167030128</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041451</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132633</MATNR>
+      <MAKTX>DIR ADRIM INJ. V1 - GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>13200.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>12000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351167061581</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041453</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086610</MATNR>
+      <MAKTX>CTN FYTOSID INJ 100MG/5ML V2-MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5800.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>6000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391167014446</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041453</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220084772</MATNR>
+      <MAKTX>CTN KABITEC INJ 40MG/2ML-IDN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PNC2</LGORT>
+      <CHARG />
+      <GEQTY>5200.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391167014446</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041453</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220086700</MATNR>
+      <MAKTX>CTN ZEXATE INJ. 50MG/2ML-GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4550.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391167014446</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041453</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7220085740</MATNR>
+      <MAKTX>CTN NANOXEL RT INJ. 30MG/1.5MLV3-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5100.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391167014446</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041453</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>7220085066</MATNR>
+      <MAKTX>CTN ADRIM INJ 10MG/5ML V1-GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5050.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391167014446</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041454</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220085067</MATNR>
+      <MAKTX>CTN ADRIM INJ 50MG/25ML V1-GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>6800.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>7500.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351167015322</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041454</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086875</MATNR>
+      <MAKTX>CTN CYTARINE INJ. 1G/10ML-PAK</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351167015322</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132416</MATNR>
+      <MAKTX>DIR FYTOSID INJ. - TWN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220132631</MATNR>
+      <MAKTX>DIR FYTOSID INJ. V2-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220131318</MATNR>
+      <MAKTX>DIR KEMOCARB INJ BP - THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>7600.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>7000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7220132584</MATNR>
+      <MAKTX>DIR PACLITAXEL INJ.-COL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>7220131863</MATNR>
+      <MAKTX>DIR DOXORUBICINA INJ V1- COL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0006</GEITM>
+      <MATNR>7220132005</MATNR>
+      <MAKTX>DIR KEMOPLAT INJ. (1MG/ML) -TWN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041525</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132575</MATNR>
+      <MAKTX>DIR FYTOSID INJ V1- MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>11000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168877138</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041525</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220131968</MATNR>
+      <MAKTX>DIR KABITEC INJ-IDN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168877138</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041525</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220132711</MATNR>
+      <MAKTX>DIR CYTARINE INJ.-PAK</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168877138</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041528</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086260</MATNR>
+      <MAKTX>CTN FYTOSID INJ. 100MG/5ML -TWN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5100.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>331168878380</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041528</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086116</MATNR>
+      <MAKTX>CTN GEMITA INJ 200MG(LYO)V1-MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4700.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>331168878380</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041528</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220086778</MATNR>
+      <MAKTX>CTN KEMOCARB INJ. IP 150MG/15ML V1-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>55000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>50000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>331168878380</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041528</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7220085086</MATNR>
+      <MAKTX>CTN INTAXEL INJ 260MG/43.4ML V1-GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4650.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>331168878380</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041528</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>7220086110</MATNR>
+      <MAKTX>CTN FRESEXATE INJ 500MG/20ML-MEX</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4350.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>331168878380</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041529</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086773</MATNR>
+      <MAKTX>CTN CYTARINE INJ. BP 100MG/1ML V2-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5350.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321168879054</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041529</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086775</MATNR>
+      <MAKTX>CTN CYTARINE INJ. BP 1G/10ML V2-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>10800.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>11000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321168879054</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041529</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220086732</MATNR>
+      <MAKTX>CTN VINELBINE INJ. USP 10MG/1ML - GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321168879054</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041531</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132668</MATNR>
+      <MAKTX>DIR IRINOTEL INJ. V4-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>6600.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>6000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391168879802</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041531</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220132591</MATNR>
+      <MAKTX>DIR GEMITA INJ (LYO)V3-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>6600.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>6000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391168879802</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041531</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220132397</MATNR>
+      <MAKTX>DIR GEMCITABINA INJ (LYO) V1-COL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391168879802</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041539</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086109</MATNR>
+      <MAKTX>CTN FRESEXATE INJ 50MG/2ML-MEX</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>14400.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>14000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381168884098</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041539</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220084142</MATNR>
+      <MAKTX>CTN INTAXEL INJ USP 100MG/16.7ML-ME</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>4950.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381168884098</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041541</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086459</MATNR>
+      <MAKTX>CTN KABITARIN INJ 1G/10ML V1-IDN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>301168886818</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041616</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132166</MATNR>
+      <MAKTX>DIR KEMOPLAT INJ (1MG/ML)V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>8250.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>7500.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170149030</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041616</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220132667</MATNR>
+      <MAKTX>DIR CYTARINE INJ. BP V2-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>11000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170149030</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041616</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220132665</MATNR>
+      <MAKTX>DIR DAXOTEL INJ. V1-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170149030</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041616</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7220131520</MATNR>
+      <MAKTX>DIR CYTARINE INJ - THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170149030</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041617</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086808</MATNR>
+      <MAKTX>CTN CARBOPLATIN 150MG/15ML (T.O)V1-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>7700.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>7000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391170150427</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041617</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086115</MATNR>
+      <MAKTX>CTN GEMITA INJ 1G(LYO)V1-MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>3750.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391170150427</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041617</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220084982</MATNR>
+      <MAKTX>CTN KEMOCARB INJ BP 450MG/45ML V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391170150427</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041618</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220131303</MATNR>
+      <MAKTX>DIR INTAXEL INJ -THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170151048</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041618</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220131862</MATNR>
+      <MAKTX>DIR DOXORUBICINA INJ - CHL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170151048</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041620</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086777</MATNR>
+      <MAKTX>CTN IRINOTEL INJ.100MG/5ML V4-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>13550.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>15000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381170177689</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041620</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220084953</MATNR>
+      <MAKTX>CTN GEMITA INJ.1.4 G (LYO) V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>4900.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381170177689</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041620</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220086633</MATNR>
+      <MAKTX>CTN PACLITAXEL INJ. 100MG/16.7ML-COL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>7150.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>6500.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381170177689</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041620</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7220086648</MATNR>
+      <MAKTX>CTN METOTREXATO INJ 500MG/20ML V2 - CHL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381170177689</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041620</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>7220086888</MATNR>
+      <MAKTX>CTN ADRIM INJ. 50 MG/25 ML - THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>11350.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>12000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381170177689</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041704</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220085640</MATNR>
+      <MAKTX>CTN OXITAN INJ. 50MG/10ML V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4600.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>361171553808</FNUM>
+      <WAY_DT>2019-12-12</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>raod</TMODE>
+      <TRUCK>HP12E 0490</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041704</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086630</MATNR>
+      <MAKTX>CTN CITARABINA INJ. 500MG/5ML-COL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>3150.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>361171553808</FNUM>
+      <WAY_DT>2019-12-12</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>raod</TMODE>
+      <TRUCK>HP12E 0490</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041704</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220084961</MATNR>
+      <MAKTX>CTN INTAXEL INJ 30MG/5ML V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>4150.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>361171553808</FNUM>
+      <WAY_DT>2019-12-12</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>raod</TMODE>
+      <TRUCK>HP12E 0490</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041747</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086115</MATNR>
+      <MAKTX>CTN GEMITA INJ 1G(LYO)V1-MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>1250.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>1250.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>361172882107</FNUM>
+      <WAY_DT>2019-12-17</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP932951</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041789</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132877</MATNR>
+      <MAKTX>DIR OXITAN INJ. V2-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>8250.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>7500.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391173538419</FNUM>
+      <WAY_DT>2019-12-19</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041790</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220085641</MATNR>
+      <MAKTX>CTN OXITAN INJ. 100MG/20ML V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5300.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041790</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086892</MATNR>
+      <MAKTX>CTN INTAXEL INJ. 300MG/50ML-MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4550.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041790</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220084460</MATNR>
+      <MAKTX>CTN DOXORUBICINA INJ 50MG/25ML-CHL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>4550.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041795</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086772</MATNR>
+      <MAKTX>CTN ADRIM INJ. 50MG/25ML V3-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041795</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086104</MATNR>
+      <MAKTX>CTN PACLITAXEL INJ 300MG/50ML-ECU</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5300.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086808</MATERIAL>
+      <SHORT_TEXT>CTN CARBOPLATIN 150MG/15ML (T.O)V1-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>7000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132368</MATERIAL>
+      <SHORT_TEXT>DIR FRESEXATE INJ-MEX</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>20000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220083792</MATERIAL>
+      <SHORT_TEXT>M/CTN UNPTD. 3PLY (215X88X80 MM)</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086771</MATERIAL>
+      <SHORT_TEXT>CTN ADRIM INJ. 10MG/5ML V3-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>22000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132666</MATERIAL>
+      <SHORT_TEXT>DIR ADRIM INJ. V3-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>20000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086772</MATERIAL>
+      <SHORT_TEXT>CTN ADRIM INJ. 50MG/25ML V3-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00070</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086260</MATERIAL>
+      <SHORT_TEXT>CTN FYTOSID INJ. 100MG/5ML -TWN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00080</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132416</MATERIAL>
+      <SHORT_TEXT>DIR FYTOSID INJ. - TWN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00090</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132631</MATERIAL>
+      <SHORT_TEXT>DIR FYTOSID INJ. V2-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00100</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132668</MATERIAL>
+      <SHORT_TEXT>DIR IRINOTEL INJ. V4-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>6000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00110</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086777</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTEL INJ.100MG/5ML V4-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>15000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00120</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220083602</MATERIAL>
+      <SHORT_TEXT>MCTN UNPRINTED 3PLY (159X108X95)MM</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00130</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085571</MATERIAL>
+      <SHORT_TEXT>CTN KEMOPLAT INJ 50MG/50ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00140</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132166</MATERIAL>
+      <SHORT_TEXT>DIR KEMOPLAT INJ (1MG/ML)V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>7500.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00150</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084953</MATERIAL>
+      <SHORT_TEXT>CTN GEMITA INJ.1.4 G (LYO) V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00160</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132591</MATERIAL>
+      <SHORT_TEXT>DIR GEMITA INJ (LYO)V3-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>6000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00170</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132397</MATERIAL>
+      <SHORT_TEXT>DIR GEMCITABINA INJ (LYO) V1-COL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00180</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086115</MATERIAL>
+      <SHORT_TEXT>CTN GEMITA INJ 1G(LYO)V1-MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00190</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086116</MATERIAL>
+      <SHORT_TEXT>CTN GEMITA INJ 200MG(LYO)V1-MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00200</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131318</MATERIAL>
+      <SHORT_TEXT>Dir Kemocarb Inj BP - THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>7000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00210</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084982</MATERIAL>
+      <SHORT_TEXT>CTN KEMOCARB INJ BP 450MG/45ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00220</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085640</MATERIAL>
+      <SHORT_TEXT>CTN OXITAN INJ. 50MG/10ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00230</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132877</MATERIAL>
+      <SHORT_TEXT>DIR OXITAN INJ. V2-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>7500.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00240</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085641</MATERIAL>
+      <SHORT_TEXT>CTN OXITAN INJ. 100MG/20ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00250</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086630</MATERIAL>
+      <SHORT_TEXT>CTN CITARABINA INJ. 500MG/5ML-COL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00260</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132584</MATERIAL>
+      <SHORT_TEXT>DIR PACLITAXEL INJ.-COL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00270</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084961</MATERIAL>
+      <SHORT_TEXT>CTN INTAXEL INJ 30MG/5ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00280</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131303</MATERIAL>
+      <SHORT_TEXT>Dir Intaxel Inj -THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00290</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086633</MATERIAL>
+      <SHORT_TEXT>CTN PACLITAXEL INJ. 100MG/16.7ML-COL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>6500.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00300</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086104</MATERIAL>
+      <SHORT_TEXT>CTN PACLITAXEL INJ 300MG/50ML-ECU</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00310</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086892</MATERIAL>
+      <SHORT_TEXT>CTN INTAXEL INJ. 300MG/50ML-MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00320</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084959</MATERIAL>
+      <SHORT_TEXT>CTN INTAXEL INJ 300MG/50ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>12000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00330</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086648</MATERIAL>
+      <SHORT_TEXT>CTN METOTREXATO INJ 500MG/20ML V2 - CHL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00340</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084460</MATERIAL>
+      <SHORT_TEXT>CTN DOXORUBICINA INJ 50MG/25ML-CHL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00350</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131862</MATERIAL>
+      <SHORT_TEXT>DIR DOXORUBICINA INJ - CHL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00360</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131863</MATERIAL>
+      <SHORT_TEXT>DIR DOXORUBICINA INJ V1- COL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00370</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086888</MATERIAL>
+      <SHORT_TEXT>CTN ADRIM INJ. 50 MG/25 ML - THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>12000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00380</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132005</MATERIAL>
+      <SHORT_TEXT>DIR KEMOPLAT INJ. (1MG/ML) -TWN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00390</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132667</MATERIAL>
+      <SHORT_TEXT>DIR CYTARINE INJ. BP V2-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00400</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132665</MATERIAL>
+      <SHORT_TEXT>DIR DAXOTEL INJ. V1-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00410</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086735</MATERIAL>
+      <SHORT_TEXT>CTN DAXEL INJ. 80MG/4ML - MEX</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00420</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131520</MATERIAL>
+      <SHORT_TEXT>DIR CYTARINE INJ - THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00430</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086610</MATERIAL>
+      <SHORT_TEXT>CTN FYTOSID INJ 100MG/5ML V2-MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>6000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00440</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132575</MATERIAL>
+      <SHORT_TEXT>DIR FYTOSID INJ V1- MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00450</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086452</MATERIAL>
+      <SHORT_TEXT>CTN FYTOSID INJ 100MG/5ML V2-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>6000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00460</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084772</MATERIAL>
+      <SHORT_TEXT>CTN KABITEC INJ 40MG/2ML-IDN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00470</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131968</MATERIAL>
+      <SHORT_TEXT>DIR KABITEC INJ-IDN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00480</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132371</MATERIAL>
+      <SHORT_TEXT>DIR GEMITA INJ (LYO) V1- MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00490</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086778</MATERIAL>
+      <SHORT_TEXT>CTN KEMOCARB INJ. IP 150MG/15ML V1-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>50000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00500</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132669</MATERIAL>
+      <SHORT_TEXT>DIR KEMOCARB INJ. IP V1- IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>130000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00510</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086779</MATERIAL>
+      <SHORT_TEXT>CTN KEMOCARB INJ. IP 450MG/45ML V1-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>120000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00520</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085086</MATERIAL>
+      <SHORT_TEXT>CTN INTAXEL INJ 260MG/43.4ML V1-GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00530</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086700</MATERIAL>
+      <SHORT_TEXT>CTN ZEXATE INJ. 50MG/2ML-GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00540</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086109</MATERIAL>
+      <SHORT_TEXT>CTN FRESEXATE INJ 50MG/2ML-MEX</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>14000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00550</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086110</MATERIAL>
+      <SHORT_TEXT>CTN FRESEXATE INJ 500MG/20ML-MEX</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00560</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085740</MATERIAL>
+      <SHORT_TEXT>CTN NANOXEL RT INJ. 30MG/1.5MLV3-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00570</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085066</MATERIAL>
+      <SHORT_TEXT>CTN ADRIM INJ 10MG/5ML V1-GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00580</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132633</MATERIAL>
+      <SHORT_TEXT>DIR ADRIM INJ. V1 - GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>12000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00590</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085067</MATERIAL>
+      <SHORT_TEXT>CTN ADRIM INJ 50MG/25ML V1-GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>7500.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00600</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086285</MATERIAL>
+      <SHORT_TEXT>CTN KEMOPLAT INJ. 50MG/50ML-TWN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00610</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086773</MATERIAL>
+      <SHORT_TEXT>CTN CYTARINE INJ. BP 100MG/1ML V2-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00620</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086775</MATERIAL>
+      <SHORT_TEXT>CTN CYTARINE INJ. BP 1G/10ML V2-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>11000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00630</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086459</MATERIAL>
+      <SHORT_TEXT>CTN KABITARIN INJ 1G/10ML V1-IDN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00640</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084142</MATERIAL>
+      <SHORT_TEXT>CTN INTAXEL INJ USP 100MG/16.7ML-ME</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00650</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132711</MATERIAL>
+      <SHORT_TEXT>DIR CYTARINE INJ.-PAK</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00660</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086875</MATERIAL>
+      <SHORT_TEXT>CTN CYTARINE INJ. 1G/10ML-PAK</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00670</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086732</MATERIAL>
+      <SHORT_TEXT>CTN VINELBINE INJ. USP 10MG/1ML - GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:07:25 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2019-12-20 05:11:01 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100087616</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:11:01 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2019-12-20 05:11:11 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80041444</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132368</MATNR>
+      <MAKTX>DIR FRESEXATE INJ-MEX</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>22000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>20000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321167013260</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041444</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220132371</MATNR>
+      <MAKTX>DIR GEMITA INJ (LYO) V1- MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321167013260</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041449</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086452</MATNR>
+      <MAKTX>CTN FYTOSID INJ 100MG/5ML V2-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>6400.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>6000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321167030128</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041449</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086285</MATNR>
+      <MAKTX>CTN KEMOPLAT INJ. 50MG/50ML-TWN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>10850.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321167030128</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041451</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132633</MATNR>
+      <MAKTX>DIR ADRIM INJ. V1 - GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>13200.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>12000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351167061581</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041453</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086610</MATNR>
+      <MAKTX>CTN FYTOSID INJ 100MG/5ML V2-MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5800.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>6000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391167014446</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041453</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220084772</MATNR>
+      <MAKTX>CTN KABITEC INJ 40MG/2ML-IDN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PNC2</LGORT>
+      <CHARG />
+      <GEQTY>5200.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391167014446</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041453</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220086700</MATNR>
+      <MAKTX>CTN ZEXATE INJ. 50MG/2ML-GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4550.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391167014446</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041453</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7220085740</MATNR>
+      <MAKTX>CTN NANOXEL RT INJ. 30MG/1.5MLV3-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5100.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391167014446</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041453</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>7220085066</MATNR>
+      <MAKTX>CTN ADRIM INJ 10MG/5ML V1-GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5050.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391167014446</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041454</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220085067</MATNR>
+      <MAKTX>CTN ADRIM INJ 50MG/25ML V1-GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>6800.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>7500.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351167015322</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041454</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086875</MATNR>
+      <MAKTX>CTN CYTARINE INJ. 1G/10ML-PAK</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351167015322</FNUM>
+      <WAY_DT>2019-11-27</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12L9495</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132416</MATNR>
+      <MAKTX>DIR FYTOSID INJ. - TWN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220132631</MATNR>
+      <MAKTX>DIR FYTOSID INJ. V2-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220131318</MATNR>
+      <MAKTX>DIR KEMOCARB INJ BP - THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>7600.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>7000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7220132584</MATNR>
+      <MAKTX>DIR PACLITAXEL INJ.-COL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>7220131863</MATNR>
+      <MAKTX>DIR DOXORUBICINA INJ V1- COL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041524</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0006</GEITM>
+      <MATNR>7220132005</MATNR>
+      <MAKTX>DIR KEMOPLAT INJ. (1MG/ML) -TWN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168876403</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041525</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132575</MATNR>
+      <MAKTX>DIR FYTOSID INJ V1- MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>11000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168877138</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041525</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220131968</MATNR>
+      <MAKTX>DIR KABITEC INJ-IDN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168877138</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041525</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220132711</MATNR>
+      <MAKTX>DIR CYTARINE INJ.-PAK</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>311168877138</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041528</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086260</MATNR>
+      <MAKTX>CTN FYTOSID INJ. 100MG/5ML -TWN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5100.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>331168878380</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041528</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086116</MATNR>
+      <MAKTX>CTN GEMITA INJ 200MG(LYO)V1-MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4700.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>331168878380</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041528</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220086778</MATNR>
+      <MAKTX>CTN KEMOCARB INJ. IP 150MG/15ML V1-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>55000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>50000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>331168878380</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041528</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7220085086</MATNR>
+      <MAKTX>CTN INTAXEL INJ 260MG/43.4ML V1-GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4650.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>331168878380</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041528</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>7220086110</MATNR>
+      <MAKTX>CTN FRESEXATE INJ 500MG/20ML-MEX</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4350.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>331168878380</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041529</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086773</MATNR>
+      <MAKTX>CTN CYTARINE INJ. BP 100MG/1ML V2-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5350.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321168879054</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041529</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086775</MATNR>
+      <MAKTX>CTN CYTARINE INJ. BP 1G/10ML V2-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>10800.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>11000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321168879054</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041529</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220086732</MATNR>
+      <MAKTX>CTN VINELBINE INJ. USP 10MG/1ML - GE</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>321168879054</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041531</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132668</MATNR>
+      <MAKTX>DIR IRINOTEL INJ. V4-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>6600.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>6000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391168879802</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041531</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220132591</MATNR>
+      <MAKTX>DIR GEMITA INJ (LYO)V3-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>6600.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>6000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391168879802</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041531</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220132397</MATNR>
+      <MAKTX>DIR GEMCITABINA INJ (LYO) V1-COL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391168879802</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041539</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086109</MATNR>
+      <MAKTX>CTN FRESEXATE INJ 50MG/2ML-MEX</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>14400.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>14000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381168884098</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041539</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220084142</MATNR>
+      <MAKTX>CTN INTAXEL INJ USP 100MG/16.7ML-ME</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>4950.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381168884098</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041541</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086459</MATNR>
+      <MAKTX>CTN KABITARIN INJ 1G/10ML V1-IDN</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>301168886818</FNUM>
+      <WAY_DT>2019-12-03</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12D9112</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041616</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132166</MATNR>
+      <MAKTX>DIR KEMOPLAT INJ (1MG/ML)V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>8250.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>7500.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170149030</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041616</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220132667</MATNR>
+      <MAKTX>DIR CYTARINE INJ. BP V2-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>11000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170149030</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041616</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220132665</MATNR>
+      <MAKTX>DIR DAXOTEL INJ. V1-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170149030</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041616</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7220131520</MATNR>
+      <MAKTX>DIR CYTARINE INJ - THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170149030</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041617</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086808</MATNR>
+      <MAKTX>CTN CARBOPLATIN 150MG/15ML (T.O)V1-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>7700.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>7000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391170150427</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041617</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086115</MATNR>
+      <MAKTX>CTN GEMITA INJ 1G(LYO)V1-MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>3750.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391170150427</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041617</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220084982</MATNR>
+      <MAKTX>CTN KEMOCARB INJ BP 450MG/45ML V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391170150427</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041618</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220131303</MATNR>
+      <MAKTX>DIR INTAXEL INJ -THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170151048</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041618</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220131862</MATNR>
+      <MAKTX>DIR DOXORUBICINA INJ - CHL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>5500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>351170151048</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041620</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086777</MATNR>
+      <MAKTX>CTN IRINOTEL INJ.100MG/5ML V4-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>13550.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>15000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381170177689</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041620</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220084953</MATNR>
+      <MAKTX>CTN GEMITA INJ.1.4 G (LYO) V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>4900.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381170177689</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041620</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220086633</MATNR>
+      <MAKTX>CTN PACLITAXEL INJ. 100MG/16.7ML-COL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>7150.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>6500.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381170177689</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041620</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0004</GEITM>
+      <MATNR>7220086648</MATNR>
+      <MAKTX>CTN METOTREXATO INJ 500MG/20ML V2 - CHL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381170177689</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041620</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0005</GEITM>
+      <MATNR>7220086888</MATNR>
+      <MAKTX>CTN ADRIM INJ. 50 MG/25 ML - THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>11350.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>12000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>381170177689</FNUM>
+      <WAY_DT>2019-12-07</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>ROAD</TMODE>
+      <TRUCK>HP930845</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041704</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220085640</MATNR>
+      <MAKTX>CTN OXITAN INJ. 50MG/10ML V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4600.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>361171553808</FNUM>
+      <WAY_DT>2019-12-12</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>raod</TMODE>
+      <TRUCK>HP12E 0490</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041704</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086630</MATNR>
+      <MAKTX>CTN CITARABINA INJ. 500MG/5ML-COL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>3150.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>361171553808</FNUM>
+      <WAY_DT>2019-12-12</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>raod</TMODE>
+      <TRUCK>HP12E 0490</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041704</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220084961</MATNR>
+      <MAKTX>CTN INTAXEL INJ 30MG/5ML V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>4150.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>361171553808</FNUM>
+      <WAY_DT>2019-12-12</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>raod</TMODE>
+      <TRUCK>HP12E 0490</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041747</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086115</MATNR>
+      <MAKTX>CTN GEMITA INJ 1G(LYO)V1-MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>1250.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>1250.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>361172882107</FNUM>
+      <WAY_DT>2019-12-17</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP932951</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041789</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220132877</MATNR>
+      <MAKTX>DIR OXITAN INJ. V2-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>8250.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>7500.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>391173538419</FNUM>
+      <WAY_DT>2019-12-19</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041790</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220085641</MATNR>
+      <MAKTX>CTN OXITAN INJ. 100MG/20ML V1-THA</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5300.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041790</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086892</MATNR>
+      <MAKTX>CTN INTAXEL INJ. 300MG/50ML-MYS</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4550.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041790</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0003</GEITM>
+      <MATNR>7220084460</MATNR>
+      <MAKTX>CTN DOXORUBICINA INJ 50MG/25ML-CHL</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>P002</LGORT>
+      <CHARG />
+      <GEQTY>4550.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041795</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220086772</MATNR>
+      <MAKTX>CTN ADRIM INJ. 50MG/25ML V3-IND</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>4500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+    <item>
+      <GENUM>80041795</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220086104</MATNR>
+      <MAKTX>CTN PACLITAXEL INJ 300MG/50ML-ECU</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCI2</LGORT>
+      <CHARG />
+      <GEQTY>5300.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>5000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100087616</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>himachal baddi roadlines</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HP12A7116</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086808</MATERIAL>
+      <SHORT_TEXT>CTN CARBOPLATIN 150MG/15ML (T.O)V1-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>7000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132368</MATERIAL>
+      <SHORT_TEXT>DIR FRESEXATE INJ-MEX</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>20000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220083792</MATERIAL>
+      <SHORT_TEXT>M/CTN UNPTD. 3PLY (215X88X80 MM)</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086771</MATERIAL>
+      <SHORT_TEXT>CTN ADRIM INJ. 10MG/5ML V3-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>22000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00050</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132666</MATERIAL>
+      <SHORT_TEXT>DIR ADRIM INJ. V3-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>20000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00060</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086772</MATERIAL>
+      <SHORT_TEXT>CTN ADRIM INJ. 50MG/25ML V3-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00070</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086260</MATERIAL>
+      <SHORT_TEXT>CTN FYTOSID INJ. 100MG/5ML -TWN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00080</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132416</MATERIAL>
+      <SHORT_TEXT>DIR FYTOSID INJ. - TWN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00090</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132631</MATERIAL>
+      <SHORT_TEXT>DIR FYTOSID INJ. V2-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00100</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132668</MATERIAL>
+      <SHORT_TEXT>DIR IRINOTEL INJ. V4-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>6000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00110</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086777</MATERIAL>
+      <SHORT_TEXT>CTN IRINOTEL INJ.100MG/5ML V4-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>15000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00120</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220083602</MATERIAL>
+      <SHORT_TEXT>MCTN UNPRINTED 3PLY (159X108X95)MM</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00130</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085571</MATERIAL>
+      <SHORT_TEXT>CTN KEMOPLAT INJ 50MG/50ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00140</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132166</MATERIAL>
+      <SHORT_TEXT>DIR KEMOPLAT INJ (1MG/ML)V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>7500.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00150</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084953</MATERIAL>
+      <SHORT_TEXT>CTN GEMITA INJ.1.4 G (LYO) V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00160</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132591</MATERIAL>
+      <SHORT_TEXT>DIR GEMITA INJ (LYO)V3-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>6000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00170</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132397</MATERIAL>
+      <SHORT_TEXT>DIR GEMCITABINA INJ (LYO) V1-COL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00180</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086115</MATERIAL>
+      <SHORT_TEXT>CTN GEMITA INJ 1G(LYO)V1-MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00190</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086116</MATERIAL>
+      <SHORT_TEXT>CTN GEMITA INJ 200MG(LYO)V1-MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00200</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131318</MATERIAL>
+      <SHORT_TEXT>Dir Kemocarb Inj BP - THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>7000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00210</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084982</MATERIAL>
+      <SHORT_TEXT>CTN KEMOCARB INJ BP 450MG/45ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00220</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085640</MATERIAL>
+      <SHORT_TEXT>CTN OXITAN INJ. 50MG/10ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00230</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132877</MATERIAL>
+      <SHORT_TEXT>DIR OXITAN INJ. V2-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>7500.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00240</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085641</MATERIAL>
+      <SHORT_TEXT>CTN OXITAN INJ. 100MG/20ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00250</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086630</MATERIAL>
+      <SHORT_TEXT>CTN CITARABINA INJ. 500MG/5ML-COL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00260</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132584</MATERIAL>
+      <SHORT_TEXT>DIR PACLITAXEL INJ.-COL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00270</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084961</MATERIAL>
+      <SHORT_TEXT>CTN INTAXEL INJ 30MG/5ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00280</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131303</MATERIAL>
+      <SHORT_TEXT>Dir Intaxel Inj -THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00290</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086633</MATERIAL>
+      <SHORT_TEXT>CTN PACLITAXEL INJ. 100MG/16.7ML-COL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>6500.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00300</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086104</MATERIAL>
+      <SHORT_TEXT>CTN PACLITAXEL INJ 300MG/50ML-ECU</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00310</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086892</MATERIAL>
+      <SHORT_TEXT>CTN INTAXEL INJ. 300MG/50ML-MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00320</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084959</MATERIAL>
+      <SHORT_TEXT>CTN INTAXEL INJ 300MG/50ML V1-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>12000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00330</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086648</MATERIAL>
+      <SHORT_TEXT>CTN METOTREXATO INJ 500MG/20ML V2 - CHL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00340</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084460</MATERIAL>
+      <SHORT_TEXT>CTN DOXORUBICINA INJ 50MG/25ML-CHL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00350</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131862</MATERIAL>
+      <SHORT_TEXT>DIR DOXORUBICINA INJ - CHL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00360</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131863</MATERIAL>
+      <SHORT_TEXT>DIR DOXORUBICINA INJ V1- COL</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00370</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086888</MATERIAL>
+      <SHORT_TEXT>CTN ADRIM INJ. 50 MG/25 ML - THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>12000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00380</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132005</MATERIAL>
+      <SHORT_TEXT>DIR KEMOPLAT INJ. (1MG/ML) -TWN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00390</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132667</MATERIAL>
+      <SHORT_TEXT>DIR CYTARINE INJ. BP V2-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00400</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132665</MATERIAL>
+      <SHORT_TEXT>DIR DAXOTEL INJ. V1-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00410</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086735</MATERIAL>
+      <SHORT_TEXT>CTN DAXEL INJ. 80MG/4ML - MEX</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00420</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131520</MATERIAL>
+      <SHORT_TEXT>DIR CYTARINE INJ - THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00430</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086610</MATERIAL>
+      <SHORT_TEXT>CTN FYTOSID INJ 100MG/5ML V2-MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>6000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00440</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132575</MATERIAL>
+      <SHORT_TEXT>DIR FYTOSID INJ V1- MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00450</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086452</MATERIAL>
+      <SHORT_TEXT>CTN FYTOSID INJ 100MG/5ML V2-THA</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>6000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00460</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084772</MATERIAL>
+      <SHORT_TEXT>CTN KABITEC INJ 40MG/2ML-IDN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00470</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220131968</MATERIAL>
+      <SHORT_TEXT>DIR KABITEC INJ-IDN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00480</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132371</MATERIAL>
+      <SHORT_TEXT>DIR GEMITA INJ (LYO) V1- MYS</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00490</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086778</MATERIAL>
+      <SHORT_TEXT>CTN KEMOCARB INJ. IP 150MG/15ML V1-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>50000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00500</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132669</MATERIAL>
+      <SHORT_TEXT>DIR KEMOCARB INJ. IP V1- IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>130000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00510</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086779</MATERIAL>
+      <SHORT_TEXT>CTN KEMOCARB INJ. IP 450MG/45ML V1-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>120000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00520</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085086</MATERIAL>
+      <SHORT_TEXT>CTN INTAXEL INJ 260MG/43.4ML V1-GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00530</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086700</MATERIAL>
+      <SHORT_TEXT>CTN ZEXATE INJ. 50MG/2ML-GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00540</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086109</MATERIAL>
+      <SHORT_TEXT>CTN FRESEXATE INJ 50MG/2ML-MEX</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>14000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00550</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086110</MATERIAL>
+      <SHORT_TEXT>CTN FRESEXATE INJ 500MG/20ML-MEX</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00560</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085740</MATERIAL>
+      <SHORT_TEXT>CTN NANOXEL RT INJ. 30MG/1.5MLV3-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00570</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085066</MATERIAL>
+      <SHORT_TEXT>CTN ADRIM INJ 10MG/5ML V1-GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00580</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132633</MATERIAL>
+      <SHORT_TEXT>DIR ADRIM INJ. V1 - GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>12000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00590</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220085067</MATERIAL>
+      <SHORT_TEXT>CTN ADRIM INJ 50MG/25ML V1-GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>7500.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00600</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086285</MATERIAL>
+      <SHORT_TEXT>CTN KEMOPLAT INJ. 50MG/50ML-TWN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00610</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086773</MATERIAL>
+      <SHORT_TEXT>CTN CYTARINE INJ. BP 100MG/1ML V2-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00620</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086775</MATERIAL>
+      <SHORT_TEXT>CTN CYTARINE INJ. BP 1G/10ML V2-IND</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>11000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00630</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086459</MATERIAL>
+      <SHORT_TEXT>CTN KABITARIN INJ 1G/10ML V1-IDN</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00640</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220084142</MATERIAL>
+      <SHORT_TEXT>CTN INTAXEL INJ USP 100MG/16.7ML-ME</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00650</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220132711</MATERIAL>
+      <SHORT_TEXT>DIR CYTARINE INJ.-PAK</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00660</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086875</MATERIAL>
+      <SHORT_TEXT>CTN CYTARINE INJ. 1G/10ML-PAK</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100087616</PO_NUMBER>
+      <DOC_DATE>2019-11-21</DOC_DATE>
+      <PO_ITEM>00670</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220086732</MATERIAL>
+      <SHORT_TEXT>CTN VINELBINE INJ. USP 10MG/1ML - GE</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-20 05:11:11 PM
+================================================================

@@ -1,0 +1,710 @@
+================================================================
+========================MaterialPosting - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF002 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IM_HEADER>
+    <PLANT>3186</PLANT>
+    <PURCHASE_ORDER_NO>3100073326</PURCHASE_ORDER_NO>
+    <GATE_ENTRY_NO>80037269</GATE_ENTRY_NO>
+    <TDATE>2019-11-04</TDATE>
+    <AIRWAY_BILL_NO />
+    <AIRWAY_BILL_DATE />
+    <GROSS_WT>0</GROSS_WT>
+    <NET_WT>0</NET_WT>
+    <TARE_WT>0</TARE_WT>
+    <NO_OF_PACKS />
+    <LIC_NO>11223</LIC_NO>
+    <MAN_TAX />
+    <TRANSPORTER>gh</TRANSPORTER>
+    <MODE_OF_TRANSPORT />
+    <GR_RR_NO />
+    <TRUCK>123</TRUCK>
+    <TR6 />
+    <TRDAT />
+    <GM_CODE>01</GM_CODE>
+    <DOC_DATE>2019-11-07</DOC_DATE>
+    <POSTING_DATE>2019-11-07</POSTING_DATE>
+    <HEADER_TEXT>TEST</HEADER_TEXT>
+    <UNAME>raj.k</UNAME>
+    <WAY_DT />
+    <WAY_REQ />
+    <FNUM />
+    <BILL_OF_LADING />
+    <GR_GI_SLIP_NO />
+    <DELIVERY_NOTE />
+    <EXCISE_INVOICE />
+    <EXCISE_INVOICED_DATE />
+    <EXCISE_GROUP />
+  </IM_HEADER>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER />
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO />
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+  <T_ITEM>
+    <item>
+      <BWART>101</BWART>
+      <MATNR>7220160106</MATNR>
+      <WERKS>3186</WERKS>
+      <LGORT />
+      <DMBTR>0</DMBTR>
+      <BNBTR>0</BNBTR>
+      <BUALT>0</BUALT>
+      <DMBUM>0</DMBUM>
+      <BWTAR />
+      <MENGE>0</MENGE>
+      <ERFMG>20000.000</ERFMG>
+      <ERFME>EA</ERFME>
+      <BPMNG>0</BPMNG>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00030</EBELP>
+      <SGTXT />
+      <GJAHR>2019</GJAHR>
+      <PBAMG>0</PBAMG>
+      <KZBEW>B</KZBEW>
+      <PALAN>0</PALAN>
+      <BSTMG>0</BSTMG>
+      <EXBWR>0</EXBWR>
+      <VKWRT>0</VKWRT>
+      <VFDAT>2029-11-02</VFDAT>
+      <EXVKW>0</EXVKW>
+      <LBKUM>0</LBKUM>
+      <SALK3>0</SALK3>
+      <VKWRA>0</VKWRA>
+      <LSMNG>20000.000</LSMNG>
+      <J_1BEXBASE>0</J_1BEXBASE>
+      <HSDAT>2019-11-07</HSDAT>
+      <CPUTM_MKPF />
+      <MAKTX />
+      <PACK />
+      <PACK_QTY>3000</PACK_QTY>
+      <MANUFACTURE_NAME>DWK Life Sciences Inc.</MANUFACTURE_NAME>
+      <VENDOR_BATCH_NO>01</VENDOR_BATCH_NO>
+      <CERTIFICATE_ENCLOSED />
+    </item>
+  </T_ITEM>
+</ZDMF002>
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+================================================================
+================================================================
+========================MaterialPosting - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF002Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EX_MATERIAL_GRN />
+  <RETURN>
+    <item>
+      <TYPE>E</TYPE>
+      <ID>M7</ID>
+      <NUMBER>022</NUMBER>
+      <MESSAGE>PU Ordered quantity exceeded by 20.000 EA : 7220160106 3186 PCW1 0000264756</MESSAGE>
+      <LOG_NO />
+      <LOG_MSG_NO>000000</LOG_MSG_NO>
+      <MESSAGE_V1>PU Ordered quantity</MESSAGE_V1>
+      <MESSAGE_V2>20.000</MESSAGE_V2>
+      <MESSAGE_V3>EA</MESSAGE_V3>
+      <MESSAGE_V4>: 7220160106 3186 PCW1 0000264756</MESSAGE_V4>
+      <PARAMETER>GOODSMVT_ITEM</PARAMETER>
+      <ROW>1</ROW>
+      <FIELD />
+      <SYSTEM>I23001</SYSTEM>
+    </item>
+  </RETURN>
+  <T_ITEM>
+    <item>
+      <MBLNR />
+      <MJAHR>0000</MJAHR>
+      <ZEILE>0000</ZEILE>
+      <LINE_ID>000000</LINE_ID>
+      <PARENT_ID>000000</PARENT_ID>
+      <LINE_DEPTH>00</LINE_DEPTH>
+      <MAA_URZEI>0000</MAA_URZEI>
+      <BWART>101</BWART>
+      <XAUTO />
+      <MATNR>7220160106</MATNR>
+      <WERKS>3186</WERKS>
+      <LGORT />
+      <CHARG />
+      <INSMK />
+      <ZUSCH />
+      <ZUSTD />
+      <LIFNR />
+      <KUNNR />
+      <KDAUF />
+      <KDPOS>000000</KDPOS>
+      <KDEIN>0000</KDEIN>
+      <PLPLA />
+      <SHKZG />
+      <WAERS />
+      <DMBTR>0.0</DMBTR>
+      <BNBTR>0.0</BNBTR>
+      <BUALT>0.0</BUALT>
+      <SHKUM />
+      <DMBUM>0.0</DMBUM>
+      <BWTAR />
+      <MENGE>0.0</MENGE>
+      <MEINS />
+      <ERFMG>20000.0</ERFMG>
+      <ERFME>EA</ERFME>
+      <BPMNG>0.0</BPMNG>
+      <BPRME />
+      <EBELN>3100073326</EBELN>
+      <EBELP>00030</EBELP>
+      <LFBJA>0000</LFBJA>
+      <LFBNR />
+      <LFPOS>0000</LFPOS>
+      <SJAHR>0000</SJAHR>
+      <SMBLN />
+      <SMBLP>0000</SMBLP>
+      <ELIKZ />
+      <SGTXT />
+      <EQUNR />
+      <WEMPF />
+      <ABLAD />
+      <GSBER />
+      <KOKRS />
+      <PARGB />
+      <PARBU />
+      <KOSTL />
+      <PROJN />
+      <AUFNR />
+      <ANLN1 />
+      <ANLN2 />
+      <XSKST />
+      <XSAUF />
+      <XSPRO />
+      <XSERG />
+      <GJAHR>2019</GJAHR>
+      <XRUEM />
+      <XRUEJ />
+      <BUKRS />
+      <BELNR />
+      <BUZEI>000</BUZEI>
+      <BELUM />
+      <BUZUM>000</BUZUM>
+      <RSNUM>0000000000</RSNUM>
+      <RSPOS>0000</RSPOS>
+      <KZEAR />
+      <PBAMG>0.0</PBAMG>
+      <KZSTR />
+      <UMMAT />
+      <UMWRK />
+      <UMLGO />
+      <UMCHA />
+      <UMZST />
+      <UMZUS />
+      <UMBAR />
+      <UMSOK />
+      <KZBEW>B</KZBEW>
+      <KZVBR />
+      <KZZUG />
+      <WEUNB />
+      <PALAN>0</PALAN>
+      <LGNUM />
+      <LGTYP />
+      <LGPLA />
+      <BESTQ />
+      <BWLVS>000</BWLVS>
+      <TBNUM>0000000000</TBNUM>
+      <TBPOS>0000</TBPOS>
+      <XBLVS />
+      <VSCHN />
+      <NSCHN />
+      <DYPLA />
+      <UBNUM>0000000000</UBNUM>
+      <TBPRI />
+      <TANUM>0000000000</TANUM>
+      <WEANZ>000</WEANZ>
+      <GRUND>0000</GRUND>
+      <EVERS />
+      <EVERE />
+      <IMKEY />
+      <KSTRG />
+      <PAOBJNR>0000000000</PAOBJNR>
+      <PRCTR />
+      <PS_PSP_PNR>00000000</PS_PSP_PNR>
+      <NPLNR />
+      <AUFPL>0000000000</AUFPL>
+      <APLZL>00000000</APLZL>
+      <AUFPS>0000</AUFPS>
+      <VPTNR />
+      <FIPOS />
+      <SAKTO />
+      <BSTMG>0.0</BSTMG>
+      <BSTME />
+      <XWSBR />
+      <EMLIF />
+      <ZZ_REP_MAT />
+      <EXBWR>0.0</EXBWR>
+      <VKWRT>0.0</VKWRT>
+      <AKTNR />
+      <ZEKKN>00</ZEKKN>
+      <VFDAT>2029-11-02</VFDAT>
+      <CUOBJ_CH>000000000000000000</CUOBJ_CH>
+      <EXVKW>0.0</EXVKW>
+      <PPRCTR />
+      <RSART />
+      <GEBER />
+      <FISTL />
+      <MATBF />
+      <UMMAB />
+      <BUSTM />
+      <BUSTW />
+      <MENGU />
+      <WERTU />
+      <LBKUM>0.0</LBKUM>
+      <SALK3>0.0</SALK3>
+      <VPRSV />
+      <FKBER />
+      <DABRBZ>0000-00-00</DABRBZ>
+      <VKWRA>0.0</VKWRA>
+      <DABRZ>0000-00-00</DABRZ>
+      <XBEAU />
+      <LSMNG>20000.0</LSMNG>
+      <LSMEH />
+      <KZBWS />
+      <QINSPST />
+      <URZEI>0000</URZEI>
+      <J_1BEXBASE>0.0</J_1BEXBASE>
+      <MWSKZ />
+      <TXJCD />
+      <EMATN />
+      <J_1AGIRUPD />
+      <VKMWS />
+      <HSDAT>2019-11-07</HSDAT>
+      <BERKZ />
+      <MAT_KDAUF />
+      <MAT_KDPOS>000000</MAT_KDPOS>
+      <MAT_PSPNR>00000000</MAT_PSPNR>
+      <XWOFF />
+      <BEMOT />
+      <PRZNR />
+      <LLIEF />
+      <LSTAR />
+      <XOBEW />
+      <GRANT_NBR />
+      <ZUSTD_T156M />
+      <SPE_GTS_STOCK_TY />
+      <KBLNR />
+      <KBLPOS>000</KBLPOS>
+      <XMACC />
+      <VGART_MKPF />
+      <BUDAT_MKPF>0000-00-00</BUDAT_MKPF>
+      <CPUDT_MKPF>0000-00-00</CPUDT_MKPF>
+      <CPUTM_MKPF />
+      <USNAM_MKPF />
+      <XBLNR_MKPF />
+      <TCODE2_MKPF />
+      <VBELN_IM />
+      <VBELP_IM>000000</VBELP_IM>
+      <SGT_SCAT />
+      <SGT_UMSCAT />
+      <SGT_RCAT />
+      <ITEM>000000</ITEM>
+      <MAKTX />
+      <MDSLIP />
+      <R9NUM />
+      <PACK>0000</PACK>
+      <PACK_QTY>3000.0</PACK_QTY>
+      <ENTRY_UOM_ISO />
+      <MANUFACTURE_NAME>DWK Life Sciences Inc.</MANUFACTURE_NAME>
+      <VENDOR_BATCH_NO>01</VENDOR_BATCH_NO>
+      <MFG_DATE>0000-00-00</MFG_DATE>
+      <EXP_DATE>0000-00-00</EXP_DATE>
+      <CERTIFICATE_ENCLOSED />
+      <VENDOR_BATCH_NUMBER />
+      <ITEM_OK />
+      <AR_NUMBER>000000000000</AR_NUMBER>
+      <BIN_LOCATION />
+    </item>
+  </T_ITEM>
+</ZDMF002Response>
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+================================================================
+================================================================
+========================MaterialPosting - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF002 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IM_HEADER>
+    <PLANT>3186</PLANT>
+    <PURCHASE_ORDER_NO>3100073326</PURCHASE_ORDER_NO>
+    <GATE_ENTRY_NO>80037269</GATE_ENTRY_NO>
+    <TDATE>80037269</TDATE>
+    <AIRWAY_BILL_NO />
+    <AIRWAY_BILL_DATE />
+    <GROSS_WT>0</GROSS_WT>
+    <NET_WT>0</NET_WT>
+    <TARE_WT>0</TARE_WT>
+    <NO_OF_PACKS />
+    <LIC_NO>11223</LIC_NO>
+    <MAN_TAX />
+    <TRANSPORTER>gh</TRANSPORTER>
+    <MODE_OF_TRANSPORT>Vehicle</MODE_OF_TRANSPORT>
+    <GR_RR_NO />
+    <TRUCK>123</TRUCK>
+    <TR6 />
+    <TRDAT />
+    <GM_CODE>01</GM_CODE>
+    <DOC_DATE>2019-11-07</DOC_DATE>
+    <POSTING_DATE>2019-11-07</POSTING_DATE>
+    <HEADER_TEXT>TEST</HEADER_TEXT>
+    <UNAME>SINHA.AS</UNAME>
+    <WAY_DT />
+    <WAY_REQ />
+    <FNUM />
+    <BILL_OF_LADING />
+    <GR_GI_SLIP_NO />
+    <DELIVERY_NOTE />
+    <EXCISE_INVOICE />
+    <EXCISE_INVOICED_DATE />
+    <EXCISE_GROUP />
+  </IM_HEADER>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER />
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO />
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+  <T_ITEM>
+    <item>
+      <BWART>101</BWART>
+      <MATNR>7220160108</MATNR>
+      <WERKS>3186</WERKS>
+      <LGORT />
+      <DMBTR>0</DMBTR>
+      <BNBTR>0</BNBTR>
+      <BUALT>0</BUALT>
+      <DMBUM>0</DMBUM>
+      <BWTAR />
+      <MENGE>0</MENGE>
+      <ERFMG>10500.000</ERFMG>
+      <ERFME>EA</ERFME>
+      <BPMNG>0</BPMNG>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00040</EBELP>
+      <SGTXT />
+      <GJAHR>2019</GJAHR>
+      <PBAMG>0</PBAMG>
+      <KZBEW>B</KZBEW>
+      <PALAN>0</PALAN>
+      <BSTMG>0</BSTMG>
+      <EXBWR>0</EXBWR>
+      <VKWRT>0</VKWRT>
+      <VFDAT>2029-11-03</VFDAT>
+      <EXVKW>0</EXVKW>
+      <LBKUM>0</LBKUM>
+      <SALK3>0</SALK3>
+      <VKWRA>0</VKWRA>
+      <LSMNG>10500.000</LSMNG>
+      <J_1BEXBASE>0</J_1BEXBASE>
+      <HSDAT>2019-11-07</HSDAT>
+      <CPUTM_MKPF />
+      <MAKTX />
+      <PACK />
+      <PACK_QTY>1500</PACK_QTY>
+      <MANUFACTURE_NAME>ADK</MANUFACTURE_NAME>
+      <VENDOR_BATCH_NO>01</VENDOR_BATCH_NO>
+      <CERTIFICATE_ENCLOSED />
+    </item>
+  </T_ITEM>
+</ZDMF002>
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+================================================================
+================================================================
+========================MaterialPosting - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF002 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IM_HEADER>
+    <PLANT>3186</PLANT>
+    <PURCHASE_ORDER_NO>3100073326</PURCHASE_ORDER_NO>
+    <GATE_ENTRY_NO>80037269</GATE_ENTRY_NO>
+    <TDATE>2019-11-04</TDATE>
+    <AIRWAY_BILL_NO />
+    <AIRWAY_BILL_DATE />
+    <GROSS_WT>0</GROSS_WT>
+    <NET_WT>0</NET_WT>
+    <TARE_WT>0</TARE_WT>
+    <NO_OF_PACKS />
+    <LIC_NO>11223</LIC_NO>
+    <MAN_TAX />
+    <TRANSPORTER>gh</TRANSPORTER>
+    <MODE_OF_TRANSPORT>Vehicle</MODE_OF_TRANSPORT>
+    <GR_RR_NO />
+    <TRUCK>123</TRUCK>
+    <TR6 />
+    <TRDAT />
+    <GM_CODE>01</GM_CODE>
+    <DOC_DATE>2019-11-07</DOC_DATE>
+    <POSTING_DATE>2019-11-07</POSTING_DATE>
+    <HEADER_TEXT>TEST</HEADER_TEXT>
+    <UNAME>raj.k</UNAME>
+    <WAY_DT />
+    <WAY_REQ />
+    <FNUM />
+    <BILL_OF_LADING />
+    <GR_GI_SLIP_NO />
+    <DELIVERY_NOTE />
+    <EXCISE_INVOICE />
+    <EXCISE_INVOICED_DATE />
+    <EXCISE_GROUP />
+  </IM_HEADER>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER />
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO />
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+  <T_ITEM>
+    <item>
+      <BWART>101</BWART>
+      <MATNR>7220160108</MATNR>
+      <WERKS>3186</WERKS>
+      <LGORT />
+      <DMBTR>0</DMBTR>
+      <BNBTR>0</BNBTR>
+      <BUALT>0</BUALT>
+      <DMBUM>0</DMBUM>
+      <BWTAR />
+      <MENGE>0</MENGE>
+      <ERFMG>10500.000</ERFMG>
+      <ERFME>EA</ERFME>
+      <BPMNG>0</BPMNG>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00040</EBELP>
+      <SGTXT />
+      <GJAHR>2019</GJAHR>
+      <PBAMG>0</PBAMG>
+      <KZBEW>B</KZBEW>
+      <PALAN>0</PALAN>
+      <BSTMG>0</BSTMG>
+      <EXBWR>0</EXBWR>
+      <VKWRT>0</VKWRT>
+      <VFDAT>2029-11-03</VFDAT>
+      <EXVKW>0</EXVKW>
+      <LBKUM>0</LBKUM>
+      <SALK3>0</SALK3>
+      <VKWRA>0</VKWRA>
+      <LSMNG>10500.000</LSMNG>
+      <J_1BEXBASE>0</J_1BEXBASE>
+      <HSDAT>2019-11-07</HSDAT>
+      <CPUTM_MKPF />
+      <MAKTX />
+      <PACK />
+      <PACK_QTY>1500</PACK_QTY>
+      <MANUFACTURE_NAME>ADK</MANUFACTURE_NAME>
+      <VENDOR_BATCH_NO>01</VENDOR_BATCH_NO>
+      <CERTIFICATE_ENCLOSED />
+    </item>
+  </T_ITEM>
+</ZDMF002>
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+================================================================
+================================================================
+========================MaterialPosting - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF002 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IM_HEADER>
+    <PLANT>3186</PLANT>
+    <PURCHASE_ORDER_NO>3100073326</PURCHASE_ORDER_NO>
+    <GATE_ENTRY_NO>80037269</GATE_ENTRY_NO>
+    <TDATE>2019-11-04</TDATE>
+    <AIRWAY_BILL_NO />
+    <AIRWAY_BILL_DATE />
+    <GROSS_WT>0</GROSS_WT>
+    <NET_WT>0</NET_WT>
+    <TARE_WT>0</TARE_WT>
+    <NO_OF_PACKS />
+    <LIC_NO>11223</LIC_NO>
+    <MAN_TAX />
+    <TRANSPORTER>gh</TRANSPORTER>
+    <MODE_OF_TRANSPORT>Vehicle</MODE_OF_TRANSPORT>
+    <GR_RR_NO />
+    <TRUCK>123</TRUCK>
+    <TR6 />
+    <TRDAT />
+    <GM_CODE>01</GM_CODE>
+    <DOC_DATE>2019-11-07</DOC_DATE>
+    <POSTING_DATE>2019-11-07</POSTING_DATE>
+    <HEADER_TEXT>TEST</HEADER_TEXT>
+    <UNAME>raj.k</UNAME>
+    <WAY_DT />
+    <WAY_REQ />
+    <FNUM />
+    <BILL_OF_LADING />
+    <GR_GI_SLIP_NO />
+    <DELIVERY_NOTE />
+    <EXCISE_INVOICE />
+    <EXCISE_INVOICED_DATE />
+    <EXCISE_GROUP />
+  </IM_HEADER>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER />
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO />
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+  <T_ITEM>
+    <item>
+      <BWART>101</BWART>
+      <MATNR>7220160108</MATNR>
+      <WERKS>3186</WERKS>
+      <LGORT />
+      <DMBTR>0</DMBTR>
+      <BNBTR>0</BNBTR>
+      <BUALT>0</BUALT>
+      <DMBUM>0</DMBUM>
+      <BWTAR />
+      <MENGE>0</MENGE>
+      <ERFMG>10500.000</ERFMG>
+      <ERFME>EA</ERFME>
+      <BPMNG>0</BPMNG>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00040</EBELP>
+      <SGTXT />
+      <GJAHR>2019</GJAHR>
+      <PBAMG>0</PBAMG>
+      <KZBEW>B</KZBEW>
+      <PALAN>0</PALAN>
+      <BSTMG>0</BSTMG>
+      <EXBWR>0</EXBWR>
+      <VKWRT>0</VKWRT>
+      <VFDAT>2029-11-03</VFDAT>
+      <EXVKW>0</EXVKW>
+      <LBKUM>0</LBKUM>
+      <SALK3>0</SALK3>
+      <VKWRA>0</VKWRA>
+      <LSMNG>10500.000</LSMNG>
+      <J_1BEXBASE>0</J_1BEXBASE>
+      <HSDAT>2019-11-07</HSDAT>
+      <CPUTM_MKPF />
+      <MAKTX />
+      <PACK />
+      <PACK_QTY>1500</PACK_QTY>
+      <MANUFACTURE_NAME>ADK</MANUFACTURE_NAME>
+      <VENDOR_BATCH_NO>01</VENDOR_BATCH_NO>
+      <CERTIFICATE_ENCLOSED />
+    </item>
+  </T_ITEM>
+</ZDMF002>
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+================================================================
+================================================================
+========================MRN - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF009 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IM_MAT_DOC>4090593949</IM_MAT_DOC>
+  <IM_WERKS>3186</IM_WERKS>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER />
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO />
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+</ZDMF009>
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================MRN - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF009Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EX_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <MATERIAL_DOC_NO>4090593949</MATERIAL_DOC_NO>
+      <DOC_YEAR>2019</DOC_YEAR>
+      <RAW_MATERIAL_CODE>7220400148</RAW_MATERIAL_CODE>
+      <RAW_MATERIAL_BATCH>0000260474</RAW_MATERIAL_BATCH>
+      <QUANTITY>100.0</QUANTITY>
+      <UOM>M</UOM>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <MATERIAL_DOC_NO>4090593949</MATERIAL_DOC_NO>
+      <DOC_YEAR>2019</DOC_YEAR>
+      <RAW_MATERIAL_CODE>7220400148</RAW_MATERIAL_CODE>
+      <RAW_MATERIAL_BATCH>0000260474</RAW_MATERIAL_BATCH>
+      <QUANTITY>100.0</QUANTITY>
+      <UOM>M</UOM>
+    </item>
+  </EX_FINAL>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER>000</NUMBER>
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO>000000</LOG_MSG_NO>
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+</ZDMF009Response>
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+================================================================

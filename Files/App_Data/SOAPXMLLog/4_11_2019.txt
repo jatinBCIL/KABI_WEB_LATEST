@@ -1,0 +1,748 @@
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011923</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901055356</MATERIAL>
+      <SHORT_TEXT>Carboplatin (VX-AM)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901151356</MATERIAL>
+      <SHORT_TEXT>GEMCITABINE HYDROCHLORIDE.</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901148356</MATERIAL>
+      <SHORT_TEXT>PACLITAXEL SEMISYNTHETIC-(SH)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011923</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901055356</MATERIAL>
+      <SHORT_TEXT>Carboplatin (VX-AM)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901151356</MATERIAL>
+      <SHORT_TEXT>GEMCITABINE HYDROCHLORIDE.</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901148356</MATERIAL>
+      <SHORT_TEXT>PACLITAXEL SEMISYNTHETIC-(SH)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011923</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011923</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011923</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901055356</MATERIAL>
+      <SHORT_TEXT>Carboplatin (VX-AM)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901151356</MATERIAL>
+      <SHORT_TEXT>GEMCITABINE HYDROCHLORIDE.</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011923</PO_NUMBER>
+      <DOC_DATE>2019-07-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>9901148356</MATERIAL>
+      <SHORT_TEXT>PACLITAXEL SEMISYNTHETIC-(SH)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>5000.0</QUANTITY>
+      <UNIT>G</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011923</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100073326</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80032983</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160107</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 10MLDNOB-W002824</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>10140.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>180040695591</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>new star goods carrier</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HR55Q 9266</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037269</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160106</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 5ML DNOB-W012403</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>20000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>20000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037269</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220160108</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 30MLDNOB-W012480</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>10000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160107</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 10mlDNOB-W002824</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160106</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 5ml DNOB-W012403</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>20000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160108</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 30mlDNOB-W012480</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100073326</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80032983</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160107</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 10MLDNOB-W002824</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>10140.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>180040695591</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>new star goods carrier</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HR55Q 9266</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037269</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160106</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 5ML DNOB-W012403</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>20000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>20000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037269</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220160108</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 30MLDNOB-W012480</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>10000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160107</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 10mlDNOB-W002824</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160106</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 5ml DNOB-W012403</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>20000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160108</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 30mlDNOB-W012480</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100073326</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80032983</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160107</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 10MLDNOB-W002824</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>10140.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>180040695591</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>new star goods carrier</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HR55Q 9266</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037269</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160106</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 5ML DNOB-W012403</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>20000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>20000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037269</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220160108</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 30MLDNOB-W012480</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>10000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160107</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 10mlDNOB-W002824</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160106</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 5ml DNOB-W012403</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>20000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160108</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 30mlDNOB-W012480</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Request
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100073326</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================
+================================================================
+========================PurchaseOrder - Response
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80032983</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160107</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 10MLDNOB-W002824</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>10140.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>180040695591</FNUM>
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>new star goods carrier</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>HR55Q 9266</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037269</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160106</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 5ML DNOB-W012403</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>20000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>20000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037269</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220160108</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 30MLDNOB-W012480</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>10000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>10000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100073326</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>self</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160107</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 10mlDNOB-W002824</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160106</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 5ml DNOB-W012403</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>20000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100073326</PO_NUMBER>
+      <DOC_DATE>2017-10-17</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160108</MATERIAL>
+      <SHORT_TEXT>G/Vial M CLEAR 20mm T-I 30mlDNOB-W012480</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>10000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+================================================================

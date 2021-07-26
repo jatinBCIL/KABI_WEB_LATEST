@@ -1,0 +1,96 @@
+========================= 2019-11-13 10:52:33 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-13 11:05:19 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-13 11:09:22 AM =========================
+Exception: System.FormatException: Failed to convert parameter value from a String to a DateTime. ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+Query:
+sp_SavePurchaseOrder_Gen
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 187
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 191
+   at BusinessLayer.BL_PurchaseOrder.BL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 54
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-13 11:12:00 AM =========================
+Exception: System.FormatException: Failed to convert parameter value from a String to a DateTime. ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+Query:
+sp_SavePurchaseOrder_Gen
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 187
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 191
+   at BusinessLayer.BL_PurchaseOrder.BL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 54
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-13 11:13:32 AM =========================
+Exception: System.FormatException: Failed to convert parameter value from a String to a DateTime. ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+Query:
+sp_SavePurchaseOrder_Gen
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 187
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 191
+   at BusinessLayer.BL_PurchaseOrder.BL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 54
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-13 11:15:09 AM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-13 11:15:29 AM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-13 11:26:17 AM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-13 03:04:33 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-13 03:04:50 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

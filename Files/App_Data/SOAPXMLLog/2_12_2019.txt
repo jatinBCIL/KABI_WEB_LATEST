@@ -1,0 +1,186 @@
+================================================================
+========================PurchaseOrder - Request
+=================2019-12-02 12:13:17 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100081175</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-02 12:13:17 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2019-12-02 12:13:20 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80037268</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160100</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 10ML CA-8706</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>66000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>65448.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081175</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081175</PO_NUMBER>
+      <DOC_DATE>2018-12-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160100</MATERIAL>
+      <SHORT_TEXT>G/Vial M Clear 20mm T-I 10ml CA-8706</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>65448.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-02 12:13:20 AM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2019-12-02 12:21:04 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100081175</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-02 12:21:04 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2019-12-02 12:21:06 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80037268</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160100</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 10ML CA-8706</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>66000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>65448.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081175</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081175</PO_NUMBER>
+      <DOC_DATE>2018-12-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160100</MATERIAL>
+      <SHORT_TEXT>G/Vial M Clear 20mm T-I 10ml CA-8706</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>65448.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-02 12:21:06 AM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2019-12-02 12:54:12 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100081175</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-02 12:54:12 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2019-12-02 12:54:15 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80037268</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220160100</MATNR>
+      <MAKTX>G/VIAL M CLEAR 20MM T-I 10ML CA-8706</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW1</LGORT>
+      <CHARG />
+      <GEQTY>66000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>65448.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081175</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>123</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081175</PO_NUMBER>
+      <DOC_DATE>2018-12-17</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220160100</MATERIAL>
+      <SHORT_TEXT>G/Vial M Clear 20mm T-I 10ml CA-8706</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>65448.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2019-12-02 12:54:15 AM
+================================================================

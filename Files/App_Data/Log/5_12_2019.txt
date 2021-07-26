@@ -1,0 +1,12 @@
+========================= 2019-12-05 12:00:47 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-05 12:01:17 PM =========================
+Exception: Password changed successfully
+Source: frmPassword.aspx| Function Name: btnChangePassword_Click
+========================= 2019-12-05 12:01:47 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-05 12:01:57 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

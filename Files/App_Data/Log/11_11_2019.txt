@@ -1,0 +1,222 @@
+========================= 2019-11-11 11:30:42 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-11 11:30:52 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-11 11:32:19 AM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 11:33:08 AM =========================
+Exception: Please Scan Balance Weighing code
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Wt_Click
+========================= 2019-11-11 12:06:08 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-11 12:06:17 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-11 12:06:42 PM =========================
+Exception: The remote name could not be resolved: 'sapi23ms.sapms.fresenius.de'
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-11-11 12:07:39 PM =========================
+Exception: The remote name could not be resolved: 'sapi23ms.sapms.fresenius.de'
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-11-11 12:10:06 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 12:10:18 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 12:10:48 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:13:07 PM =========================
+Exception: Please Enter Gross Weight
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Click
+========================= 2019-11-11 12:13:16 PM =========================
+Exception: Please Enter Gross Weight
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Click
+========================= 2019-11-11 12:13:22 PM =========================
+Exception: Invalid balance scale id scanned
+Source: frmPurchaseOrder.aspx| Function Name: btnStartWeigh2_Click
+========================= 2019-11-11 12:27:26 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 12:27:40 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:33:01 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 12:33:35 PM =========================
+Exception: Please Enter Gross Weight
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Click
+========================= 2019-11-11 12:38:16 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 12:38:27 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:38:35 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:38:44 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:38:56 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:39:04 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:39:09 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:40:12 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 12:40:41 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 12:42:07 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 12:46:10 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 12:46:25 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:46:33 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:46:56 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 12:47:59 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 01:09:58 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-11 01:10:08 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-11 01:10:56 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 01:11:30 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 02:34:17 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-11 02:34:26 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-11 02:34:53 PM =========================
+Exception: The remote name could not be resolved: 'sapi23ms.sapms.fresenius.de'
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-11-11 02:52:51 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 02:53:05 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 02:53:25 PM =========================
+Exception: Please Enter total Containers
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-11 02:53:25 PM =========================
+Exception: Please Enter all the details
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Wt_Click
+========================= 2019-11-11 02:54:30 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 02:55:27 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 02:59:15 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 02:59:52 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:01:38 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:05:24 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 03:10:25 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 03:12:44 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:13:03 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:13:19 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:13:23 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:13:55 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:17:51 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 03:18:25 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:18:36 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-11 03:18:37 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:21:16 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:21:27 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-11 03:21:28 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 03:33:42 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 03:40:41 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 04:00:55 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 04:01:12 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 04:01:34 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-11 04:04:10 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 04:11:48 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-11 04:12:28 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 04:12:55 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-11 04:17:17 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-11 04:17:19 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails

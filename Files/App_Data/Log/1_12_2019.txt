@@ -1,0 +1,55 @@
+========================= 2019-12-01 10:58:11 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-01 10:58:23 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-01 10:59:41 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+The current transaction cannot be committed and cannot support operations that write to the log file. Roll back the transaction.
+Uncommittable transaction is detected at the end of the batch. The transaction is rolled back.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:4ac82cff-718d-45ce-8ead-14502552470a
+Error Number:50000,State:1,Class:16
+Query:
+sp_InsertPurchaseOrder
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 465
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 469
+   at BusinessLayer.BL_PurchaseOrder.BL_Insert_PurchaseOrder(PL_PurchaseOrder objFields) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 161
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2019-12-01 11:22:09 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting date and/or time from character string.
+The current transaction cannot be committed and cannot support operations that write to the log file. Roll back the transaction.
+Uncommittable transaction is detected at the end of the batch. The transaction is rolled back.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:4ac82cff-718d-45ce-8ead-14502552470a
+Error Number:50000,State:1,Class:16
+Query:
+sp_InsertPurchaseOrder
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 465
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 469
+   at BusinessLayer.BL_PurchaseOrder.BL_Insert_PurchaseOrder(PL_PurchaseOrder objFields) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 161
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2019-12-01 11:24:44 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click

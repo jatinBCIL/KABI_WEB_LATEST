@@ -1,0 +1,12 @@
+========================= 2020-02-07 04:24:29 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-07 04:24:39 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-07 04:30:35 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrderView.aspx| Function Name: btnPrint_Click
+========================= 2020-02-07 04:35:15 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrderView.aspx| Function Name: btnPrint_Click

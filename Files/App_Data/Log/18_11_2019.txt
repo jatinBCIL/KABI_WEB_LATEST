@@ -1,0 +1,93 @@
+========================= 2019-11-18 04:45:48 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-18 04:45:58 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-18 04:59:56 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-18 05:00:06 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-18 05:01:33 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 05:01:46 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 05:01:53 PM =========================
+Exception: Column 'PurchaseOrderNo' does not belong to table Table.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 05:07:43 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 05:08:21 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 05:08:26 PM =========================
+Exception: Column 'CreatedOn' does not belong to table Table.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 05:18:02 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-18 05:18:11 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-18 05:19:38 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 05:19:52 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 05:30:43 PM =========================
+Exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.130:531
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 05:39:12 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-18 05:39:21 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-18 05:39:38 PM =========================
+Exception: The remote name could not be resolved: 'sapi23ms.sapms.fresenius.de'
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-11-18 06:04:14 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-18 06:04:24 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-18 06:06:24 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 06:06:33 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 06:06:37 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 06:08:19 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 06:08:29 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 06:08:57 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 06:13:32 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-18 06:13:41 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-18 06:15:03 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 06:15:13 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-18 06:17:10 PM =========================
+Exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.130:531
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click

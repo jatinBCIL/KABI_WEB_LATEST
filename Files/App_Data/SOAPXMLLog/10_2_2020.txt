@@ -1,0 +1,74 @@
+================================================================
+========================MRN - Request
+=================2020-02-10 06:10:04 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF009 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IM_MAT_DOC>4090593949</IM_MAT_DOC>
+  <IM_WERKS>3186</IM_WERKS>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER />
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO />
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+</ZDMF009>
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click 2020-02-10 06:10:04 PM
+================================================================
+================================================================
+========================MRN - Response
+=================2020-02-10 06:10:06 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF009Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EX_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <MATERIAL_DOC_NO>4090593949</MATERIAL_DOC_NO>
+      <DOC_YEAR>2019</DOC_YEAR>
+      <RAW_MATERIAL_CODE>AO875001</RAW_MATERIAL_CODE>
+      <RAW_MATERIAL_BATCH>871ZD002</RAW_MATERIAL_BATCH>
+      <QUANTITY>3181.0</QUANTITY>
+      <UOM>EA</UOM>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <MATERIAL_DOC_NO>4090593949</MATERIAL_DOC_NO>
+      <DOC_YEAR>2019</DOC_YEAR>
+      <RAW_MATERIAL_CODE>AO875001</RAW_MATERIAL_CODE>
+      <RAW_MATERIAL_BATCH>871ZD002</RAW_MATERIAL_BATCH>
+      <QUANTITY>3181.0</QUANTITY>
+      <UOM>EA</UOM>
+    </item>
+  </EX_FINAL>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER>000</NUMBER>
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO>000000</LOG_MSG_NO>
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+</ZDMF009Response>
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click 2020-02-10 06:10:06 PM
+================================================================

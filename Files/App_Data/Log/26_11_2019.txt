@@ -1,0 +1,231 @@
+========================= 2019-11-26 12:28:28 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-26 12:28:38 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-26 12:29:37 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 12:30:45 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 12:31:59 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 12:36:27 PM =========================
+Exception: SAP Message : Qty and / or "delivery completed" ind. or final issue ind. are missing
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 12:42:30 PM =========================
+Exception: SAP Message :
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 01:02:34 PM =========================
+Exception: SAP Message :
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 01:05:04 PM =========================
+Exception: SAP Message : Unit of measure PCE is not convertible to stockkeeping unit L
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 01:38:30 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-26 01:38:40 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-26 01:39:27 PM =========================
+Exception: SAP Message : Unit of measure PCE is not convertible to stockkeeping unit L  for091210081398 7110430350
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 01:39:35 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 01:41:18 PM =========================
+Exception: Object reference not set to an instance of an object.
+Source: frmDispensingPosting.aspx| Function Name: btnGet_Click
+========================= 2019-11-26 01:42:22 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 01:44:24 PM =========================
+Exception: SAP Message : Unit of measure PCE is not convertible to stockkeeping unit L  for091210081398 7110430350
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 01:45:08 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:24:33 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-26 02:24:43 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-26 02:27:22 PM =========================
+Exception: SAP Message : Unit of measure PCE is not convertible to stockkeeping unit L  for091210081398 7110430350
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:27:30 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:28:18 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:28:56 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:39:43 PM =========================
+Exception: SAP Message : Unit of measure PCE is not convertible to stockkeeping unit L  for091210081398 7110430350
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:39:49 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:40:56 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_Insert_MaterialDocument' expects parameter '@MaterialDocNo', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:a0b7d7dc-d852-48c5-91a4-be99b56c5529
+Error Number:201,State:4,Class:16
+Query:
+sp_Insert_MaterialDocument
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_Dispensing.DL_InsertMatDoc(PL_ProcessReservation ObjPL) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_Dispensing.cs:line 103
+   at DataLayer.DL_Dispensing.DL_InsertMatDoc(PL_ProcessReservation ObjPL) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_Dispensing.cs:line 107
+   at BusinessLayer.BL_Dispensing.BL_Insert_MaterialDoc(PL_ProcessReservation objFields) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_Dispensing.cs:line 38
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:42:30 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_Insert_MaterialDocument' expects parameter '@MaterialDocNo', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:a0b7d7dc-d852-48c5-91a4-be99b56c5529
+Error Number:201,State:4,Class:16
+Query:
+sp_Insert_MaterialDocument
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_Dispensing.DL_InsertMatDoc(PL_ProcessReservation ObjPL) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_Dispensing.cs:line 103
+   at DataLayer.DL_Dispensing.DL_InsertMatDoc(PL_ProcessReservation ObjPL) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_Dispensing.cs:line 107
+   at BusinessLayer.BL_Dispensing.BL_Insert_MaterialDoc(PL_ProcessReservation objFields) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_Dispensing.cs:line 38
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:44:06 PM =========================
+Exception: SAP Message : Unit of measure PCE is not convertible to stockkeeping unit L  for091210081398 7110430350
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:50:37 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:50:58 PM =========================
+Exception: SAP Message : Unit of measure PCE is not convertible to stockkeeping unit L  for091210081398 7110430350
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:52:00 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:59:25 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 02:59:38 PM =========================
+Exception: SAP Message : Unit of measure PCE is not convertible to stockkeeping unit L  for091210081398 7110430350
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 03:00:03 PM =========================
+Exception: SAP Message : Qty and / or "delivery completed" ind. or final issue ind. are missing  for091210081398 7960010825
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 03:00:07 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 03:01:00 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 03:01:16 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 03:02:06 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 03:02:30 PM =========================
+Exception: SAP Message : Unit of measure PCE is not convertible to stockkeeping unit L  for091210081398 7110430350
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 03:02:34 PM =========================
+Exception: SAP Message : Qty and / or "delivery completed" ind. or final issue ind. are missing  for091210081398 7960010825
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 03:07:08 PM =========================
+Exception: Please select Process Order No / Reservation No
+Source: frmDispensingPosting.aspx| Function Name: btnGet_Click
+========================= 2019-11-26 03:43:00 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-26 03:43:09 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-26 04:13:28 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-26 04:13:39 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-26 04:45:11 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-26 04:45:22 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-26 04:48:43 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-26 04:58:13 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-26 04:58:17 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-26 05:14:33 PM =========================
+Exception: The remote name could not be resolved: 'sapi23ms.sapms.fresenius.de'
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-11-26 06:01:00 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-26 06:01:08 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-26 06:17:38 PM =========================
+Exception: 
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-26 06:19:21 PM =========================
+Exception: 
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-26 06:30:24 PM =========================
+Exception: 
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-26 06:37:26 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-26 06:37:35 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-26 06:38:51 PM =========================
+Exception: Material Receiving Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-26 10:43:02 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-26 10:43:16 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-26 10:44:53 PM =========================
+Exception: lenth :0
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 10:48:01 PM =========================
+Exception: lenth :0
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-26 11:45:03 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-26 11:45:15 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

@@ -1,0 +1,203 @@
+========================= 2019-10-15 10:27:48 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 10:30:36 AM =========================
+Exception: No details found for AR no.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 10:34:09 AM =========================
+Exception: No details found for AR no.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 10:41:15 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 10:41:41 AM =========================
+Exception: No details found for AR no.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 10:47:13 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 10:47:42 AM =========================
+Exception: No details found for AR no.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 10:56:00 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 10:56:37 AM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 10:56:46 AM =========================
+Exception: No details found for AR no.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 11:26:41 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 11:26:45 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 11:27:03 AM =========================
+Exception: No details found for AR no.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 11:40:06 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 11:40:27 AM =========================
+Exception: No details found for AR no.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 11:50:27 AM =========================
+Exception: No details found for AR no.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 12:00:22 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 12:00:55 PM =========================
+Exception: No details found for AR no.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 12:24:08 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 12:25:30 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_Insert_MaterialDocument' expects parameter '@Plant', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:9eed00ef-f6f6-4f2d-9b25-0d0b40136f90
+Error Number:201,State:4,Class:16
+Query:
+sp_Insert_MaterialDocument
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_Dispensing.DL_InsertMatDoc(PL_ProcessReservation ObjPL) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_Dispensing.cs:line 103
+   at DataLayer.DL_Dispensing.DL_InsertMatDoc(PL_ProcessReservation ObjPL) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_Dispensing.cs:line 107
+   at BusinessLayer.BL_Dispensing.BL_Insert_MaterialDoc(PL_ProcessReservation objFields) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_Dispensing.cs:line 38
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 02:00:58 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 02:33:07 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 02:37:46 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 02:38:10 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'tblman_trans'.
+Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:25d01e92-0fd7-4a2b-8c4e-b636501d3070
+Error Number:102,State:1,Class:15
+Query:
+SELECT * tblman_trans with(nolock) where PurchaseOrderNo = '4090593792'
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 591
+   at DataLayer.DL_SamplePrinting.DL_GETMRN_RePrintData(String strMaterialDocNo, String ProcessOrderNo, String strPlant) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_SamplePrinting.cs:line 180
+   at DataLayer.DL_SamplePrinting.DL_GETMRN_RePrintData(String strMaterialDocNo, String ProcessOrderNo, String strPlant) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_SamplePrinting.cs:line 195
+   at BusinessLayer.BL_SamplePrinting.BL_GETMRN_RePrintData(String strMaterialDocNo, String ProcessOrderNo, String strPlant) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_SamplePrinting.cs:line 100
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 02:39:17 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'tblman_trans'.
+Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:25d01e92-0fd7-4a2b-8c4e-b636501d3070
+Error Number:102,State:1,Class:15
+Query:
+SELECT * tblman_trans with(nolock) where PurchaseOrderNo = '4090593792'
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 591
+   at DataLayer.DL_SamplePrinting.DL_GETMRN_RePrintData(String strMaterialDocNo, String ProcessOrderNo, String strPlant) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_SamplePrinting.cs:line 180
+   at DataLayer.DL_SamplePrinting.DL_GETMRN_RePrintData(String strMaterialDocNo, String ProcessOrderNo, String strPlant) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_SamplePrinting.cs:line 195
+   at BusinessLayer.BL_SamplePrinting.BL_GETMRN_RePrintData(String strMaterialDocNo, String ProcessOrderNo, String strPlant) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_SamplePrinting.cs:line 100
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 02:41:36 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 02:42:52 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'tblman_trans'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 579
+ClientConnectionId:7287136e-5502-410b-9220-f14c715772f6
+Error Number:208,State:1,Class:16
+Query:
+SELECT * FROM tblman_trans with(nolock) where PurchaseOrderNo = '4090593792'
+   at SqlDataLayer.ExecuteDataset(String strConnection, String qry) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 591
+   at DataLayer.DL_SamplePrinting.DL_GETMRN_RePrintData(String strMaterialDocNo, String ProcessOrderNo, String strPlant) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_SamplePrinting.cs:line 180
+   at DataLayer.DL_SamplePrinting.DL_GETMRN_RePrintData(String strMaterialDocNo, String ProcessOrderNo, String strPlant) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_SamplePrinting.cs:line 195
+   at BusinessLayer.BL_SamplePrinting.BL_GETMRN_RePrintData(String strMaterialDocNo, String ProcessOrderNo, String strPlant) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_SamplePrinting.cs:line 100
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 02:45:19 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 02:45:49 PM =========================
+Exception: A field or property with the name 'ItemDesc' was not found on the selected data source.
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 02:46:44 PM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-15 02:53:23 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 02:54:29 PM =========================
+Exception: A field or property with the name 'NoofContainers' was not found on the selected data source.
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnGet_Click
+========================= 2019-10-15 02:59:01 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-15 03:00:06 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-15 03:00:49 PM =========================
+Exception: Input string was not in a correct format.
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-15 03:05:22 PM =========================
+Exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.1.130:531
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnPrint_Click

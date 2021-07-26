@@ -1,0 +1,702 @@
+﻿/*
+Purpose : This css file is used to assign proprities and style to every control on the web page.
+Created On : 26 July, 2012.
+Created By : Chandrakant Shindkar.
+Modified On : 
+Modified By :
+*/
+
+.Label
+{
+	font-family:Calibri;
+	font-size:11pt;
+	color:Black;
+	padding-left:5px;
+	padding-right:5px;
+	text-align:left;
+}
+
+.HeadingLabel
+{
+	font-family:Calibri;
+	font-size:14pt;
+	font-weight:bold;
+	font-style:italic;
+	color:White;
+	padding-left:5px;
+	padding-right:5px;
+	width:100px;
+	Height:22px;
+	text-align:left;
+}
+
+.HeadingSmallLabel
+{
+	font-family:Calibri;
+	font-size:11pt;
+	font-weight:bold;
+	font-style:italic;
+	color:black;
+	padding-left:5px;
+	padding-right:5px;
+	width:100px;
+	Height:22px;
+	text-align:left;
+}
+
+.TextBox
+{
+	border: 1px solid #c0c0c0;
+	font-family: Arial;
+	font-size: 12px;
+	color: Black;
+	margin-left: 0px;
+	width: 350px;
+	height: 20px;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.TextBox:focus
+{
+	background-position: #FFFFCC;
+	border: 1px solid #646464;
+	background: #FFFFCC; 
+}
+
+.TextBox_Grid
+{
+	border: 1px solid #c0c0c0;
+	font-family: Arial;
+	font-size: 12px;
+	color: Black;
+	margin-left: 0px;
+	width: 350px;
+	height: 18px;
+	padding-left:2px;
+	padding-right:2px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.TextBox_Grid:focus
+{
+	background-position: #FFFFCC;
+	border: 1px solid #646464;
+	background: #FFFFCC; 
+}
+
+.Checkbox
+{
+	font-family:Arial;
+	font-size:12px;
+	color:Black;
+	Height:20px;
+}
+
+.HiddenButton
+{
+	visibility:hidden;
+	display:none;
+}
+
+.Button
+{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-color: #006699;
+	border-width: 0px;
+	background-image: url('Images/ButtonOut.png');
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	width: 120px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	cursor: inherit;
+	height: 21px;
+}
+
+.Button:hover
+{
+	background-image : url('../Styles/Images/ButtonIn.png');
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	width: 120px;
+	height: 24px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	cursor: inherit;
+}
+
+.Tab
+{
+	border-color:#006699;
+	border-width:0px;
+	background-image : url('../Images/Tab.png');
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	height: 25px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	width:300px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-color:#000689;
+}
+
+.Tab:hover
+{
+	background-image : url('../Images/ButtonIn.png');
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	height: 25px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	cursor: inherit;
+}
+
+.LinkButton
+{
+	font-family: calibri;
+	font-size: 14px;
+	text-decoration: underline;
+	color: #0033CC;
+}
+
+.NewLinkButton
+{
+	font-family: calibri;
+	font-size: 14px;
+	vertical-align: middle;
+	text-decoration: underline;
+	color: #0033CC;
+}
+
+.Combobox
+{
+	font-family: Arial;
+	font-size: 13px;
+	border-style: solid;
+	border-width: 1px;
+	color: Black;
+	width: 256px;
+	height: 24px;
+	margin-left: 0px;
+	border-top-color: #C0C0C0;
+	border-right-color: #C0C0C0;
+	border-bottom-color: #C0C0C0;
+	border-left-color: #C0C0C0;
+}
+.Combobox:focus { background: #FFFFCC; }
+
+
+.Content
+{
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+
+.FileUpload
+{
+	height:20px;
+	width:100%;
+	font-family:Arial;
+	font-size:13px;
+	font-style:normal;
+	color:Black;
+	Border-Style:solid; 
+    Border-Width:1px;
+	margin-right: 0px;
+	background-color:#FFFFFF;
+}
+
+.TreeView
+{
+	font-family:Arial;
+	font-size:12px;
+	font-style:normal;
+	height:100%;
+	width:100%;	
+}
+
+.DateTimeText
+{
+	border: 1px solid #C0C0C0;
+	font-family: Arial;
+	font-size: 12px;
+	color: Black;
+	width: 120px;
+	height: 20px;
+	padding-left:2px;
+	padding-right:2px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.DateTimeText:focus 
+{
+	background-position: #FFFFCC;
+	border: 1px solid #646464;
+	background: #FFFFCC; 
+}
+
+.TextBox_Num
+{
+	border: 1px solid #c0c0c0;
+	font-family: Arial;
+	font-size: 12px;
+	color: Black;
+	margin-left: 0px;
+	width: 100px;
+	height: 20px;
+	text-align: right;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	padding-right: 10px;
+}
+
+.TextBox_Num:focus 
+{ 
+	background-position: #FFFFCC;
+	border: 1px solid #646464;
+	background: #FFFFCC;
+}
+
+.TextBox_Num_Grid
+{
+	border: 1px solid #c0c0c0;
+	font-family: Arial;
+	font-size: 12px;
+	color: Black;
+	margin-left: 0px;
+	width: 100px;
+	height: 18px;
+	text-align: right;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	padding-right: 10px;
+}
+
+.TextBox_Num_Grid:focus 
+{ 
+	background-position: #FFFFCC;
+	border: 1px solid #646464;
+	background: #FFFFCC;
+}
+
+.OptionButton
+{
+	font-family:calibri;
+	font-size:14px;
+	color:black;
+	height:18px;
+}
+
+.OptionButton:hover
+{
+	font-family:calibri;
+	font-size:15px;
+	font-weight:bold;
+	color:black;
+	height:18px;
+}
+
+.Validation
+{
+	font-family: Arial;
+	color: Red;
+	font-size: 13px;
+	font-weight: bold;
+	background-color:Yellow;
+}
+
+.Instructions
+{
+	color: #800000;
+	border: 1px solid #DCA;
+	background: #fffAF0;
+	font-family: Arial;
+	font-size: 13px;
+	padding-right: 3px;
+	padding-left: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.Dock_Fill
+{
+	Width:100%;
+	padding:0px;
+}
+
+
+.Dock_Fill_Form
+{
+	border:solid 1px #3399FF;
+	width: 100%;
+}
+
+.FormHeading
+{
+	background-image: url('../Images/Hover.png');
+	font-family: Arial;
+	font-size: 15px;
+	color: #FFFFFF;
+	height: 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #6699FF;
+	font-weight: bold;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.CCSImage
+{
+    border:1px solid transparent;
+    cursor:inherit;
+}
+.CCSImage:hover
+{
+	border: 3px solid #FFFF00;
+	cursor: inherit;
+}
+
+.Panel
+{
+	background-color : White;
+	border: 1px solid #c0c0c0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.CheckList
+{
+	border: 1px solid #c0c0c0;
+	width:100%;
+	height:100%;
+}
+
+.RoundedBottom
+{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-color:#006699;
+	border-width:3px;
+}
+
+.autocomplete_completionListElement
+{
+	background-color: #FFFFFF;
+	color: #000000;
+	border: buttonshadow;
+	border-width: 1px;
+	border-style: solid;
+	cursor: pointer;
+	overflow: auto;
+	height: 200px;
+	text-align: left;
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	top: 0px;
+}
+
+/* AutoComplete highlighted item */
+.autocomplete_highlightedListItem
+{
+	background-color: #3399FF;
+	color: #FFFFFF;
+	padding: 1px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+    /* AutoComplete item */
+.autocomplete_listItem
+{
+	background-color : window ;
+	color : windowtext ;
+	padding : 1px ;
+}
+
+.TabPanel
+{
+	border: 2px ridge #0099FF;
+	width: 100%;
+	padding: 0px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.accordion {  
+    width: 100%;  
+}  
+  
+.accordionHeader
+{
+	background-image: url('../Styles/Images/Accordion_Leave.png');
+	border: 1px solid #F2F2F2;
+	color: #003399;
+	font-family: Arial, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	height: 18px;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}  
+  
+.accordionHeaderSelected   
+{
+	background-image: url('../Styles/Images/Accordion_Hover.png');
+    border: 1px solid #F2F2F2;  
+    color: Black; 
+    height:18px; 
+    font-family: Arial, Sans-Serif;  
+    font-size: 14px;  
+    font-weight: bold;  
+    padding: 5px;  
+    margin-top: 5px;  
+    cursor: pointer;  
+}  
+  
+.accordionContent {  
+    background-color: #FFFFFF;  
+    border: 1px dashed #F2F2F2;  
+    border-top: none;  
+    padding: 5px;  
+    padding-top: 10px; 
+    border: 1px solid #F2F2F2; 
+}  
+
+.CCSImage:hover
+{
+	width:32px;
+}
+
+.Comment
+{
+	font-family: Arial;
+	font-size: 9pt;
+	color: #003366;
+	font-weight: normal;
+}
+
+.Popup_Table
+{
+	background-color: #F2F3F4;
+	width:100%;
+}
+
+.Popup_Panel
+{
+	/*Width:260px;*/
+	Width:280px;
+	border-right-style: outset; 
+	border-bottom-style: outset; 
+	border-left-style: outset; 
+	border-right-width: 1px; 
+	border-bottom-width: 1px; 
+	border-left-width: 1px; 
+	border-right-color: #C0C0C0; 
+	border-bottom-color: #C0C0C0; 
+	border-left-color: #C0C0C0; 
+	background-color: #FFFFFF;
+}
+
+	
+.Progress
+{
+	background-color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 13px;
+	color: #009900;
+	font-style: italic;
+}
+
+.Internal_Progre .Internal_Progress
+{
+	border: 2px ridge #FF0000;
+	height: 65px;
+	width: 302px;
+	background-color: #FFFFCC;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-family: Verdana;
+	font-size: 16px;
+	color: #0033CC;
+	font-style: normal;
+	position: fixed;
+	top: 32%;
+	left: 37%;
+	font-weight: normal;
+}
+
+.ErrorMsg
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.FormHeading
+{
+	border-style: none;
+	font-family: calibri;
+	font-size: 16px;
+	font-weight: bolder;
+	padding-left: 10px;
+	height: 30px;
+	color: #336699;
+}
+
+.TextBox_Watermark
+{
+	border: 1px solid #c0c0c0;
+	font-family: Arial;
+	font-size: 12px;
+	color: #999999;
+	margin-left: 0px;
+	width: 350px;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.TextBox_Watermark:focus 
+{
+	background-position: #FFFFCC;
+	border: 1px solid #646464;
+	background: #FFFFCC;
+}
+
+.TextBoxUpper
+{
+	border: 1px solid #c0c0c0;
+	font-family: Arial;
+	font-size: 12px;
+	color: Black;
+	margin-left: 0px;
+	width: 350px;
+	height: 20px;
+	padding-left:2px;
+	padding-right:2px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	text-transform:uppercase;
+}
+
+.TextBoxUpper:focus 
+{
+	background-position: #FFFFCC;
+	border: 1px solid #646464;
+	background: #FFFFCC;  
+}
+
+.validationsummary
+{
+	background-position: 12px 30px;
+	border: 1px solid #FF9933;
+	background: #FFFFFF no-repeat 12px 30px;
+	padding: 0px 0px 13px 0px;
+	font-size: 14px;
+	width: 99%;
+	font-family: Arial;
+	font-weight: normal;
+	color: #FF0000;
+	letter-spacing: 2px;
+}
+.validationheader
+{
+	left: 0px;
+	position: relative;
+	font-size: 13px;
+	color: #FF0000;
+	height: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid #b08b34;
+	padding-top: 3px;
+	font-family: Arial;
+	background-image: url('Images/Val_Hdr.png');
+}
+.validationsummary ul
+{
+	padding-top: 5px;
+	padding-left: 45px;
+	list-style: none;
+	font-size: 12px;
+	color: #FF3300;
+	font-family: Arial;
+}
+.validationsummary ul li
+{
+	padding: 2px 0px 0px 15px;
+	background-position: 0px 3px;
+	background-repeat: no-repeat;
+	list-style-type: square;
+}
+
+.Test
+{
+	font-size: 13px;
+	line-height: 1.2;
+	color: #3333CC;
+	background-color: #33CCCC;
+	border: 1px solid #667295;
+	padding: 4px;
+	width: 270px;
+	font-family: calibri;
+}
+
+.legend
+{
+    color: #800000;
+    border: 1px solid #DCA;
+    background: #fffAF0;
+    font-family: Arial;
+    font-size: 14px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-decoration: underline;
+    height: 20px;
+}

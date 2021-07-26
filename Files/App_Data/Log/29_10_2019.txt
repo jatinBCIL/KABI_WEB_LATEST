@@ -1,0 +1,153 @@
+========================= 2019-10-29 03:59:12 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 03:59:24 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 04:07:25 PM =========================
+Exception: Please Check the Item from List
+Source: frmPurchaseOrder.aspx| Function Name: btnNext_Click
+========================= 2019-10-29 04:31:20 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 04:31:31 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 05:24:03 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 05:24:05 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 05:24:06 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 05:24:27 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 06:28:47 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 06:28:58 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 07:12:20 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:12:24 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:12:27 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:12:29 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:12:31 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:12:32 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:12:34 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:12:38 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:12:41 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:13:05 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 07:15:33 PM =========================
+Exception: Please Enter VendorBatchNo
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-10-29 07:15:33 PM =========================
+Exception: Please Add all the details
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Wt_Click
+========================= 2019-10-29 07:17:08 PM =========================
+Exception: Please Enter GM Code
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-10-29 07:17:08 PM =========================
+Exception: Please Add all the details
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Wt_Click
+========================= 2019-10-29 07:18:50 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-10-29 07:48:17 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:48:30 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 07:48:34 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:48:37 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:48:41 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:48:44 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:48:47 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:48:51 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:48:55 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 07:49:07 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 07:49:40 PM =========================
+Exception: Please Enter VendorBatchNo
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-10-29 07:49:40 PM =========================
+Exception: Please Add all the details
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Wt_Click
+========================= 2019-10-29 09:33:53 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 09:33:57 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 09:34:12 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 10:58:44 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 10:58:57 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 11:08:24 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 11:08:34 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 11:08:41 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 11:08:52 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 11:08:58 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-29 11:09:10 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-29 11:09:42 PM =========================
+Exception: The remote name could not be resolved: 'sapi23ms.sapms.fresenius.de'
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-10-29 11:25:18 PM =========================
+Exception: Unable to connect to the remote server
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click

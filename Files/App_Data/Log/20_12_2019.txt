@@ -1,0 +1,113 @@
+========================= 2019-12-20 03:47:01 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-20 03:47:11 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-20 03:50:59 PM =========================
+Exception: General Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-12-20 03:51:23 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrderView.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-12-20 03:52:05 PM =========================
+Exception: 'string' does not contain a definition for 'IErrorId'
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2019-12-20 03:52:05 PM =========================
+Exception: Material Receiving Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-12-20 04:04:36 PM =========================
+Exception: 'string' does not contain a definition for 'IErrorId'
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2019-12-20 04:04:36 PM =========================
+Exception: Material Receiving Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-12-20 04:04:57 PM =========================
+Exception: 'string' does not contain a definition for 'IErrorId'
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2019-12-20 04:04:57 PM =========================
+Exception: Material Receiving Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-12-20 04:40:12 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2019-12-20 04:40:12 PM =========================
+Exception: Material Receiving Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-12-20 04:41:31 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-20 04:42:01 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-20 04:49:57 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value 'System.Web.UI.WebCon' to data type int.
+Uncommittable transaction is detected at the end of the batch. The transaction is rolled back.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+ClientConnectionId:c601a0df-2d5f-409e-be78-5b36a74b0f07
+Error Number:50000,State:1,Class:16
+Query:
+sp_UpdatePurchaseOrder_Rec
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 632
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 636
+   at BusinessLayer.BL_PurchaseOrder.BL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 99
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2019-12-20 04:49:58 PM =========================
+Exception: Material Receiving Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-12-20 04:51:39 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Conversion failed when converting the varchar value 'System.Web.UI.WebCon' to data type int.
+Uncommittable transaction is detected at the end of the batch. The transaction is rolled back.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+ClientConnectionId:c601a0df-2d5f-409e-be78-5b36a74b0f07
+Error Number:50000,State:1,Class:16
+Query:
+sp_UpdatePurchaseOrder_Rec
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 632
+   at DataLayer.DL_PurchaseOrder.DL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 636
+   at BusinessLayer.BL_PurchaseOrder.BL_UpdatePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 99
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails
+========================= 2019-12-20 04:51:40 PM =========================
+Exception: Material Receiving Data Updated Successfully
+Source: frmPurchaseOrderView.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-12-20 04:58:53 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-20 04:59:07 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-20 05:00:58 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-12-20 05:02:12 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-12-20 05:03:23 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-12-20 05:06:48 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-12-20 05:06:56 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click

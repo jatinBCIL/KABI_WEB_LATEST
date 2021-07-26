@@ -1,0 +1,9 @@
+========================= 2020-04-09 01:04:01 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-04-09 01:04:08 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-04-09 01:16:37 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrderView.aspx| Function Name: SaveReceivingDetails

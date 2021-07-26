@@ -1,0 +1,234 @@
+﻿
+.GridViewStyle
+{
+	border: 1px solid black;
+	text-align: center;
+	font-family: calibri;
+	font-style: normal;
+	font-size: 14px;
+	color: #000000;
+}
+.GridViewStyleRecipe
+{
+	border: 1px solid black;
+	text-align: left;
+	font-family: calibri;
+	font-style: normal;
+	font-size: 8px;
+	color: #000000;
+}
+
+
+.GridViewStyle td
+{
+	border-color: black;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.GridViewStyle a
+{
+	color: #006699;
+}
+
+.GridViewEditRowStyle
+{
+	border: 1px solid black;
+	text-align: left;
+}
+
+.GridViewHeaderStyle th
+{
+	border: 1px solid black;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 14px;
+	color: white;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+.GridViewHeaderStyle
+{
+	border: 1px solid black;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 11px;
+	background-image: url('Images/Form_Title.JPG');
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-repeat: repeat-x;
+}
+
+.GridViewHeaderStyle a
+{
+	color: #FFFFFF;
+}
+
+.GridViewFooterStyle
+{
+	color: #000066;
+	height: 10px;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	background-color:#EAF2F8;
+	
+}
+
+.GridViewRowStyle
+{
+	border: 1px solid black;
+	text-align: left;
+	vertical-align: top;
+	background-color: #FFFFFF;
+	text-align: left;
+	height: 20px;
+	font-family: Calibri;
+	font-size: 14px;
+	color: #000000;
+	font-weight: normal;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-color: black;
+	border-left-color: black;
+}
+.GridViewRowStyleRecipe
+{
+	border: 1px solid black;
+	text-align: left;
+	vertical-align: top;
+	background-color: #FFFFFF;
+	text-align: left;
+	height: 12px;
+	font-family: Calibri;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-color: black;
+	border-left-color: black;
+}
+
+.GridViewRowStyle td
+{
+	border-left-style: solid;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-color: black;
+	border-left-color: black;
+}
+
+
+
+.GridViewAlternatingRowStyle
+{
+	border: 1px solid black;
+	text-align: left;
+	vertical-align: top;
+	background-color: #FFFFFF;
+	text-align: left;
+	height: 20px;
+	font-family: Calibri;
+	font-size: 14px;
+	color: #000000;
+	font-weight: normal;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-color: black;
+	border-left-color: black;
+}
+
+.GridViewAlternatingRowStyle td
+{
+	border-left-style: solid;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-color: black;
+	border-left-color: black;
+}
+
+
+
+.GridViewSelectedRowStyle
+{
+	border: 1px solid black;
+	background-color: #3399FF;
+	font-weight: bold;
+	color: white;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 11px;
+}
+
+.GridViewPagerStyle
+{
+	background-image: url('Images/Grid_Footer.png');
+}
+
+.GridViewPagerStyle td
+{
+	border: 1px solid black;
+	font-weight: bold;
+	color: #0033CC;
+	margin: 0;
+	height: 16px;
+	text-align: center;
+	right: 5px;
+	width: 16px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.GridRowHeight
+{
+	height: 200px;
+}
+
+.EmptyDataRowStyle
+{
+	border: 1px solid #0066FF;
+	color: #006699;
+	font-family: Calibri;
+	font-size: 13px;
+	font-style: normal;
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: inherit;
+}
+
+.Caption
+{
+	color: #FFFFFF;
+	font-family: Calibri;
+	font-size: 14px;
+	background-color: #0099CC;
+}
+
+.GridBack
+{
+	border: 1px dashed black;
+	vertical-align: top;
+}
+
+.hiddencol
+{
+	display: none;
+}

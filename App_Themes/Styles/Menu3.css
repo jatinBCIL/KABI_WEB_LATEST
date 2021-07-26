@@ -1,0 +1,13 @@
+﻿.Menu
+{  
+	background:transparent url(Images/Menu_Out.png) repeat-x;
+    text-align:center;
+    font-size:11px;
+    border: solid 0px #fff !important;
+}
+
+
+.menuhover
+{
+	color:#fff;background:transparent url(Images/Menu_In.png') no-repeat top center;
+ }

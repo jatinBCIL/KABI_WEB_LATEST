@@ -1,0 +1,61 @@
+========================= 2019-10-16 03:46:56 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-16 03:48:34 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-16 03:56:54 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-16 04:16:39 PM =========================
+Exception: Invalid login details
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 40
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 45
+   at clsBLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\clsBLCommon.cs:line 22
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-16 04:20:21 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-16 04:20:33 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-16 05:15:08 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-16 05:15:18 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-16 05:54:55 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-16 05:55:31 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-16 05:55:37 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-16 05:55:46 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-16 05:56:23 PM =========================
+Exception: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source: frmUserRole.aspx| Function Name: Page_Load
+========================= 2019-10-16 06:02:21 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-16 06:02:32 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-16 06:05:30 PM =========================
+Exception: Record saved successfully.
+Source: frmUserRole.aspx| Function Name: imgSave_Click
+========================= 2019-10-16 06:10:42 PM =========================
+Exception: Record Updated successfully.
+Source: frmUserMaster.aspx| Function Name: btnSaveRight_Click1
+========================= 2019-10-16 06:11:05 PM =========================
+Exception: User Logged Out Successfully
+Source: frmUserMaster.aspx| Function Name: btnLogout_Click
+========================= 2019-10-16 06:11:24 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

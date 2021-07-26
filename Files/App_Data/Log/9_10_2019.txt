@@ -1,0 +1,24 @@
+========================= 2019-10-09 10:44:43 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-09 10:45:20 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-09 10:48:51 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-09 10:48:54 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-09 10:54:46 AM =========================
+Exception: No details found for document
+Source: frmMaterialPosting.aspx| Function Name: btnGet_Click
+========================= 2019-10-09 10:59:52 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-10-09 11:00:13 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-10-09 11:01:42 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click

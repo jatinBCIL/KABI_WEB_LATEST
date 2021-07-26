@@ -1,0 +1,61 @@
+﻿<xpml><page quantity='0' pitch='50.8 mm'></xpml>^XA
+^SZ2^JMA
+^MCY^PMN
+^PW599
+~JSN
+^JZY
+^LH0,0^LRN
+^XZ
+<xpml></page></xpml><xpml><page quantity='1' pitch='50.8 mm'></xpml>^XA
+^FO569,3
+^GB0,401,3^FS
+^FO0,3
+^GB570,0,3^FS
+^FO0,401
+^GB570,0,3^FS
+^FT219,68
+^CI0
+^A0N,23,32^FDSAMPLED^FS
+^FT0,108
+^A0N,23,28^FDMaterial Code / Name:^FS
+^FT319,184
+^A0N,23,28^FDA.R. No. :^FS
+^FT1,184
+^A0N,23,24^FDBatch No :^FS
+^FT1,256
+^A0N,23,24^FDUnit No. :^FS
+^FT1,291
+^A0N,23,24^FDPrinted By :^FS
+^FO148,316
+^BY2^BCN,44,N,N^FD>:{BARCODE}^FS
+^FT205,383
+^A0N,23,32^FD{BARCODE}^FS
+^FO0,81
+^GB573,0,3^FS
+^FT319,291
+^A0N,23,24^FDDate :^FS
+^FT319,221
+^A0N,23,28^FDDate :^FS
+^FT12,221
+^A0N,23,24^FDARNo. :^FS
+^FT148,31
+^A0N,23,32^FDACME GENERICS LLP^FS
+^FT226,109
+^A0N,23,32^FD{MaterialName}^FS
+^FT100,184
+^A0N,23,32^FD{BatchNo}^FS
+^FT409,183
+^A0N,23,28^FD{ARNo}^FS
+^FT100,219
+^A0N,23,32^FD{GRNNo}^FS
+^FT404,218
+^A0N,23,32^FD{GRNDate}^FS
+^FT101,256
+^A0N,23,32^FD{UnitNo}^FS
+^FT100,293
+^A0N,23,32^FD{PrintBy}^FS
+^FT403,286
+^A0N,23,32^FD{PrintDate}^FS
+^PQ1,0,1,Y
+^XZ
+<xpml></page></xpml><xpml><end/></xpml>

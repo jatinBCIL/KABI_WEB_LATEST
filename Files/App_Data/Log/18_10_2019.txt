@@ -1,0 +1,178 @@
+========================= 2019-10-18 01:08:14 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 01:08:23 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 01:09:15 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 01:09:24 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 01:27:16 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 01:27:27 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 01:34:53 AM =========================
+Exception: User Logged Out Successfully
+Source: frmMaterialPosting.aspx| Function Name: btnLogout_Click
+========================= 2019-10-18 01:35:13 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 01:35:39 AM =========================
+Exception: No details found for document
+Source: frmMaterialPosting.aspx| Function Name: btnGet_Click
+========================= 2019-10-18 01:37:39 AM =========================
+Exception: System.Web.Services.Protocols.SoapException: Web service processing error; more details in the web service error log on provider side (UTC timestamp 20191017200725; Transaction ID E274F4EEF65C00C0E005DA84A90A1958)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_ManNo.z_ws_man_string.ZDMF002(ZDMF002 ZDMF0021) in c:\Users\BCIL\AppData\Local\Temp\Temporary ASP.NET Files\f_kabi\42b3338d\5c42820b\App_WebReferences.eda6tzyj.5.cs:line 49
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 224
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-10-18 01:37:59 AM =========================
+Exception: System.Net.WebException: The request was aborted: The request was canceled.
+   at System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   at System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_ManNo.z_ws_man_string.ZDMF002(ZDMF002 ZDMF0021) in c:\Users\BCIL\AppData\Local\Temp\Temporary ASP.NET Files\f_kabi\42b3338d\5c42820b\App_WebReferences.eda6tzyj.5.cs:line 49
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 224
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-10-18 01:38:11 AM =========================
+Exception: System.Web.Services.Protocols.SoapException: Web service processing error; more details in the web service error log on provider side (UTC timestamp 20191017200810; Transaction ID E274F4EEF65C00C0E005DA84A90A195F)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_ManNo.z_ws_man_string.ZDMF002(ZDMF002 ZDMF0021) in c:\Users\BCIL\AppData\Local\Temp\Temporary ASP.NET Files\f_kabi\42b3338d\5c42820b\App_WebReferences.eda6tzyj.5.cs:line 49
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 224
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-10-18 01:43:00 AM =========================
+Exception: No details found for document
+Source: frmMaterialPosting.aspx| Function Name: btnGet_Click
+========================= 2019-10-18 01:53:04 AM =========================
+Exception: No details found for document
+Source: frmMaterialPosting.aspx| Function Name: btnGet_Click
+========================= 2019-10-18 01:57:41 AM =========================
+Exception: Invalid login details
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 40
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 45
+   at clsBLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\clsBLCommon.cs:line 22
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 01:57:47 AM =========================
+Exception: Invalid login details
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 40
+   at DataLayer.clsDLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\clsDLCommon.cs:line 45
+   at clsBLCommon.Login(String strUsername, String strPassword, String strPlant, String strType) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\clsBLCommon.cs:line 22
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 01:58:03 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 01:58:14 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 01:58:46 AM =========================
+Exception: User Logged Out Successfully
+Source: frmMaterialPosting.aspx| Function Name: btnLogout_Click
+========================= 2019-10-18 01:58:59 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 10:14:08 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 10:14:16 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 10:14:24 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 10:14:27 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 10:14:30 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 10:14:46 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 10:14:54 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 12:24:03 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 12:24:11 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 12:24:30 PM =========================
+Exception: No details found for document
+Source: frmMaterialPosting.aspx| Function Name: btnGet_Click
+========================= 2019-10-18 12:25:01 PM =========================
+Exception: No details found for document
+Source: frmMaterialPosting.aspx| Function Name: btnGet_Click
+========================= 2019-10-18 12:29:43 PM =========================
+Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 243
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-10-18 12:31:28 PM =========================
+Exception: System.Net.WebException: The request was aborted: The request was canceled.
+   at System.Web.Services.Protocols.WebClientProtocol.GetWebResponse(WebRequest request)
+   at System.Web.Services.Protocols.HttpWebClientProtocol.GetWebResponse(WebRequest request)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_ManNo.z_ws_man_string.ZDMF002(ZDMF002 ZDMF0021) in c:\Users\BCIL\AppData\Local\Temp\Temporary ASP.NET Files\f_kabi\42b3338d\5c42820b\App_WebReferences.3v7z9cl4.5.cs:line 49
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 229
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-10-18 12:32:15 PM =========================
+Exception: lenth :1
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-10-18 12:32:43 PM =========================
+Exception: Data posted against Man no :5090194522
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-10-18 01:21:12 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 01:21:20 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 01:26:26 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 01:26:33 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 01:27:02 PM =========================
+Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at DataLayer.DL_UserMaster.DL_Save_UserMaster(PL_Username objFields) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_UserMaster.cs:line 200
+   at DataLayer.DL_UserMaster.DL_Save_UserMaster(PL_Username objFields) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_UserMaster.cs:line 209
+   at BusinessLayer.BL_UserMaster.BL_Save_Users(PL_Username objFields) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_UserMaster.cs:line 120
+Source: frmUserMaster.aspx| Function Name: imgSave_Click
+========================= 2019-10-18 01:30:08 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 01:30:18 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 01:31:38 PM =========================
+Exception: Record saved successfully.
+Source: frmUserMaster.aspx| Function Name: imgSave_Click
+========================= 2019-10-18 02:57:49 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 02:57:59 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 03:08:46 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 03:08:55 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 03:19:09 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-18 03:19:19 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-18 03:22:17 PM =========================
+Exception: 0 Label(s) Printed
+Source: frmMasterBarcodePrinting.aspx| Function Name: btnPrint_Click

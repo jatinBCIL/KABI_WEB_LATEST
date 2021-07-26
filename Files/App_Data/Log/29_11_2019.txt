@@ -1,0 +1,42 @@
+========================= 2019-11-29 11:46:19 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-29 11:46:28 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-29 12:03:05 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: Getdata
+========================= 2019-11-29 12:03:43 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: Getdata
+========================= 2019-11-29 12:12:42 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Daily
+========================= 2019-11-29 12:13:11 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Daily
+========================= 2019-11-29 12:14:10 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Daily
+========================= 2019-11-29 12:45:34 PM =========================
+Exception: No Details found
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 2019-11-29 12:51:06 PM =========================
+Exception: No Details found
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 2019-11-29 01:27:53 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-29 01:28:02 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-29 01:29:17 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Daily
+========================= 2019-11-29 02:31:51 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-29 02:32:02 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

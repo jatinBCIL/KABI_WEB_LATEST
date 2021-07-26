@@ -1,0 +1,286 @@
+========================= 2019-11-12 10:24:24 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-12 10:24:36 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-12 10:25:07 AM =========================
+Exception: The remote name could not be resolved: 'sapi23ms.sapms.fresenius.de'
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-11-12 10:25:12 AM =========================
+Exception: The remote name could not be resolved: 'sapi23ms.sapms.fresenius.de'
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-11-12 10:36:18 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-12 10:37:17 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-12 10:43:18 AM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 10:44:41 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-12 10:46:38 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-12 10:58:44 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-12 12:07:03 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-12 12:07:11 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-12 12:34:46 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-12 12:34:54 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-12 12:38:00 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 12:38:22 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-12 12:38:35 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: txtQtyAccepted_TextChanged
+========================= 2019-11-12 12:39:08 PM =========================
+Exception: Invalid balance scale id scanned
+Source: frmPurchaseOrder.aspx| Function Name: btnStartWeigh1_Click
+========================= 2019-11-12 12:40:18 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-12 12:41:35 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-12 12:58:31 PM =========================
+Exception: Check By user can not be same as login user
+Source: frmPurchaseOrder.aspx| Function Name: btnLoginOffc_Click
+========================= 2019-11-12 01:01:37 PM =========================
+Exception: 'lblModeOfTransport' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+Source: frmPurchaseOrder.aspx| Function Name: btnPrint_Click
+========================= 2019-11-12 01:20:23 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-12 01:20:34 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-12 02:25:41 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-12 02:26:20 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-12 02:27:17 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:29:10 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:32:03 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:38:28 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:38:30 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrder.aspx| Function Name: btnNext_Click
+========================= 2019-11-12 02:38:30 PM =========================
+Exception: System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at clsStandards.ConvertDateTime(String strdate, String Inputformat, String OutputFormat) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\App_Code\clsStandards.cs:line 296
+   at frmPurchaseOrder.AssignDetails(String strType, String strpurchaseNo, String strLineNo) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 600
+   at frmPurchaseOrder.btnNext_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 404
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:40:44 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:41:46 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:42:02 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrder.aspx| Function Name: btnNext_Click
+========================= 2019-11-12 02:42:02 PM =========================
+Exception: System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at clsStandards.ConvertDateTime(String strdate, String Inputformat, String OutputFormat) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\App_Code\clsStandards.cs:line 296
+   at frmPurchaseOrder.AssignDetails(String strType, String strpurchaseNo, String strLineNo) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 600
+   at frmPurchaseOrder.btnNext_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 404
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:43:38 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:43:48 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrder.aspx| Function Name: btnNext_Click
+========================= 2019-11-12 02:43:49 PM =========================
+Exception: System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at clsStandards.ConvertDateTime(String strdate, String Inputformat, String OutputFormat) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\App_Code\clsStandards.cs:line 296
+   at frmPurchaseOrder.AssignDetails(String strType, String strpurchaseNo, String strLineNo) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 600
+   at frmPurchaseOrder.btnNext_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 404
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:44:20 PM =========================
+Exception: Please enter Manufacture Name
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-12 02:44:26 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:45:57 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrder.aspx| Function Name: btnNext_Click
+========================= 2019-11-12 02:45:57 PM =========================
+Exception: System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at clsStandards.ConvertDateTime(String strdate, String Inputformat, String OutputFormat) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\App_Code\clsStandards.cs:line 296
+   at frmPurchaseOrder.AssignDetails(String strType, String strpurchaseNo, String strLineNo) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 600
+   at frmPurchaseOrder.btnNext_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 404
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:47:15 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:47:38 PM =========================
+Exception: Column 'AMFGDate' does not belong to table Table.
+Source: frmPurchaseOrder.aspx| Function Name: btnNext_Click
+========================= 2019-11-12 02:47:39 PM =========================
+Exception: System.ArgumentException: Column 'AMFGDate' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at frmPurchaseOrder.AssignDetails(String strType, String strpurchaseNo, String strLineNo) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 598
+   at frmPurchaseOrder.btnNext_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 404
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:47:59 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:48:51 PM =========================
+Exception: String was not recognized as a valid DateTime.
+Source: frmPurchaseOrder.aspx| Function Name: btnNext_Click
+========================= 2019-11-12 02:48:51 PM =========================
+Exception: System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at clsStandards.ConvertDateTime(String strdate, String Inputformat, String OutputFormat) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\App_Code\clsStandards.cs:line 296
+   at frmPurchaseOrder.AssignDetails(String strType, String strpurchaseNo, String strLineNo) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 600
+   at frmPurchaseOrder.btnNext_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmPurchaseOrder.aspx.cs:line 404
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:50:01 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 02:51:21 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-12 02:51:47 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-12 02:52:03 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-12 02:52:34 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-12 02:58:52 PM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_SavePurchaseOrder_Rec' expects parameter '@GrossWt_All', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+ClientConnectionId:697acf62-854c-4f6f-a74e-6263a0d28a03
+Error Number:201,State:4,Class:16
+Query:
+sp_SavePurchaseOrder_Rec
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 257
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 261
+   at BusinessLayer.BL_PurchaseOrder.BL_SavePurchaseOrder_ReceivingDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 72
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-12 03:12:17 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 03:14:37 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-12 03:15:14 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-12 03:23:07 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-12 03:25:09 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-12 03:25:30 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-12 03:26:18 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-12 03:27:56 PM =========================
+Exception: Quanity Exceed , Please enter proper quantity
+Source: frmPurchaseOrder.aspx| Function Name: GetToatlCount
+========================= 2019-11-12 03:29:58 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-12 04:26:58 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-12 04:27:50 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-12 04:38:07 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-12 04:40:30 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-12 04:40:51 PM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-12 05:19:40 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-12 05:19:49 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-12 05:26:44 PM =========================
+Exception: System.FormatException: Failed to convert parameter value from a String to a DateTime. ---> System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value, IFormatProvider provider)
+   at System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 191
+Query:
+sp_SavePurchaseOrder_Gen
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 209
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 187
+   at DataLayer.DL_PurchaseOrder.DL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 191
+   at BusinessLayer.BL_PurchaseOrder.BL_SavePurchaseOrder_GeneralDetails(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 54
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click

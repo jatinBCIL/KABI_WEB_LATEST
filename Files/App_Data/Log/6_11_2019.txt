@@ -1,0 +1,111 @@
+========================= 2019-11-06 12:03:39 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:03:55 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:04:05 AM =========================
+Exception: Printer IP not Connected
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click
+========================= 2019-11-06 12:06:35 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-06 12:06:45 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-06 12:07:05 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:07:34 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:08:18 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:08:48 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:10:53 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:30:56 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-06 12:31:08 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-06 12:31:44 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:41:50 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:42:20 AM =========================
+Exception: Printer IP not Connected
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click
+========================= 2019-11-06 12:49:56 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-06 12:50:08 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-06 12:50:30 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:50:41 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:50:46 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:51:00 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:52:04 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:52:25 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:53:14 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:58:25 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:58:46 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 12:59:20 AM =========================
+Exception: Printer IP not Connected
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click
+========================= 2019-11-06 01:00:58 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 01:01:22 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-06 01:01:34 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-06 01:01:50 AM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 01:02:20 AM =========================
+Exception: Printer IP not Connected
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click
+========================= 2019-11-06 01:12:15 AM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-06 01:13:12 AM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-06 01:14:32 AM =========================
+Exception: Unable to connect to the remote server
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 01:17:06 AM =========================
+Exception: No details found for document
+Source: frmDispensingReprinting.aspx| Function Name: btnGet_Click
+========================= 2019-11-06 01:17:14 AM =========================
+Exception: No details to print against this document
+Source: frmDispensingReprinting.aspx| Function Name: btnPrint_Click

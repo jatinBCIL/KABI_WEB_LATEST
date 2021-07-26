@@ -1,0 +1,111 @@
+========================= 2019-12-10 12:55:33 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-10 12:55:58 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-10 12:57:33 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Daily
+========================= 2019-12-10 12:57:45 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Daily
+========================= 2019-12-10 02:45:52 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-10 02:46:02 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-10 03:00:20 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-10 03:00:32 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-10 03:35:47 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-10 03:35:56 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-10 04:01:47 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-10 04:01:59 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-10 04:05:05 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-10 04:05:15 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-10 04:06:02 PM =========================
+Exception: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-12-10 04:10:36 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:10:36 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:10:57 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:11:03 PM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:11:32 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:11:53 PM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:12:27 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-12-10 04:13:39 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:14:00 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:14:00 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:16:07 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:16:11 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:17:22 PM =========================
+Exception: A socket operation was attempted to an unreachable network 0.0.0.11:22
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:20:45 PM =========================
+Exception: The request was aborted: The request was canceled.
+Source: frmMRNLabelPrinting.aspx| Function Name: btnGet_Click
+========================= 2019-12-10 04:21:19 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:21:22 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:25:03 PM =========================
+Exception: A socket operation was attempted to an unreachable network 0.0.0.11:22
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:31:48 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-10 04:31:59 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-10 04:33:06 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:33:09 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-12-10 04:34:10 PM =========================
+Exception: A socket operation was attempted to an unreachable network 0.0.0.11:22
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click

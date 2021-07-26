@@ -1,0 +1,24 @@
+========================= 2019-10-03 10:30:26 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-03 10:30:29 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-03 03:18:38 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-03 03:18:41 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-03 03:18:43 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-03 03:18:44 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-03 03:19:00 PM =========================
+Exception: No details found for document
+Source: FrmStatusLabelPrint.aspx| Function Name: btnGet_Click
+========================= 2019-10-03 03:22:03 PM =========================
+Exception: A blocking operation was interrupted by a call to WSACancelBlockingCall 10.233.143.59:9100
+Source: FrmStatusLabelPrint.aspx| Function Name: btnPrint_Click

@@ -1,0 +1,84 @@
+========================= 2019-11-09 06:48:15 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-09 06:48:32 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-09 06:53:22 PM =========================
+Exception: Unable to connect to the remote server
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-11-09 07:20:23 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-09 07:20:39 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-09 07:22:47 PM =========================
+Exception: Please check Cerificate Analysis Avaliable
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-09 07:23:00 PM =========================
+Exception: Please check Manufacture Approved
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-09 07:23:12 PM =========================
+Exception: Please check Supplier Approved
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-09 07:23:19 PM =========================
+Exception: Please Enter Container Damaged
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-09 07:23:38 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-09 07:23:46 PM =========================
+Exception: Please Enter VendorBatchNo
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-11-09 07:23:46 PM =========================
+Exception: Please Enter all the details
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Wt_Click
+========================= 2019-11-09 07:27:48 PM =========================
+Exception: Purchase order general details saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-11-09 07:36:16 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:36:30 PM =========================
+Exception: Please Enter Net Weight
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Click
+========================= 2019-11-09 07:36:52 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:37:24 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:37:25 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:37:45 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:38:08 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:38:31 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:38:37 PM =========================
+Exception: Please Enter Gross Weight
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Click
+========================= 2019-11-09 07:38:55 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:39:14 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:40:34 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:40:54 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:41:12 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-11-09 07:42:18 PM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails

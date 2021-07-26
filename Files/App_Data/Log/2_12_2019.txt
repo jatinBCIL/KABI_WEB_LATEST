@@ -1,0 +1,24 @@
+========================= 2019-12-02 12:11:46 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-02 12:12:22 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-12-02 12:18:16 AM =========================
+Exception: Please Enter Invoice Date
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2019-12-02 12:19:25 AM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2019-12-02 12:20:17 AM =========================
+Exception: Added Data
+Source: frmPurchaseOrder.aspx| Function Name: SaveReceivingDetails
+========================= 2019-12-02 12:20:18 AM =========================
+Exception: Material Receiving Data Saved Successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveReceiving_Click
+========================= 2019-12-02 12:53:40 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-12-02 12:53:52 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="file:///D:/Projects/Checkkabi/Chages Kabi 22-01-2021/F_kabi_Web/F_kabi/App_WebReferences/STO_OUT_DELIVERY/Z_WS_OUTBOUND_DELIVRY.wsdl" filename="Z_WS_OUTBOUND_DELIVRY.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

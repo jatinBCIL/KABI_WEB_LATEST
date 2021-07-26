@@ -1,0 +1,530 @@
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-11 11:38:33 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3200011994</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-11 11:38:33 AM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-11 11:38:36 AM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3200011994</PO_NUMBER>
+      <DOC_DATE>2020-01-31</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>9902086356</MATERIAL>
+      <SHORT_TEXT>POLYSORBATE-80( PURIFIED) (S)</SHORT_TEXT>
+      <MATL_TYPE>FERT</MATL_TYPE>
+      <QUANTITY>52.0</QUANTITY>
+      <UNIT>KG</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-11 11:38:36 AM
+================================================================
+================================================================
+========================ReservationPost - Request
+=================2020-02-11 03:11:13 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF010 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IM_HEADER>
+    <PLANT>3186</PLANT>
+    <PROCES_ORDER_NUMBER>0001099298</PROCES_ORDER_NUMBER>
+    <PURCHASE_ORDER_NO />
+    <GATE_ENTRY_NO />
+    <TDATE>2020-02-11</TDATE>
+    <SALTAX />
+    <AIRWAY_BILL_NO />
+    <AIRWAY_BILL_DATE />
+    <WAY_BILL_NOT_REQUIRED>X</WAY_BILL_NOT_REQUIRED>
+    <GROSS_WT />
+    <NET_WT />
+    <TARE_WT />
+    <NO_OF_PACKS />
+    <LIC_NO />
+    <MAN_TAX />
+    <TRANSPORTER />
+    <MODE_OF_TRANSPORT />
+    <GR_RR_NO />
+    <TRUCK />
+    <BILLNO />
+    <BILLDAT />
+    <TR6 />
+    <TRDAT />
+    <GM_CODE>03</GM_CODE>
+    <DOC_DATE>2020-02-11</DOC_DATE>
+    <POSTING_DATE>2020-02-11</POSTING_DATE>
+    <HEADER_TEXT>testing</HEADER_TEXT>
+    <UNAME />
+    <WAY_DT />
+    <WAY_REQ />
+    <FNUM />
+    <BILL_OF_LADING />
+    <GR_GI_SLIP_NO>test123</GR_GI_SLIP_NO>
+    <DELIVERY_NOTE />
+    <EXCISE_INVOICE />
+    <EXCISE_INVOICED_DATE />
+    <EXCISE_GROUP />
+  </IM_HEADER>
+  <RETURN>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER />
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO />
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+    <item>
+      <TYPE />
+      <ID />
+      <NUMBER />
+      <MESSAGE />
+      <LOG_NO />
+      <LOG_MSG_NO />
+      <MESSAGE_V1 />
+      <MESSAGE_V2 />
+      <MESSAGE_V3 />
+      <MESSAGE_V4 />
+      <PARAMETER />
+      <ROW>0</ROW>
+      <FIELD />
+      <SYSTEM />
+    </item>
+  </RETURN>
+  <T_ITEM>
+    <item>
+      <MBLNR />
+      <MJAHR>2020</MJAHR>
+      <ZEILE />
+      <LINE_ID />
+      <PARENT_ID />
+      <LINE_DEPTH />
+      <MAA_URZEI />
+      <BWART>261</BWART>
+      <XAUTO />
+      <MATNR>7110160218</MATNR>
+      <WERKS>3186</WERKS>
+      <LGORT>RCW2</LGORT>
+      <CHARG />
+      <INSMK />
+      <ZUSCH />
+      <ZUSTD />
+      <LIFNR />
+      <KUNNR />
+      <KDAUF />
+      <KDPOS />
+      <KDEIN />
+      <PLPLA />
+      <SHKZG />
+      <WAERS />
+      <DMBTR>0</DMBTR>
+      <BNBTR>0</BNBTR>
+      <BUALT>0</BUALT>
+      <SHKUM />
+      <DMBUM>0</DMBUM>
+      <BWTAR />
+      <MENGE>0</MENGE>
+      <MEINS />
+      <ERFMG>0.000</ERFMG>
+      <ERFME />
+      <BPMNG>0</BPMNG>
+      <BPRME />
+      <EBELN />
+      <EBELP />
+      <LFBJA />
+      <LFBNR />
+      <LFPOS />
+      <SJAHR />
+      <SMBLN />
+      <SMBLP />
+      <ELIKZ />
+      <SGTXT />
+      <EQUNR />
+      <WEMPF />
+      <ABLAD />
+      <GSBER />
+      <KOKRS />
+      <PARGB />
+      <PARBU />
+      <KOSTL />
+      <PROJN />
+      <AUFNR />
+      <ANLN1 />
+      <ANLN2 />
+      <XSKST />
+      <XSAUF />
+      <XSPRO />
+      <XSERG />
+      <GJAHR />
+      <XRUEM />
+      <XRUEJ />
+      <BUKRS />
+      <BELNR />
+      <BUZEI />
+      <BELUM />
+      <BUZUM />
+      <RSNUM>0001099298</RSNUM>
+      <RSPOS>000001</RSPOS>
+      <KZEAR />
+      <PBAMG>0</PBAMG>
+      <KZSTR />
+      <UMMAT />
+      <UMWRK />
+      <UMLGO />
+      <UMCHA />
+      <UMZST />
+      <UMZUS />
+      <UMBAR />
+      <UMSOK />
+      <KZBEW />
+      <KZVBR />
+      <KZZUG />
+      <WEUNB />
+      <PALAN>0</PALAN>
+      <LGNUM />
+      <LGTYP />
+      <LGPLA />
+      <BESTQ />
+      <BWLVS />
+      <TBNUM />
+      <TBPOS />
+      <XBLVS />
+      <VSCHN />
+      <NSCHN />
+      <DYPLA />
+      <UBNUM />
+      <TBPRI />
+      <TANUM />
+      <WEANZ />
+      <GRUND />
+      <EVERS />
+      <EVERE />
+      <IMKEY />
+      <KSTRG />
+      <PAOBJNR />
+      <PRCTR />
+      <PS_PSP_PNR />
+      <NPLNR />
+      <AUFPL />
+      <APLZL />
+      <AUFPS />
+      <VPTNR />
+      <FIPOS />
+      <SAKTO />
+      <BSTMG>0</BSTMG>
+      <BSTME />
+      <XWSBR />
+      <EMLIF />
+      <ZZ_REP_MAT />
+      <EXBWR>0</EXBWR>
+      <VKWRT>0</VKWRT>
+      <AKTNR />
+      <ZEKKN />
+      <VFDAT />
+      <CUOBJ_CH />
+      <EXVKW>0</EXVKW>
+      <PPRCTR />
+      <RSART />
+      <GEBER />
+      <FISTL />
+      <MATBF />
+      <UMMAB />
+      <BUSTM />
+      <BUSTW />
+      <MENGU />
+      <WERTU />
+      <LBKUM>0</LBKUM>
+      <SALK3>0</SALK3>
+      <VPRSV />
+      <FKBER />
+      <DABRBZ />
+      <VKWRA>0</VKWRA>
+      <DABRZ />
+      <XBEAU />
+      <LSMNG>0</LSMNG>
+      <LSMEH />
+      <KZBWS />
+      <QINSPST />
+      <URZEI />
+      <J_1BEXBASE>0</J_1BEXBASE>
+      <MWSKZ />
+      <TXJCD />
+      <EMATN />
+      <J_1AGIRUPD />
+      <VKMWS />
+      <HSDAT />
+      <BERKZ />
+      <MAT_KDAUF />
+      <MAT_KDPOS />
+      <MAT_PSPNR />
+      <XWOFF />
+      <BEMOT />
+      <PRZNR />
+      <LLIEF />
+      <LSTAR />
+      <XOBEW />
+      <GRANT_NBR />
+      <ZUSTD_T156M />
+      <SPE_GTS_STOCK_TY />
+      <KBLNR />
+      <KBLPOS />
+      <XMACC />
+      <VGART_MKPF />
+      <BUDAT_MKPF />
+      <CPUDT_MKPF />
+      <CPUTM_MKPF>15:10:27</CPUTM_MKPF>
+      <USNAM_MKPF />
+      <XBLNR_MKPF />
+      <TCODE2_MKPF />
+      <VBELN_IM />
+      <VBELP_IM />
+      <SGT_SCAT />
+      <SGT_UMSCAT />
+      <SGT_RCAT />
+      <ITEM />
+      <MAKTX />
+      <MDSLIP />
+      <R9NUM />
+      <PACK />
+      <PACK_QTY>0</PACK_QTY>
+      <ENTRY_UOM_ISO />
+      <MANUFACTURE_NAME />
+      <VENDOR_BATCH_NO />
+      <MFG_DATE />
+      <EXP_DATE />
+      <CERTIFICATE_ENCLOSED />
+      <VENDOR_BATCH_NUMBER />
+      <ITEM_OK />
+      <AR_NUMBER />
+      <BIN_LOCATION />
+    </item>
+    <item>
+      <MBLNR />
+      <MJAHR>2020</MJAHR>
+      <ZEILE />
+      <LINE_ID />
+      <PARENT_ID />
+      <LINE_DEPTH />
+      <MAA_URZEI />
+      <BWART>261</BWART>
+      <XAUTO />
+      <MATNR>7110160218</MATNR>
+      <WERKS>3186</WERKS>
+      <LGORT>RCW2</LGORT>
+      <CHARG />
+      <INSMK />
+      <ZUSCH />
+      <ZUSTD />
+      <LIFNR />
+      <KUNNR />
+      <KDAUF />
+      <KDPOS />
+      <KDEIN />
+      <PLPLA />
+      <SHKZG />
+      <WAERS />
+      <DMBTR>0</DMBTR>
+      <BNBTR>0</BNBTR>
+      <BUALT>0</BUALT>
+      <SHKUM />
+      <DMBUM>0</DMBUM>
+      <BWTAR />
+      <MENGE>0</MENGE>
+      <MEINS />
+      <ERFMG>0.000</ERFMG>
+      <ERFME />
+      <BPMNG>0</BPMNG>
+      <BPRME />
+      <EBELN />
+      <EBELP />
+      <LFBJA />
+      <LFBNR />
+      <LFPOS />
+      <SJAHR />
+      <SMBLN />
+      <SMBLP />
+      <ELIKZ />
+      <SGTXT />
+      <EQUNR />
+      <WEMPF />
+      <ABLAD />
+      <GSBER />
+      <KOKRS />
+      <PARGB />
+      <PARBU />
+      <KOSTL />
+      <PROJN />
+      <AUFNR />
+      <ANLN1 />
+      <ANLN2 />
+      <XSKST />
+      <XSAUF />
+      <XSPRO />
+      <XSERG />
+      <GJAHR />
+      <XRUEM />
+      <XRUEJ />
+      <BUKRS />
+      <BELNR />
+      <BUZEI />
+      <BELUM />
+      <BUZUM />
+      <RSNUM>0001099298</RSNUM>
+      <RSPOS>000001</RSPOS>
+      <KZEAR />
+      <PBAMG>0</PBAMG>
+      <KZSTR />
+      <UMMAT />
+      <UMWRK />
+      <UMLGO />
+      <UMCHA />
+      <UMZST />
+      <UMZUS />
+      <UMBAR />
+      <UMSOK />
+      <KZBEW />
+      <KZVBR />
+      <KZZUG />
+      <WEUNB />
+      <PALAN>0</PALAN>
+      <LGNUM />
+      <LGTYP />
+      <LGPLA />
+      <BESTQ />
+      <BWLVS />
+      <TBNUM />
+      <TBPOS />
+      <XBLVS />
+      <VSCHN />
+      <NSCHN />
+      <DYPLA />
+      <UBNUM />
+      <TBPRI />
+      <TANUM />
+      <WEANZ />
+      <GRUND />
+      <EVERS />
+      <EVERE />
+      <IMKEY />
+      <KSTRG />
+      <PAOBJNR />
+      <PRCTR />
+      <PS_PSP_PNR />
+      <NPLNR />
+      <AUFPL />
+      <APLZL />
+      <AUFPS />
+      <VPTNR />
+      <FIPOS />
+      <SAKTO />
+      <BSTMG>0</BSTMG>
+      <BSTME />
+      <XWSBR />
+      <EMLIF />
+      <ZZ_REP_MAT />
+      <EXBWR>0</EXBWR>
+      <VKWRT>0</VKWRT>
+      <AKTNR />
+      <ZEKKN />
+      <VFDAT />
+      <CUOBJ_CH />
+      <EXVKW>0</EXVKW>
+      <PPRCTR />
+      <RSART />
+      <GEBER />
+      <FISTL />
+      <MATBF />
+      <UMMAB />
+      <BUSTM />
+      <BUSTW />
+      <MENGU />
+      <WERTU />
+      <LBKUM>0</LBKUM>
+      <SALK3>0</SALK3>
+      <VPRSV />
+      <FKBER />
+      <DABRBZ />
+      <VKWRA>0</VKWRA>
+      <DABRZ />
+      <XBEAU />
+      <LSMNG>0</LSMNG>
+      <LSMEH />
+      <KZBWS />
+      <QINSPST />
+      <URZEI />
+      <J_1BEXBASE>0</J_1BEXBASE>
+      <MWSKZ />
+      <TXJCD />
+      <EMATN />
+      <J_1AGIRUPD />
+      <VKMWS />
+      <HSDAT />
+      <BERKZ />
+      <MAT_KDAUF />
+      <MAT_KDPOS />
+      <MAT_PSPNR />
+      <XWOFF />
+      <BEMOT />
+      <PRZNR />
+      <LLIEF />
+      <LSTAR />
+      <XOBEW />
+      <GRANT_NBR />
+      <ZUSTD_T156M />
+      <SPE_GTS_STOCK_TY />
+      <KBLNR />
+      <KBLPOS />
+      <XMACC />
+      <VGART_MKPF />
+      <BUDAT_MKPF />
+      <CPUDT_MKPF />
+      <CPUTM_MKPF>15:11:08</CPUTM_MKPF>
+      <USNAM_MKPF />
+      <XBLNR_MKPF />
+      <TCODE2_MKPF />
+      <VBELN_IM />
+      <VBELP_IM />
+      <SGT_SCAT />
+      <SGT_UMSCAT />
+      <SGT_RCAT />
+      <ITEM />
+      <MAKTX />
+      <MDSLIP />
+      <R9NUM />
+      <PACK />
+      <PACK_QTY>0</PACK_QTY>
+      <ENTRY_UOM_ISO />
+      <MANUFACTURE_NAME />
+      <VENDOR_BATCH_NO />
+      <MFG_DATE />
+      <EXP_DATE />
+      <CERTIFICATE_ENCLOSED />
+      <VENDOR_BATCH_NUMBER />
+      <ITEM_OK />
+      <AR_NUMBER />
+      <BIN_LOCATION />
+    </item>
+  </T_ITEM>
+</ZDMF010>
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click 2020-02-11 03:11:13 PM
+================================================================

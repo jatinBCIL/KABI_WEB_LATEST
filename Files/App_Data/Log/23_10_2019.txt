@@ -1,0 +1,61 @@
+========================= 2019-10-23 09:51:04 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-23 09:51:12 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-23 09:54:06 AM =========================
+Exception: Printed IP not Connected
+Source: frmDispensingReprinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-23 09:57:04 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-23 09:57:18 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-10-23 09:59:03 AM =========================
+Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at System.Array.InternalGetReference(Void* elemRef, Int32 rank, Int32* pIndices)
+   at System.Array.GetValue(Int32 index)
+   at frmDispensingReprinting.btnPrint_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmDispensingReprinting.aspx.cs:line 136
+Source: frmDispensingReprinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-23 10:03:33 AM =========================
+Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at System.Array.InternalGetReference(Void* elemRef, Int32 rank, Int32* pIndices)
+   at System.Array.GetValue(Int32 index)
+   at frmDispensingReprinting.btnPrint_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmDispensingReprinting.aspx.cs:line 136
+Source: frmDispensingReprinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-23 10:05:11 AM =========================
+Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at System.Array.InternalGetReference(Void* elemRef, Int32 rank, Int32* pIndices)
+   at System.Array.GetValue(Int32 index)
+   at frmDispensingReprinting.btnPrint_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmDispensingReprinting.aspx.cs:line 136
+Source: frmDispensingReprinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-23 10:15:31 AM =========================
+Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at System.Array.InternalGetReference(Void* elemRef, Int32 rank, Int32* pIndices)
+   at System.Array.GetValue(Int32 index)
+   at frmDispensingReprinting.btnPrint_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmDispensingReprinting.aspx.cs:line 137
+Source: frmDispensingReprinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-23 10:16:06 AM =========================
+Exception: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at System.Array.InternalGetReference(Void* elemRef, Int32 rank, Int32* pIndices)
+   at System.Array.GetValue(Int32 index)
+   at frmDispensingReprinting.btnPrint_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmDispensingReprinting.aspx.cs:line 137
+Source: frmDispensingReprinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-23 10:18:21 AM =========================
+Exception: System.ApplicationException: An invalid IP address was specified.
+   at PrintDirect.Print_DispenseRawLabel(String printerName, String strBarcode, String strMatCode, String strMatDescription, String strMatBatch, String strMfgDate, String strExpiryDate, String strProcessOrder, String strProdCode, String strProdBatch, String strProdDesc, Decimal dGrosswt, Decimal dNetwt, Decimal dTarewt, String strIssuedBy, String strIssueDate, String strUom, String strPlantName, String strBatchSize, String strARNo, String strContainerNo, String strIP, String strPort) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\App_Code\PrintDirect.cs:line 177
+   at frmDispensingReprinting.btnPrint_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmDispensingReprinting.aspx.cs:line 137
+Source: frmDispensingReprinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-23 10:21:05 AM =========================
+Exception: System.ApplicationException: An invalid IP address was specified.
+   at PrintDirect.Print_DispenseRawLabel(String printerName, String strBarcode, String strMatCode, String strMatDescription, String strMatBatch, String strMfgDate, String strExpiryDate, String strProcessOrder, String strProdCode, String strProdBatch, String strProdDesc, Decimal dGrosswt, Decimal dNetwt, Decimal dTarewt, String strIssuedBy, String strIssueDate, String strUom, String strPlantName, String strBatchSize, String strARNo, String strContainerNo, String strIP, String strPort) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\App_Code\PrintDirect.cs:line 177
+   at frmDispensingReprinting.btnPrint_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmDispensingReprinting.aspx.cs:line 137
+Source: frmDispensingReprinting.aspx| Function Name: btnPrint_Click
+========================= 2019-10-23 11:30:42 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-10-23 11:30:51 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

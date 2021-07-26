@@ -1,0 +1,21 @@
+========================= 2020-02-21 03:03:08 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-21 03:03:17 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-21 03:43:29 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-21 03:43:39 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-21 03:44:28 PM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Daily
+========================= 2020-02-21 03:58:53 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-21 03:59:04 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

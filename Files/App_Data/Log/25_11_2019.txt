@@ -1,0 +1,66 @@
+========================= 2019-11-25 11:03:00 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-25 11:03:09 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-25 11:04:05 AM =========================
+Exception: No details found for document
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnGet_Click
+========================= 2019-11-25 11:05:02 AM =========================
+Exception: No details found for document
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnGet_Click
+========================= 2019-11-25 11:11:46 AM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmMRNLabelRePrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-25 11:23:04 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-25 11:23:13 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-25 11:23:56 AM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-25 11:25:10 AM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-25 11:25:31 AM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-25 11:26:45 AM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-25 11:29:00 AM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-25 11:29:05 AM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-25 11:36:58 AM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-25 11:36:59 AM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-25 11:37:20 AM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-25 02:34:56 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-25 02:35:06 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-25 02:37:19 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click
+========================= 2019-11-25 03:03:45 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-25 03:03:54 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-25 03:04:23 PM =========================
+Exception: The remote name could not be resolved: 'sapi23ms.sapms.fresenius.de'
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click

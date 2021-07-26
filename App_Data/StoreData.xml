@@ -1,0 +1,91 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <Standardweight>1.00</Standardweight>
+    <ObservedWeight>1.01</ObservedWeight>
+    <Differences>0.01</Differences>
+    <Remarks>0</Remarks>
+    <Department>Warehouse</Department>
+    <WEIGHINGCODE>WHD/001</WEIGHINGCODE>
+    <WEIGHTBOXID>WHD/012,WHD/124</WEIGHTBOXID>
+    <PLANTCODE>3186</PLANTCODE>
+    <BalanceLevel>OK</BalanceLevel>
+    <CREATEDON>24-09-2019</CREATEDON>
+    <WEIGHINGCAPACITY>6100.00</WEIGHINGCAPACITY>
+    <CERTIFICATENO>ICLCL-257390.20,ICLCL-257393.20.</CERTIFICATENO>
+    <WorkingRange>1.00-4880</WorkingRange>
+    <ZerroError>Pass</ZerroError>
+    <DUEDAYS>18-01-2021</DUEDAYS>
+    <PlantDesc>Achme plant</PlantDesc>
+    <CheckBy>Yogendra Yadav</CheckBy>
+    <CalibratinBy>Jasvinder Singh</CalibratinBy>
+    <CalibrationDate>19-12-2020</CalibrationDate>
+    <WEIGHINGUOM>G</WEIGHINGUOM>
+  </Table>
+  <Table>
+    <Standardweight>1525.00</Standardweight>
+    <ObservedWeight>1525.01</ObservedWeight>
+    <Differences>0.01</Differences>
+    <Remarks>0</Remarks>
+    <Department>Warehouse</Department>
+    <WEIGHINGCODE>WHD/001</WEIGHINGCODE>
+    <WEIGHTBOXID>WHD/012,WHD/124</WEIGHTBOXID>
+    <PLANTCODE>3186</PLANTCODE>
+    <BalanceLevel>OK</BalanceLevel>
+    <CREATEDON>24-09-2019</CREATEDON>
+    <WEIGHINGCAPACITY>6100.00</WEIGHINGCAPACITY>
+    <CERTIFICATENO>ICLCL-257390.20,ICLCL-257393.20.</CERTIFICATENO>
+    <WorkingRange>1.00-4880</WorkingRange>
+    <ZerroError>Pass</ZerroError>
+    <DUEDAYS>18-01-2021</DUEDAYS>
+    <PlantDesc>Achme plant</PlantDesc>
+    <CheckBy>Yogendra Yadav</CheckBy>
+    <CalibratinBy>Jasvinder Singh</CalibratinBy>
+    <CalibrationDate>19-12-2020</CalibrationDate>
+    <WEIGHINGUOM>G</WEIGHINGUOM>
+  </Table>
+  <Table>
+    <Standardweight>3050.00</Standardweight>
+    <ObservedWeight>3050.00</ObservedWeight>
+    <Differences>0.00</Differences>
+    <Remarks>0</Remarks>
+    <Department>Warehouse</Department>
+    <WEIGHINGCODE>WHD/001</WEIGHINGCODE>
+    <WEIGHTBOXID>WHD/012,WHD/124</WEIGHTBOXID>
+    <PLANTCODE>3186</PLANTCODE>
+    <BalanceLevel>OK</BalanceLevel>
+    <CREATEDON>24-09-2019</CREATEDON>
+    <WEIGHINGCAPACITY>6100.00</WEIGHINGCAPACITY>
+    <CERTIFICATENO>ICLCL-257390.20,ICLCL-257393.20.</CERTIFICATENO>
+    <WorkingRange>1.00-4880</WorkingRange>
+    <ZerroError>Pass</ZerroError>
+    <DUEDAYS>18-01-2021</DUEDAYS>
+    <PlantDesc>Achme plant</PlantDesc>
+    <CheckBy>Yogendra Yadav</CheckBy>
+    <CalibratinBy>Jasvinder Singh</CalibratinBy>
+    <CalibrationDate>19-12-2020</CalibrationDate>
+    <WEIGHINGUOM>G</WEIGHINGUOM>
+  </Table>
+  <Table>
+    <Standardweight>4880.00</Standardweight>
+    <ObservedWeight>4879.96</ObservedWeight>
+    <Differences>-0.04</Differences>
+    <Remarks>0</Remarks>
+    <Department>Warehouse</Department>
+    <WEIGHINGCODE>WHD/001</WEIGHINGCODE>
+    <WEIGHTBOXID>WHD/012,WHD/124</WEIGHTBOXID>
+    <PLANTCODE>3186</PLANTCODE>
+    <BalanceLevel>OK</BalanceLevel>
+    <CREATEDON>24-09-2019</CREATEDON>
+    <WEIGHINGCAPACITY>6100.00</WEIGHINGCAPACITY>
+    <CERTIFICATENO>ICLCL-257390.20,ICLCL-257393.20.</CERTIFICATENO>
+    <WorkingRange>1.00-4880</WorkingRange>
+    <ZerroError>Pass</ZerroError>
+    <DUEDAYS>18-01-2021</DUEDAYS>
+    <PlantDesc>Achme plant</PlantDesc>
+    <CheckBy>Yogendra Yadav</CheckBy>
+    <CalibratinBy>Jasvinder Singh</CalibratinBy>
+    <CalibrationDate>19-12-2020</CalibrationDate>
+    <WEIGHINGUOM>G</WEIGHINGUOM>
+  </Table>
+</NewDataSet>

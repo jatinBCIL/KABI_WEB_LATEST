@@ -1,0 +1,6 @@
+========================= 2019-11-21 10:48:41 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-21 10:48:51 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants

@@ -1,0 +1,18 @@
+========================= 05-02-2021 18:53:38 =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 05-02-2021 18:56:36 =========================
+Exception: Could not find a part of the path 'C:\BCIL\Chages Kabi 22-01-2021\F_kabi_Web - Copy\F_kabi\Add_Data\StoreData.xml'.
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 05-02-2021 18:57:05 =========================
+Exception: DataTable does not support schema inference from Xml.
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 05-02-2021 18:57:35 =========================
+Exception: DataTable does not support schema inference from Xml.
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 05-02-2021 18:58:40 =========================
+Exception: DataTable does not support schema inference from Xml.
+Source: ReportView.aspx| Function Name: Page_Load
+========================= 05-02-2021 19:26:20 =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click

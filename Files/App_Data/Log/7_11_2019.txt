@@ -1,0 +1,51 @@
+========================= 2019-11-07 11:44:19 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-07 11:44:28 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-07 11:47:09 AM =========================
+Exception: PU Ordered quantity exceeded by 20.000 EA : 7220160106 3186 PCW1 0000264756
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-07 12:25:50 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-07 12:26:01 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-07 12:28:42 PM =========================
+Exception: System.Web.Services.Protocols.SoapException: Web service processing error; more details in the web service error log on provider side (UTC timestamp 20191107065824; Transaction ID E274F4EEF65C00B0E005D84A0F1BC5EF)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_ManNo_new.zws_migo_final.ZDMF002(ZDMF002 ZDMF0021) in c:\Users\BCIL\AppData\Local\Temp\Temporary ASP.NET Files\f_kabi\42b3338d\5c42820b\App_WebReferences.-2e_qqxm.2.cs:line 49
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 231
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-07 12:33:07 PM =========================
+Exception: System.Web.Services.Protocols.SoapException: Web service processing error; more details in the web service error log on provider side (UTC timestamp 20191107070129; Transaction ID E274F4EEF65C00C0E005DC12969B7CFF)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_ManNo_new.zws_migo_final.ZDMF002(ZDMF002 ZDMF0021) in c:\Users\BCIL\AppData\Local\Temp\Temporary ASP.NET Files\f_kabi\42b3338d\5c42820b\App_WebReferences.-2e_qqxm.2.cs:line 49
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 231
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-07 12:36:17 PM =========================
+Exception: System.Web.Services.Protocols.SoapException: Web service processing error; more details in the web service error log on provider side (UTC timestamp 20191107070611; Transaction ID E274F4EEF65C00C0E005DC12969B7D35)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_ManNo_new.zws_migo_final.ZDMF002(ZDMF002 ZDMF0021) in c:\Users\BCIL\AppData\Local\Temp\Temporary ASP.NET Files\f_kabi\42b3338d\5c42820b\App_WebReferences.-2e_qqxm.2.cs:line 49
+   at frmMaterialPosting.btnPost_Click(Object sender, EventArgs e) in f:\A_Nikita\F_Kabi\F_Kabi_29_06_2019\F_kabi_Web\F_kabi\Transactions\frmMaterialPosting.aspx.cs:line 231
+Source: frmMaterialPosting.aspx| Function Name: btnPost_Click
+========================= 2019-11-07 03:59:55 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2019-11-07 04:00:02 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2019-11-07 04:01:20 PM =========================
+Exception: started
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-07 04:11:45 PM =========================
+Exception: ended
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click
+========================= 2019-11-07 04:12:07 PM =========================
+Exception: Printed IP not Connected
+Source: frmMRNLabelPrinting.aspx| Function Name: btnPrint_Click

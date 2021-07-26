@@ -1,0 +1,12 @@
+========================= 2020-03-12 11:05:19 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-03-12 11:05:28 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-03-12 11:06:07 AM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Daily
+========================= 2020-03-12 11:11:49 AM =========================
+Exception: No Details found
+Source: Reports.aspx| Function Name: GetReport_Daily

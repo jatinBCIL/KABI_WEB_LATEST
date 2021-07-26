@@ -1,0 +1,480 @@
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-28 01:23:19 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100081140</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-28 01:23:19 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-28 01:23:40 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100081140</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-28 01:23:40 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-28 01:23:44 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80036951</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220400131</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 017</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>50000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>50000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>251068063319</FNUM>
+      <WAY_DT>2018-12-26</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF8320</TRUCK>
+    </item>
+    <item>
+      <GENUM>80036951</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220400122</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 008</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>31500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>120000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>251068063319</FNUM>
+      <WAY_DT>2018-12-26</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF8320</TRUCK>
+    </item>
+    <item>
+      <GENUM>80036952</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220400135</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 021</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>18000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>100000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>231068022033</FNUM>
+      <WAY_DT>2018-12-26</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF8320</TRUCK>
+    </item>
+    <item>
+      <GENUM>80036952</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220400119</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 005</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>50000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>50000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>231068022033</FNUM>
+      <WAY_DT>2018-12-26</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF8320</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037234</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220400135</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 021</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>82000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>82000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>251074665914</FNUM>
+      <WAY_DT>2019-01-21</WAY_DT>
+      <TNAME>safexpress</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF 8320</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037234</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220400122</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 008</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>88500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>88500.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>251074665914</FNUM>
+      <WAY_DT>2019-01-21</WAY_DT>
+      <TNAME>safexpress</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF 8320</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081140</PO_NUMBER>
+      <DOC_DATE>2018-12-13</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220400131</MATERIAL>
+      <SHORT_TEXT>Plastic Puck (Bottom-LLDPE) 017</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>50000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081140</PO_NUMBER>
+      <DOC_DATE>2018-12-13</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220400135</MATERIAL>
+      <SHORT_TEXT>Plastic Puck (Bottom-LLDPE) 021</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>100000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081140</PO_NUMBER>
+      <DOC_DATE>2018-12-13</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220400119</MATERIAL>
+      <SHORT_TEXT>Plastic Puck (Bottom-LLDPE) 005</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>50000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081140</PO_NUMBER>
+      <DOC_DATE>2018-12-13</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220400122</MATERIAL>
+      <SHORT_TEXT>Plastic Puck (Bottom-LLDPE) 008</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>120000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-28 01:23:44 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-28 01:24:39 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100081140</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-28 01:24:39 PM
+================================================================
+================================================================
+========================PurchaseOrder - Request
+=================2020-02-28 01:24:42 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100081140</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-28 01:24:42 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-02-28 01:24:45 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80036951</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220400131</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 017</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>50000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>50000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>251068063319</FNUM>
+      <WAY_DT>2018-12-26</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF8320</TRUCK>
+    </item>
+    <item>
+      <GENUM>80036951</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220400122</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 008</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>31500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>120000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>251068063319</FNUM>
+      <WAY_DT>2018-12-26</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF8320</TRUCK>
+    </item>
+    <item>
+      <GENUM>80036952</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220400135</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 021</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>18000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>100000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>231068022033</FNUM>
+      <WAY_DT>2018-12-26</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF8320</TRUCK>
+    </item>
+    <item>
+      <GENUM>80036952</GENUM>
+      <DYEAR>2018</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220400119</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 005</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>50000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>50000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>231068022033</FNUM>
+      <WAY_DT>2018-12-26</WAY_DT>
+      <TNAME>golden hiway</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF8320</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037234</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7220400135</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 021</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>82000.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>82000.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>251074665914</FNUM>
+      <WAY_DT>2019-01-21</WAY_DT>
+      <TNAME>safexpress</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF 8320</TRUCK>
+    </item>
+    <item>
+      <GENUM>80037234</GENUM>
+      <DYEAR>2019</DYEAR>
+      <GEITM>0002</GEITM>
+      <MATNR>7220400122</MATNR>
+      <MAKTX>PLASTIC PUCK (BOTTOM-LLDPE) 008</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>PCW3</LGORT>
+      <CHARG />
+      <GEQTY>88500.0</GEQTY>
+      <GEUNT>EA</GEUNT>
+      <LSMNG>88500.0</LSMNG>
+      <LSMEH>EA</LSMEH>
+      <EBELN>3100081140</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM>251074665914</FNUM>
+      <WAY_DT>2019-01-21</WAY_DT>
+      <TNAME>safexpress</TNAME>
+      <TMODE>road</TMODE>
+      <TRUCK>MH04GF 8320</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081140</PO_NUMBER>
+      <DOC_DATE>2018-12-13</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220400131</MATERIAL>
+      <SHORT_TEXT>Plastic Puck (Bottom-LLDPE) 017</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>50000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081140</PO_NUMBER>
+      <DOC_DATE>2018-12-13</DOC_DATE>
+      <PO_ITEM>00020</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220400135</MATERIAL>
+      <SHORT_TEXT>Plastic Puck (Bottom-LLDPE) 021</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>100000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081140</PO_NUMBER>
+      <DOC_DATE>2018-12-13</DOC_DATE>
+      <PO_ITEM>00030</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220400119</MATERIAL>
+      <SHORT_TEXT>Plastic Puck (Bottom-LLDPE) 005</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>50000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100081140</PO_NUMBER>
+      <DOC_DATE>2018-12-13</DOC_DATE>
+      <PO_ITEM>00040</PO_ITEM>
+      <NAME />
+      <MATERIAL>7220400122</MATERIAL>
+      <SHORT_TEXT>Plastic Puck (Bottom-LLDPE) 008</SHORT_TEXT>
+      <MATL_TYPE>PACK</MATL_TYPE>
+      <QUANTITY>120000.0</QUANTITY>
+      <UNIT>EA</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-02-28 01:24:45 PM
+================================================================

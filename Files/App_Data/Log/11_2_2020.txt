@@ -1,0 +1,76 @@
+========================= 2020-02-11 11:38:03 AM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-11 11:38:12 AM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-11 11:43:09 AM =========================
+Exception: System.Data.SqlClient.SqlException (0x80131904): Arithmetic overflow error converting varchar to data type numeric.
+1
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 276
+ClientConnectionId:f01338dc-a8c7-4005-adf1-a3427cbe68d3
+Error Number:50000,State:1,Class:16
+Query:
+sp_InsertPurchaseOrder
+   at SqlDataLayer.ExecuteProcedureParam(String strConnection, String Proc, SqlParameter[] param, String varOut, String result) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\SqlDataLayer.cs:line 293
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 465
+   at DataLayer.DL_PurchaseOrder.DL_InsertPurchaseOrder(PL_PurchaseOrder obj) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\DataLayer\DL_PurchaseOrder.cs:line 469
+   at BusinessLayer.BL_PurchaseOrder.BL_Insert_PurchaseOrder(PL_PurchaseOrder objFields) in F:\A_Nikita\F_Kabi\PRODUCTION\F_kabi_Web\BusinessLayer\BL_PurchaseOrder.cs:line 162
+Source: frmPurchaseOrder.aspx| Function Name: Insert_PurchaseOrder
+========================= 2020-02-11 11:43:51 AM =========================
+Exception: Please enter Manufacture Name
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-11 11:44:07 AM =========================
+Exception: Please Enter Container Damaged
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-11 11:44:15 AM =========================
+Exception: Please Enter Container No
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-11 11:44:24 AM =========================
+Exception: Please Enter Container Sealed
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-11 11:46:26 AM =========================
+Exception: Purchase order general details Saved successfully
+Source: frmPurchaseOrder.aspx| Function Name: btnSaveGeneralDetails_Click
+========================= 2020-02-11 11:46:31 AM =========================
+Exception: Please Enter Manufacturing Date
+Source: frmPurchaseOrder.aspx| Function Name: FieldsVaidation
+========================= 2020-02-11 11:46:31 AM =========================
+Exception: Please Enter all the details
+Source: frmPurchaseOrder.aspx| Function Name: btnAdd_Wt_Click
+========================= 2020-02-11 12:36:21 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-11 12:36:30 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-11 02:49:51 PM =========================
+Exception: Previous session has been closed .Please try to login now
+Source: Login.aspx| Function Name: lnkForce_Login_Click
+========================= 2020-02-11 02:49:59 PM =========================
+Exception: User Logged in Successfully
+Source: Login.aspx| Function Name: GetPlants
+========================= 2020-02-11 02:54:12 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2020-02-11 02:58:30 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2020-02-11 02:59:52 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2020-02-11 03:08:28 PM =========================
+Exception: Index was outside the bounds of the array.
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click
+========================= 2020-02-11 03:12:15 PM =========================
+Exception: The remote name could not be resolved: 'sapp23ms.sapms.fresenius.de'
+Source: frmDispensingPosting.aspx| Function Name: btnPost_Click

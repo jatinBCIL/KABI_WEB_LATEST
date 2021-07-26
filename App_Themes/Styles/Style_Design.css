@@ -1,0 +1,197 @@
+﻿/*
+Purpose : This css file is used to assign proprities and style to Master page & independent page controls.
+Created On : 26 July, 2012.
+Created By : Chandrakant Shindkar.
+Modified On : 
+Modified By :
+*/
+
+.Logo
+{   
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.Heading_Panel
+{   
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.Body, html
+{
+	margin: 0;
+	font-family: Arial;
+	font-size: 10pt;
+	/*background-image: url('../Images/Capture.PNG');*/
+	background-repeat: repeat;
+}
+
+.Body_Main
+{
+	margin: 0;
+	font-family: Arial;
+	font-size: 10pt;
+	background-color:#FFFFFF;
+}
+
+.Title
+{
+	background-color:#002748; 
+	height:25px; 
+	width:1000px;
+}
+
+.Headings
+{
+	background-color: #C0C0C0; 
+	height: 20px;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color:#675446; 
+	padding-left: 10px;
+	border-bottom:solid 1px #002748;
+}
+
+.Header_Row
+{
+	background-color: #FFFFFF;
+	height: 20px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	padding-left: 10px;
+	border-bottom: solid 1px #002748;
+}
+
+.TableHeading
+{
+	background-color: #67838b; 
+	height: 20px; 
+	font-family: Arial; 
+	font-size: 14px; 
+	font-weight: bold; 
+	color: #FFFFFF;
+	padding-left:10px;
+}
+.DashBoard
+{
+	height:100%;
+	width:190px;
+	border: thin;
+	border-style: ridge;
+	border-color: #67838b;
+}
+
+.SetFillDock
+{
+    width: 100%;
+    vertical-align:top;
+	background-color: #FFFFFF;
+	border: 1px outset #F2F3F4;
+}
+        
+.Footer
+{
+	border-top-width:thin;
+	border-top-style:solid;
+	border-top-color:#675446;
+	text-align:center;
+}
+
+.FooterTitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 12px;
+    font-style:normal;
+    text-align: center;
+}
+
+.FooterSubTitle
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-style:normal;
+    font-size: 10px;
+    text-align: center;
+}
+
+.TitleLabel
+{
+	font-family:Georgia;
+	font-size:12px;
+	color:white;
+	font-weight:bold;
+}
+
+.TitleLabel
+{
+	font-family:Arial;
+	font-size:13px;
+	color:white;
+	font-weight:bold;
+}
+
+.LinkTitle
+{
+	font-family:Arial;
+	font-size:13px;
+	color:white;
+	font-style:normal;
+	font-weight:bold;
+	text-decoration:none;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.TitleTables1
+{
+	font-family:Arial;
+	font-size:13px;
+	font-style:normal;
+	color:Black;
+	width:100%;
+	height:24px;
+	background-color:#675446; 
+}
+
+.td:hover
+{
+	border-style: outset outset none outset;
+	border-width: medium;
+	border-color: #99CCFF;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-image: url('../Styles/Images/Menu.png');
+}
+
+.tdButtons:hover
+{
+	border: thin solid #3399FF;
+	background-color: #FFFF00;
+}
+.completionList
+{
+	border: solid 1px #444444;
+	margin: 0px;
+	padding: 2px;
+	height: 100px;
+	overflow: auto;
+	background-color: #FFFFFF;
+}
+
+.listItem
+{
+	color: #1C1C1C;
+}
+
+.itemHighlighted
+{
+	background-color: #ffc0c0;
+}

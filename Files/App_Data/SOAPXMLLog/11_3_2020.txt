@@ -1,0 +1,62 @@
+================================================================
+========================PurchaseOrder - Request
+=================2020-03-11 04:16:42 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY />
+  <IT_FINAL />
+  <PLANT>3186</PLANT>
+  <PURCHASEORDER>3100088914</PURCHASEORDER>
+</ZDMF001>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-03-11 04:16:42 PM
+================================================================
+================================================================
+========================PurchaseOrder - Response
+=================2020-03-11 04:16:45 PM
+Soap XML: <?xml version="1.0"?>
+<ZDMF001Response xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IT_EWAY>
+    <item>
+      <GENUM>80042731</GENUM>
+      <DYEAR>2020</DYEAR>
+      <GEITM>0001</GEITM>
+      <MATNR>7960010072</MATNR>
+      <MAKTX>COMMON SALT (SODIUM CHLORIDE)</MAKTX>
+      <WERKS>3186</WERKS>
+      <LGORT>E001</LGORT>
+      <CHARG />
+      <GEQTY>3000.0</GEQTY>
+      <GEUNT>KG</GEUNT>
+      <LSMNG>24800.0</LSMNG>
+      <LSMEH>KG</LSMEH>
+      <EBELN>3100088914</EBELN>
+      <EBELP>00000</EBELP>
+      <VBELN />
+      <POSNR>000000</POSNR>
+      <SGTXT />
+      <ELIKZ />
+      <STATUS />
+      <FNUM />
+      <WAY_DT>0000-00-00</WAY_DT>
+      <TNAME>By Supplier Vehicle</TNAME>
+      <TMODE>Road</TMODE>
+      <TRUCK>HP12H 1038</TRUCK>
+    </item>
+  </IT_EWAY>
+  <IT_FINAL>
+    <item>
+      <PLANT>3186</PLANT>
+      <PO_NUMBER>3100088914</PO_NUMBER>
+      <DOC_DATE>2020-02-03</DOC_DATE>
+      <PO_ITEM>00010</PO_ITEM>
+      <NAME />
+      <MATERIAL>7960010072</MATERIAL>
+      <SHORT_TEXT>COMMON SALT (SODIUM CHLORIDE)</SHORT_TEXT>
+      <MATL_TYPE>HIBE</MATL_TYPE>
+      <QUANTITY>24800.0</QUANTITY>
+      <UNIT>KG</UNIT>
+    </item>
+  </IT_FINAL>
+</ZDMF001Response>
+Source: frmPurchaseOrder.aspx| Function Name: btnGet_Click 2020-03-11 04:16:45 PM
+================================================================
